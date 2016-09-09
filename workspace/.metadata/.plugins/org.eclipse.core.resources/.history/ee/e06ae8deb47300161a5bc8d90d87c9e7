@@ -1,0 +1,53 @@
+//============================================================================
+// Name        : SwitchCase.cpp
+// Author      : George Quentin
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+int main() {
+
+	//int value = 0;
+	char value = 78;
+
+	cout << "What is Value: " << value << endl << endl;
+
+	switch(value) {
+	case 63:
+		cout << "Value is ?" << endl;
+		break;
+	case 90:
+		cout << "Value is Z" << endl;
+		break;
+	case 126:
+		cout << "Value is ~" << endl;
+		break;
+	case 36:
+		cout << "Value is $" << endl;
+		break;
+	case 157:
+		cout << "Value is ¥" << endl;
+		break;
+	case 64:
+		cout << "Value is @" << endl;
+		break;
+	case 230:
+		cout << "Value is µ" << endl;
+		break;
+	case 227:
+		cout << "Value is π" << endl;
+		break;
+	case 4:
+		cout << "Value is Ω" << endl;
+		break;
+	default :
+		cout << "Unrecognized Value" << endl;
+
+	}
+
+	return 0;
+}

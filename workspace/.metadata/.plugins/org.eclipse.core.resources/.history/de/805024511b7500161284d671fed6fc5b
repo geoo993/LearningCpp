@@ -1,0 +1,27 @@
+/*
+ * GameConsoles.h
+ *
+ *  Created on: Sep 7, 2016
+ *      Author: GeorgeQuentin
+ */
+
+#ifndef GAMECONSOLES_H_
+#define GAMECONSOLES_H_
+#include <string>
+
+class GameConsoles {
+private:
+	std::string name;
+	std::string controller;
+	int storage;
+	double price;
+	std::string releaseDate;
+
+public:
+	GameConsoles();
+	GameConsoles(std::string name, std::string controller, int storage, double price, std::string releaseDate);
+	void setConsole(std::string countryName, std::string capital, int population, std::string nationalLanguage, std::string currency);
+	int stringToInt(std::string str);
+};
+
+#endif /* GAMECONSOLES_H_ */

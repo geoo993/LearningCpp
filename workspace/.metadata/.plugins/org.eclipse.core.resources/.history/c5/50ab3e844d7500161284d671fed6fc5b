@@ -1,0 +1,17 @@
+/*
+ * Trainers.cpp
+ *
+ *  Created on: Sep 7, 2016
+ *      Author: GeorgeQuentin
+ */
+
+#include "Trainers.h"
+
+Trainers::Trainers() {
+	// TODO Auto-generated constructor stub
+
+}
+
+Trainers::~Trainers() {
+	// TODO Auto-generated destructor stub
+}

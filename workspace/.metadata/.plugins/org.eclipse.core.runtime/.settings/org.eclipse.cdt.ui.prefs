@@ -1,0 +1,15 @@
+#Mon Aug 22 23:34:57 BST 2016
+useQuickDiffPrefPage=true
+wizard.preferred.toolchains=cdt.managedbuild.toolchain.gnu.macosx.exe.debug
+editor_folding_default_macros=false
+useAnnotationsPrefPage=true
+sourceHoverBackgroundColor=255,255,225
+editor_folding_default_structures=false
+editor_folding_preprocessor_enabled=true
+editor_folding_enabled=true
+spelling_locale_initialized=true
+eclipse.preferences.version=1
+editor_folding_default_inactive=false
+editor_folding_default_headers=false
+editor_folding_statements=true
+content_assist_disabled_computers=org.eclipse.cdt.ui.parserProposalCategory\u0000org.eclipse.cdt.ui.textProposalCategory\u0000

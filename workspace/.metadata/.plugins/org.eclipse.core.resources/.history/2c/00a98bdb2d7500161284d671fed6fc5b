@@ -1,0 +1,25 @@
+//============================================================================
+// Name        : StringStreams.cpp
+// Author      : George Quentin
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include <sstream>//this is the include string stream that allows you to concatenate other variable types to string
+using namespace std;
+
+int main() {
+
+	string name = "Alex";
+	int age = 32;
+
+	stringstream ss;
+
+	string info = "Name: "+ name + "; Age: " + age;
+
+	//can use (\n) for new line (\t) for tab (\") for quotation mark
+
+	return 0;
+}

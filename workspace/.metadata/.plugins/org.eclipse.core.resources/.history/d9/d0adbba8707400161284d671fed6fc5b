@@ -1,0 +1,14 @@
+/*
+ * Cat.cpp
+ *
+ *  Created on: Sep 6, 2016
+ *      Author: GeorgeQuentin
+ */
+
+#include <iostream>
+#include <string>
+#include "Cat.h"
+
+std::string Cat::noise(){
+	return "Meouwwww";
+}

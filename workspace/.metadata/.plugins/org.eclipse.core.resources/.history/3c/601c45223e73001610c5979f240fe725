@@ -1,0 +1,29 @@
+//============================================================================
+// Name        : Strings.cpp
+// Author      : George Quentin
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main() {
+
+
+
+	int value = 6;//value is an object, string is technically a class and int is a primitive type
+
+
+	string text1 = "this is a string called: ";//but is not member of
+	string text2 = "Alex";
+
+	string text3 = text1+text2; //concatonating one string with another
+
+	cout << text3 << endl;
+	cout << text1 << text2 << value << endl;
+
+	return 0;
+}

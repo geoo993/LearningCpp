@@ -1,0 +1,88 @@
+/*
+ * GameConsoles.cpp
+ *
+ *  Created on: Sep 7, 2016
+ *      Author: GeorgeQuentin
+ */
+
+#include "GameConsoles.h"
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+
+GameConsoles:: GameConsoles(){
+
+	cout << "Checking Console...." << endl;
+
+	name = "";
+	controller = "";
+	storage = "";
+	price = 0.0;
+	releaseDate = "";
+
+}
+
+//GameConsoles:: ~GameConsoles(){
+//	onlineNetwork = false;
+//	cout << "Removing Console...." << endl;
+//
+//}
+
+GameConsoles:: GameConsoles(string name, std::string controller, std::string storage, double price, std::string releaseDate){
+	this -> name = name;
+	this -> controller = controller;
+	this -> storage = storage;
+	this -> price = price;
+	this -> releaseDate = releaseDate;
+}
+
+void GameConsoles::setConsole(std::string name, std::string controller, std::string storage, double price, std::string releaseDate){
+	this -> name = name;
+	this -> controller = controller;
+	this -> storage = storage;
+	this -> price = price;
+	this -> releaseDate = releaseDate;
+}
+
+int GameConsoles::stringToInt(std::string str) {
+
+	const char* characters = str.c_str();
+
+	int value = 0;
+	for (int i = 0; i < strlen(characters); i++) {
+		value = value + (int) characters[i];
+	}
+
+	return value;
+}
+
+void GameConsoles::consoleInfo(std::string name) {
+
+	int consoleNum = stringToInt(name);
+
+	switch (countryNum) {
+	case 612:
+		setCountry("PlayStation 4", "DualShock 4", "1 TB", 299.99,
+				"November 29, 2013");
+		break;
+	case 820:
+		setCountry("Nintendo Wii Mini", "Wii Remote Plus", "512 MB", "French, English",
+				"November 17, 2013");
+		break;
+	case 591:
+		setCountry("Xbox One S", "Xbox One Controller", "1 TB or 2 TB", "French", "2nd August 2016");
+		break;
+	default:
+		countryName = "We do not have this country in our selection";
+		capital = "No Capital City for this selection";
+		population = 0;
+		nationalLanguage = "No Language for this selection";
+		currency = "No Currency for this selection";
+
+	}
+
+	print();
+
+}

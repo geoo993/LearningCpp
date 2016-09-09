@@ -1,0 +1,44 @@
+//============================================================================
+// Name        : Arithmetic.cpp
+// Author      : George Quentin
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+
+/*
+ * +
+ * -
+ * *
+ * /
+ * +=  or ++
+ * -=  or --
+ * /=
+ * *=
+ * %
+ * %=
+ * ^
+ * (float)number, casting to flaot
+ * (int)number, casting to int
+ * (double)number, casting to double
+ * precedence
+ */
+
+
+int main() {
+
+	float value1 = 7/2;//whenever you divide an integer with an integer it will always discard the remainder where in this case will give you 3
+	float value2 = (float)7/2;// but if you cast it with float you will get the right number which in this case is 3.5;
+	cout << "Value1: " << value1  << endl;
+	cout << "value2: " << value2  << endl;
+
+	// casting is often useful and you can use it to convert certain kings of types into certain kinds of similar types
+	int value3 = (int)4.6;
+	cout << "value3: " << value3  << endl;
+
+	return 0;
+}

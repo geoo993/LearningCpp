@@ -1,0 +1,14 @@
+/*
+ * GameConsoles.h
+ *
+ *  Created on: Sep 7, 2016
+ *      Author: GeorgeQuentin
+ */
+
+#ifndef GAMECONSOLES_H_
+#define GAMECONSOLES_H_
+
+class GameConsoles {
+};
+
+#endif /* GAMECONSOLES_H_ */

@@ -1,0 +1,23 @@
+/*
+ * Person.h
+ *
+ *  Created on: Sep 7, 2016
+ *      Author: GeorgeQuentin
+ */
+
+#ifndef PERSON_H_
+#define PERSON_H_
+#include <string>
+
+class Person {
+private:
+	std::string name;
+	std::string age;
+
+
+public:
+	Person();
+	virtual ~Person();
+};
+
+#endif /* PERSON_H_ */

@@ -1,0 +1,27 @@
+//============================================================================
+// Name        : WhileLoop.cpp
+// Author      : George Quentin
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+int main() {
+
+	int i = 0;
+
+	while(i <= 5){
+
+		cout << "!!!Hello World!!!" << i << endl;
+
+		//i = i + 1;
+		//i++;
+		++i;
+	}
+	cout << "Program Quitting: " << i << endl;
+
+	return 0;
+}

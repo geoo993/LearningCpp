@@ -1,0 +1,28 @@
+//============================================================================
+// Name        : ConstructorsAndDestructors.cpp
+// Author      : George Quentin
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include <string>
+#include "GameConsoles.h"
+using namespace std;
+
+int main() {
+
+	cout << "Starting Program..." << endl << endl;
+	string name;
+	cin >> name;
+
+	//you can use open and closed curly bracket in program if you want, whatever things are assigned within the brackets will not be used outside of it
+	{
+		GameConsoles playstation;
+		playstation.consoleInfo(name);
+	}
+
+	cout << endl << "Ending Program..." << endl;
+	return 0;
+}

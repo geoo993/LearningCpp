@@ -1,0 +1,44 @@
+//============================================================================
+// Name        : ConstKeyword.cpp
+// Author      : George Quentin
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include "Animal.h"
+using namespace std;
+
+int main() {
+
+	int iValue = 5;
+	iValue = 203;
+	cout << "value can be changed -> "<< iValue << endl;
+
+
+	const double PI = 3.142; // adding const on variable means that const is no longer a variable, it cannot be changed
+	cout << "const value cannot be changed -> " << PI << endl;
+
+	Animal anim1;
+	anim1.setAnimal("Frog","amphibians group");
+
+	Animal anim2;
+	anim2.setAnimal("Pelican Falcon", "birds group");
+
+	Animal anim3;
+	anim3.setAnimal("Stone Fish", "fish group");
+
+	Animal anim4;
+	anim4.setAnimal("Worm","invertebrates group");
+
+	Animal anim5;
+	anim5.setAnimal("Giraffe", "mammals group");
+
+	Animal anim6;
+	anim6.setAnimal("Cobra", "reptiles group");
+
+
+	// you can also declare methods to be constants
+	return 0;
+}

@@ -1,0 +1,39 @@
+//============================================================================
+// Name        : ReturningObjectsFromFunctions.cpp
+// Author      : George Quentin
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+class Book{
+
+private:
+	string title;
+	string genre;
+	string author;
+
+public:
+	Book(){ cout << "Book Created by Constructor..." << endl; };
+	~Book(){ cout << "Book Disposed by Destructor..." << endl; };
+	Book(const Book& other): title(other.title), genre(other.genre), author(author) { cout << "Book Created by copying..." << endl; };
+	Book(string title, string genre): title(title), genre(genre), author(author){}
+	void setTitle(string title) { this -> title = title; };
+	void setGenre(string genre) { this -> genre = genre; };
+	void print() const {
+		cout << dev << " made " << genre << " game, " << title << " for the " << platform << endl;
+	};
+};
+
+
+int main() {
+
+
+	cout << "!!!Hello World!!!" << endl; // prints !!!Hello World!!!
+	return 0;
+}

@@ -1,0 +1,48 @@
+/*
+ * Countries.h
+ *
+ *  Created on: Sep 6, 2016
+ *      Author: GeorgeQuentin
+ */
+
+
+
+#ifndef COUNTRIES_H_
+#define COUNTRIES_H_
+#include <string>
+
+class Country {
+
+private:
+	std::string countryName;
+	std::string capital;
+    long int population;
+    std::string nationalLanguage;
+    std::string currency;
+
+
+public:
+    Country();
+    Country(std::string countryName, std::string capital, int population, std::string nationalLanguage, std::string currency);
+    void setCountry(std::string countryName, std::string capital, int population, std::string nationalLanguage, std::string currency);
+    int stringToInt(std::string str);
+    std::string getCountryName();
+    std::string getCapital();
+    long int getPopulation();
+    std::string getNationalLanguage();
+    std::string getCurrency();
+
+
+
+
+//public:
+//	int stringToInt(std::string str);
+//	std::string countryName(std::string countryName);//the speak function is created in Call file. you put the prototype of the function here, which can then be called in another class file
+//	std::string capital(std::string countryName);
+//	long int population(std::string countryName);
+//	std::string nationalLanguage(std::string countryName);
+//	std::string currency(std::string countryName);
+//
+};
+
+#endif /* COUNTRIES_H_ */

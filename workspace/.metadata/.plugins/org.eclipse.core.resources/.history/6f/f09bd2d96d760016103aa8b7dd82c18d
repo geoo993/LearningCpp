@@ -1,0 +1,22 @@
+//============================================================================
+// Name        : ArraysAndFunctions.cpp
+// Author      : George Quentin
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+
+void show1(string texts[]){
+
+}
+int main() {
+
+	string fruits[] = {"Apple", "Banana", "Strawberry"};
+
+	cout << "!!!Hello World!!!" << endl;
+	return 0;
+}

@@ -1,0 +1,44 @@
+//============================================================================
+// Name        : ArraysAndFunctions.cpp
+// Author      : George Quentin
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+
+void show1(string texts[], const int length){
+
+	for (int i=0; i<length; i++ ){
+		cout << texts[i] << endl;
+	}
+}
+
+//show2 is equivalent to show1
+void show2(string *texts, const int length){
+
+	for (int i=0; i<length; i++ ){
+		cout << texts[i] << endl;
+	}
+}
+
+//show3 we dont pass in the number of elements
+void show3(string (&texts)[3]){// we are passing in a reference to an array of strings that is size 3
+
+	for (int i=0; i<3; i++ ){
+		cout << texts[i] << endl;
+	}
+}
+
+
+int main() {
+
+	string fruits[] = {"Apple", "Banana", "Strawberry"};
+
+	show2(fruits, 3);
+
+	return 0;
+}

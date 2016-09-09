@@ -1,0 +1,31 @@
+//============================================================================
+// Name        : ForLoops.cpp
+// Author      : George Quentin
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include <array>
+#include <string>
+using namespace std;
+
+int main() {
+
+	//in first section you declare a variable (int i = 0) which is going to be used for condition checks in second section and as a the loop counter in third section
+	//in second section you put a condition which often involves the variable assigned in section one, the for loop will only be executed when this condition is true
+	//in third section you input the amount of times the variable is incremented by which is often incremented up by one (i++), or you can increment down (i--)
+
+	for(;;)
+	{
+		cout << "!!!Hello World!!!" << endl;
+	}
+
+	for(int i = 0; i < 3; ++i) {
+		//cout << "!!!Hello World!!!" << endl;
+	}
+
+
+	return 0;
+}

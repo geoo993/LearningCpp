@@ -1,0 +1,34 @@
+/*
+ * Tvs.h
+ *
+ *  Created on: Sep 7, 2016
+ *      Author: GeorgeQuentin
+ */
+
+#ifndef TVS_H_
+#define TVS_H_
+
+#include <iostream>
+
+using namespace std;
+
+
+class Tvs {
+private:
+	string name;
+	string resolution;
+	double price;
+
+public:
+	Tvs();
+	virtual ~Tvs();
+	void Tvs(string name, string resolution, double price);// constructor with parameters
+	void setTv(string name, string resolution, double price);
+	void setName(string tvName);
+	void setResolution(string tvRes);
+	void setPrice(double tvPrice);
+	string print();
+
+};
+
+#endif /* TVS_H_ */

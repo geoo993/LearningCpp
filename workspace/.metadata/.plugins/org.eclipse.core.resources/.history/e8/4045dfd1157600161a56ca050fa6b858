@@ -1,0 +1,57 @@
+//============================================================================
+// Name        : CopyConstructors.cpp
+// Author      : George Quentin
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+class Game{
+
+private:
+	string title;
+	string genre;
+	string dev;
+	string platform;
+
+public:
+	Game(){ cout << "Game Created..." << endl; };
+	Game(const Game& other): title(other.title), genre(other.genre), dev(other.dev), platform(other.platform) { cout << "Game Created by copying..." << endl; };// this here, we are defining a copy constructor
+	Game(string title, string genre, string dev, string platform): title(title), genre(genre), dev(dev), platform(platform){}
+	void setTitle(string title) { this -> title = title; };
+	void setGenre(string genre) { this -> genre = genre; };
+	void setDeveloper(string dev) { this -> dev = dev; };
+	void setPlatform(string platform) { this -> platform = platform; };
+	void print() const {
+		cout << dev << " made " << genre << " game, " << title << " for the " << platform << endl;
+	};
+};
+
+int main() {
+
+	Game game1("Fifa 17", "Sport", "EA Sports", "PlayStation 4");
+
+
+	Game game2 = game1;// here, we are invoking a copy of the first instructor (game1) meaning that this constructor (game2) is just a reference to the first constructor (game1)
+	game2.setTitle("NBA 17");
+
+	game1.print();
+	game2.print();
+
+	Game game3(game2);// another way of copying a valid constructor
+	game3.setTitle("No Mans Sky");
+	game3.setDeveloper("Hello Games");
+	game3.setGenre("Adventure");
+	game3.print();
+
+
+	Game game4(game3);
+	game4.setTitle("Uncharted 4: A Thief's End");
+	game4.setDeveloper("Naughty Dogs");
+	game4.setPlatform("PC");
+	game4.print();
+	return 0;
+}

@@ -1,0 +1,23 @@
+//============================================================================
+// Name        : Variables.cpp
+// Author      : George Quentin
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+int main() {
+
+
+	int numberCats = 5;
+	string cats = "Number of Cats: ";
+
+
+
+	cout << cats <<endl;
+	return 0;
+}
+

@@ -1,0 +1,21 @@
+/*
+ * GameConsoles.h
+ *
+ *  Created on: Sep 7, 2016
+ *      Author: GeorgeQuentin
+ */
+
+#ifndef GAMECONSOLES_H_
+#define GAMECONSOLES_H_
+#include <string>
+
+class GameConsoles {
+private:
+	std::string name;
+	int storage;
+	std:: string releaseDate;
+
+
+};
+
+#endif /* GAMECONSOLES_H_ */

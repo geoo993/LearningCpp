@@ -1,0 +1,58 @@
+//============================================================================
+// Name        : Functions.cpp
+// Author      : George Quentin
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+
+void showMenu(){// this is a block of code, which essentially defines a function
+
+	cout << "1.\tSearch " << endl;
+	cout << "2.\tView Record" << endl;
+	cout << "3.\tQuit Program " << endl << endl;
+
+}
+
+
+int main() {
+
+	//FUNCTIONS
+	//sub routines are usually known as functions,
+	//a function is just a separate piece of code which you can invoke anywhere in your scripts. you can cause it to run where ever you like in your program
+	//functions are methods which are done within or are part of a class
+	//void essentially means that we are not returning any data when calling the function
+
+
+	showMenu();// we are calling or invoking the function showMenu
+
+	int input;
+
+	do {
+		cout << "Enter Selection > " << flush;
+
+		cin >> input;
+
+		switch (input) {
+		case 1:
+			cout << "Searching..." << endl;
+			break;
+		case 2:
+			cout << "Viewing..." << endl;
+			break;
+		case 3:
+			cout << "Quitting..." << endl;
+			break;
+		default:
+			cout << "Please select an item from the Menu" << endl;
+			//continue;
+		}
+
+	} while (true);
+
+	return 0;
+}

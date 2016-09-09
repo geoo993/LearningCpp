@@ -1,0 +1,25 @@
+/*
+ * Countries.h
+ *
+ *  Created on: Sep 6, 2016
+ *      Author: GeorgeQuentin
+ */
+
+
+
+#ifndef COUNTRIES_H_
+#define COUNTRIES_H_
+#include <string>
+
+class CountriesClass {
+
+public:
+	std::string countryName(std::string countryName);//the speak function is created in Call file. you put the prototype of the function here, which can then be called in another class file
+	std::string capital(std::string countryName);
+	void population(std::string countryName);
+	void NationalLanguage(std::string countryName);
+	void currency(std::string countryName);
+
+};
+
+#endif /* COUNTRIES_H_ */

@@ -1,0 +1,29 @@
+//============================================================================
+// Name        : Pointers.cpp
+// Author      : George Quentin
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+int main() {
+
+	int nValue  = 16;// here we allocated some memory, we can think of this as a bucket, we put something in the bucket which now has a view or size
+
+	int *pnValue = &nValue;// you can create a variable that stores the address of variables like the nValue int for example, to do that you create an int pointer (int*) that takes the address of the variable in this case the nValue int
+	// here we are saying here pointer (int *) to an int (pnValue) equals to the address of nValue
+	//pnValue stored the address of the nValue int.
+	//pnValue is essentially the memory location of the nValue int
+
+
+	cout << "Int value: " << nValue << endl;
+	cout << "Pointer to int address: " << pnValue << endl;
+
+
+	// you can also dereference the pointer and to do that you just type in * in from of the pointer variable and this will give th value that the pointer refers to
+	cout << "Int value via Pointer: " << *pnValue << endl;
+	return 0;
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Interger Types/src/Intergers.cpp&apos; to &apos;IntergerTypes.cpp&apos;" description="Rename resource &apos;Intergers.cpp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/Intergers.cpp" name="IntergerTypes.cpp" stamp="1473065963300" updateReferences="true"/>
+</session>

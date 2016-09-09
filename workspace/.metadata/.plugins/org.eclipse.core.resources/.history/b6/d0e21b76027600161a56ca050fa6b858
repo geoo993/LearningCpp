@@ -1,0 +1,68 @@
+//============================================================================
+// Name        : ReversingString.cpp
+// Author      : George Quentin
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include <string>
+using namespace std;
+
+// reversing a primitive string
+
+string reverseString(char cTexts[]){
+
+	char *pStart = cTexts;
+
+	int numberOfCharacters = strlen(cTexts); //or sizeof(texts)-1;
+	char *pEnd = cTexts + numberOfCharacters - 1;
+
+
+	while (pStart < pEnd){
+		//here we are reversing the texts char array using save and putting back on pEnd
+		char save = *pStart;
+		*pStart = *pEnd;
+		*pEnd = save;
+
+		pStart ++;
+		pEnd --;
+	}
+
+	return (string)cTexts;
+}
+
+
+int main() {
+
+
+	char texts[] = "morning";
+	cout << texts << endl;
+	cout << reverseString(texts) << endl;
+
+
+	char *pStart = texts;
+
+	int numberOfCharacters = sizeof(texts)-1;//strlen(texts);
+	char *pEnd = &texts[numberOfCharacters-1];//texts + numberOfCharacters - 1;
+
+
+	cout << *pEnd << endl;
+
+	while (pStart < pEnd){
+
+		//here we are reversing the texts char array using save and putting back on pEnd
+		char save = *pStart;
+		*pStart = *pEnd;
+		*pEnd = save;
+
+		pStart ++;
+		pEnd --;
+	}
+
+	cout << texts << endl;
+
+
+	return 0;
+}

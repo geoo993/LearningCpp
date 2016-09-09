@@ -1,0 +1,35 @@
+//============================================================================
+// Name        : Arithmetic.cpp
+// Author      : George Quentin
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+
+/*
+ * +
+ * -
+ * *
+ * /
+ * +=  or ++
+ * -=  or --
+ * /=
+ * *=
+ * %
+ * %=
+ * ^
+ * precedence
+ */
+
+
+int main() {
+
+	float value1 = 7/2;//whenever you divide an integer with an integer it will always discard the remainder
+
+	cout << value1  << endl; // prints !!!Hello World!!!
+	return 0;
+}

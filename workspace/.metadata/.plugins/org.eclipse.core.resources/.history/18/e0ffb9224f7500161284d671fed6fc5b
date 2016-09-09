@@ -1,0 +1,18 @@
+//============================================================================
+// Name        : ConstructorInitialisationList.cpp
+// Author      : George Quentin
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include <sstream>
+
+#include "Trainers.h"
+using namespace std;
+
+int main() {
+	cout << "!!!Hello World!!!" << endl;
+	return 0;
+}

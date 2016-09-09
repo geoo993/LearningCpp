@@ -1,0 +1,45 @@
+/*
+ * Trainers.cpp
+ *
+ *  Created on: Sep 7, 2016
+ *      Author: GeorgeQuentin
+ */
+
+#include <iostream>
+#include <sstream>
+
+#include "Trainers.h"
+using namespace std;
+
+Trainers::Trainers() {
+	// TODO Auto-generated constructor stub
+	cout << "Started Trainers Program...." << endl;
+
+	name = "";
+	color = "";
+	brand = "";
+	price = 0.0;
+}
+
+Trainers::~Trainers() {
+	// TODO Auto-generated destructor stub
+	cout << "Ending Trainers Program...." << endl;
+}
+
+Trainers::Trainers(string name, string color, string brand, double price){
+
+	this -> name = name;
+	this -> color = color;
+	this -> brand = brand;
+	this -> price = price;
+}
+
+void Trainers::setTrainers(string name, string color, string brand, double price)
+//this is a constructor initialiser, cpp knows what these means
+{
+
+	this -> name = name;
+	this -> color = color;
+	this -> brand = brand;
+	this -> price = price;
+}

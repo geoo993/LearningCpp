@@ -1,0 +1,17 @@
+//============================================================================
+// Name        : GettersAndSetters.cpp
+// Author      : George Quentin
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+int main() {
+	// getters and setters are just for getting and setting values
+	cout << "!!!Hello World!!!" << endl;
+
+	return 0;
+}

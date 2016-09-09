@@ -1,0 +1,6 @@
+
+#include "Cat.h"
+
+void speak(){
+
+}

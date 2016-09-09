@@ -1,0 +1,25 @@
+//============================================================================
+// Name        : References.cpp
+// Author      : George Quentin
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+
+
+int main() {
+
+	int val1 = 8;
+	int val2 = val1; //this says that value 2 is a reference of value 1
+	int val3 = val1; //here you are de-referencing value one with &, which value1 to be changed when value3 changes
+
+	val2 = 20;
+
+	cout << "value1: " << val1 << endl;
+	cout << "value2: " << val2 << endl;
+	return 0;
+}

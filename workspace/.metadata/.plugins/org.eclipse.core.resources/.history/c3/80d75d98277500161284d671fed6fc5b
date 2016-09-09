@@ -1,0 +1,40 @@
+//============================================================================
+// Name        : GettersAndSetters.cpp
+// Author      : George Quentin
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+int main() {
+	// getters and setters are just for getting and setting values
+	cout << "!!!Hello World!!!" << endl;
+
+	Country country;
+		//cout << country.stringToInt("Cuba") << endl;
+
+	string name;
+	string age;
+	string gender;
+
+		do {
+
+			cout << "Enter Perso Name > " << flush;
+			cin >> name;
+			cout << "Enter Age >";
+			cin >> age;
+			cout << "Enter Gender >";
+			cin >> gender;
+			//
+			 country.setCountry(name, capital, population, language,currency);
+			country.print();
+			country.countryInfo(name);
+
+		} while (true);
+
+
+	return 0;
+}

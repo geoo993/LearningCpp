@@ -1,0 +1,19 @@
+/*
+ * Person.cpp
+ *
+ *  Created on: Sep 7, 2016
+ *      Author: GeorgeQuentin
+ */
+
+#include <iostream>
+#include <string>
+#include "Person.h"
+
+Person::Person() {
+	// TODO Auto-generated constructor stub
+
+}
+
+Person::~Person() {
+	// TODO Auto-generated destructor stub
+}

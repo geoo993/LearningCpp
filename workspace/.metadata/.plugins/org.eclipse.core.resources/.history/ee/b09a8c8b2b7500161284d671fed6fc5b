@@ -1,0 +1,40 @@
+//============================================================================
+// Name        : GettersAndSetters.cpp
+// Author      : George Quentin
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include "Person.h"
+using namespace std;
+
+int main() {
+
+	// getters and setters are just for getting and setting values
+
+	Person person;
+
+	string name;
+	string age;
+	string gender;
+
+	cout << "Enter Person Name > " << flush;
+	cin >> name;
+	cout << "Enter Age > " << flush;
+	cin >> age;
+	cout << "Enter Gender > " << flush;
+	cin >> gender;
+
+	person.setPerson(name, age, gender);
+//	person.print();
+
+
+	string addName;
+	cin >> addName;
+	person.setName(addName);
+	cout << endl << "The person we met yesterday is called " << person.getName() << endl;
+
+	return 0;
+}

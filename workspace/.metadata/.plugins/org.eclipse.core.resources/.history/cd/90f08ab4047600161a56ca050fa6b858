@@ -1,0 +1,24 @@
+//============================================================================
+// Name        : References.cpp
+// Author      : George Quentin
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+
+
+int main() {
+
+	int val1 = 8;
+	int val2 = val1;
+
+	val2 = 20;
+
+	cout << "value1: " << val1 << endl;
+	cout << "value2: " << val2 << endl;
+	return 0;
+}

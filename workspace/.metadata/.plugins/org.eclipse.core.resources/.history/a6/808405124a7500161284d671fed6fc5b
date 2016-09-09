@@ -1,0 +1,43 @@
+/*
+ * Fruit.cpp
+ *
+ *  Created on: Sep 7, 2016
+ *      Author: GeorgeQuentin
+ */
+
+#include <iostream>
+#include <sstream>
+
+#include "Fruit.h"
+using namespace std;
+
+
+Fruit::Fruit() {
+	// TODO Auto-generated constructor stub
+	cout << "Started Fruit Program..." << endl;
+
+	name = "Undefined Name";
+	color = "Undefined Color";
+}
+
+Fruit::~Fruit() {
+	cout << "Ended Fruit Program..." << endl;
+	// TODO Auto-generated destructor stub
+}
+
+Fruit::Fruit(string name, string color){
+	this -> name = name;
+	this -> color = color;
+}
+
+string Fruit::toString(){
+	stringstream ss;
+
+	ss << "The Fruit ";
+	ss << name;
+	ss << " is ";
+	ss << color;
+
+
+	return ss.str();
+}

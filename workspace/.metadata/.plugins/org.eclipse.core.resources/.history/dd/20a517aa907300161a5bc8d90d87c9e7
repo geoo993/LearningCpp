@@ -1,0 +1,37 @@
+//============================================================================
+// Name        : WhileLoop.cpp
+// Author      : George Quentin
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include <iomanip>
+using namespace std;
+
+int main() {
+
+	// while loop checks the while condition before excecuting the code
+	int i = 0;
+	while(i <= 5){
+
+		cout << " Checking i => " << i << endl;
+
+		//i = i + 1;
+		//i++;
+		++i;
+
+	}
+	cout << "Program Quit on " << i << endl;
+
+	// do loop does the do code first before checking the while condition
+	int value = 6;
+	do {
+
+		cout << "Do this when while is true" << endl;
+	}while(value < 4);
+
+
+	return 0;
+}

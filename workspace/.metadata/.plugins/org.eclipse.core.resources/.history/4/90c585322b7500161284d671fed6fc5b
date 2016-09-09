@@ -1,0 +1,30 @@
+/*
+ * Person.h
+ *
+ *  Created on: Sep 7, 2016
+ *      Author: GeorgeQuentin
+ */
+
+#ifndef PERSON_H_
+#define PERSON_H_
+#include <string>
+#include <iostream>
+
+class Person {
+private:
+	std::string name;
+	std::string age;
+	std::string gender;
+
+
+public:
+	Person();
+	~Person();
+	void setPerson(std::string name, std::string age, std::string gender);
+	void print();
+	std::string getName();
+	void setName(std::string newName);
+
+};
+
+#endif /* PERSON_H_ */
