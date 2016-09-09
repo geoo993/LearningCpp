@@ -1,0 +1,24 @@
+/*
+ * Dog.h
+ *
+ *  Created on: Sep 9, 2016
+ *      Author: GeorgeQuentin
+ */
+
+#ifndef DOG_H_
+#define DOG_H_
+
+#include <iostream>
+using namespace std;
+
+
+class Dog {
+private:
+	string name;
+public:
+	virtual ~Dog();
+	Dog(string name): name(name){};
+	void print(){ cout << name << " is a dog." << endl;};
+};
+
+#endif /* DOG_H_ */

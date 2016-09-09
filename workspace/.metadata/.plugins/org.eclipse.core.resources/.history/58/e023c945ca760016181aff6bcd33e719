@@ -1,0 +1,17 @@
+/*
+ * Dog.cpp
+ *
+ *  Created on: Sep 9, 2016
+ *      Author: GeorgeQuentin
+ */
+
+#include "Dog.h"
+
+Dog::Dog() {
+	// TODO Auto-generated constructor stub
+
+}
+
+Dog::~Dog() {
+	// TODO Auto-generated destructor stub
+}

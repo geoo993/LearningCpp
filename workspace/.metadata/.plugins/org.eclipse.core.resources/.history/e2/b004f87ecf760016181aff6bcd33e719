@@ -1,0 +1,29 @@
+/*
+ * Animals.h
+ *
+ *  Created on: Sep 9, 2016
+ *      Author: GeorgeQuentin
+ */
+
+#ifndef ANIMALS_H_
+#define ANIMALS_H_
+
+#include <iostream>
+using namespace std;
+
+
+namespace toDogs {
+
+class Dog {
+private:
+	string name;
+public:
+	Dog();
+	virtual ~Dog();
+	Dog(string name): name(name){};
+	void print();
+};
+
+}
+
+#endif /* ANIMALS_H_ */

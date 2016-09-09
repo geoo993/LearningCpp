@@ -1,0 +1,18 @@
+//============================================================================
+// Name        : Namespaces.cpp
+// Author      : George Quentin
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include "Cat.h"
+using namespace std;
+
+
+// namespaces are a way of avoiding conflict between classes or variables or even global variables that have the same name
+int main() {
+	cout << "!!!Hello World!!!" << endl; // prints !!!Hello World!!!
+	return 0;
+}

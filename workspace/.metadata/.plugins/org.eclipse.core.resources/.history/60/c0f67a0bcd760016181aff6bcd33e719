@@ -1,0 +1,24 @@
+//============================================================================
+// Name        : Namespaces.cpp
+// Author      : George Quentin
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include "Dog.h"
+using namespace std;
+using namespace dogs;
+
+
+//namespaces are a way of avoiding conflicts between classes or variable, or even global variables that have the same name
+// sometimes you get confusions with class names and namespace helps you avoid that, allowing you to have a more control of similar types of classes
+// namespace are designed to avoid conflict between classes
+int main() {
+
+	Dog dog("Max");
+	dog.print();
+
+	return 0;
+}

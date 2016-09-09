@@ -1,0 +1,21 @@
+/*
+ * Animals.cpp
+ *
+ *  Created on: Sep 9, 2016
+ *      Author: GeorgeQuentin
+ */
+
+#include "Animals.h"
+
+namespace toDog {
+
+Dog::Dog() {
+	// TODO Auto-generated constructor stub
+
+}
+
+Dog::~Dog() {
+	// TODO Auto-generated destructor stub
+}
+
+}

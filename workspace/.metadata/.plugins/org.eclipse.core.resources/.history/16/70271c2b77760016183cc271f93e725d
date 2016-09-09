@@ -1,0 +1,25 @@
+/*
+ * Animal.cpp
+ *
+ *  Created on: Sep 9, 2016
+ *      Author: GeorgeQuentin
+ */
+
+#include "Animal.h"
+
+namespace geoo {
+
+Cat::Cat() {
+	// TODO Auto-generated constructor stub
+
+}
+
+Cat::~Cat() {
+	// TODO Auto-generated destructor stub
+}
+
+void Cat::print(){
+	cout << "Meooowww! in Cat Class in animal file"
+}
+
+}

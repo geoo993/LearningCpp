@@ -1,0 +1,21 @@
+/*
+ * Animals.cpp
+ *
+ *  Created on: Sep 9, 2016
+ *      Author: GeorgeQuentin
+ */
+
+#include "Animals.h"
+
+namespace toCat {
+
+Cat::Cat() {
+	// TODO Auto-generated constructor stub
+
+}
+
+Cat::~Cat() {
+	// TODO Auto-generated destructor stub
+}
+
+}

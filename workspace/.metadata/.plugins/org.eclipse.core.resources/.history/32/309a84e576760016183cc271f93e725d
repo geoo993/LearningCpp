@@ -1,0 +1,21 @@
+/*
+ * Animal.h
+ *
+ *  Created on: Sep 9, 2016
+ *      Author: GeorgeQuentin
+ */
+
+#ifndef ANIMAL_H_
+#define ANIMAL_H_
+
+namespace geoo { // created new class of Cat with new name space which entirely encloses the new class to avoid conflict
+
+class Cat {
+public:
+	Cat();
+	virtual ~Cat();
+};
+
+}
+
+#endif /* ANIMAL_H_ */
