@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="14" version="2.0">
+<workbench progressCount="19" version="2.0">
 <workbenchAdvisor/>
 <window height="755" width="1201" x="78" y="23">
 <fastViewData fastViewLocation="1024"/>
@@ -30,13 +30,33 @@
 <folder appearance="1" expanded="2">
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
 <editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="Namespaces.cpp" partName="Namespaces.cpp" path="/Users/GeorgeQuentin/Dev/Cpp/LearningCppFromCaveOfProgramming/workspace/Namespaces/src/Namespaces.cpp" title="Namespaces.cpp" tooltip="Namespaces/src/Namespaces.cpp" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Namespaces/src/Namespaces.cpp"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="372" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="433" selectionTopPixel="300"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="Dog.cpp" partName="Dog.cpp" path="/Users/GeorgeQuentin/Dev/Cpp/LearningCppFromCaveOfProgramming/workspace/Namespaces/src/Dog.cpp" title="Dog.cpp" tooltip="Namespaces/src/Dog.cpp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Namespaces/src/Dog.cpp"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="154" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="Dog.h" partName="Dog.h" path="/Users/GeorgeQuentin/Dev/Cpp/LearningCppFromCaveOfProgramming/workspace/Namespaces/src/Dog.h" title="Dog.h" tooltip="Namespaces/src/Dog.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Namespaces/src/Dog.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="174" selectionTopPixel="30"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="Animals.cpp" partName="Animals.cpp" path="/Users/GeorgeQuentin/Dev/Cpp/LearningCppFromCaveOfProgramming/workspace/Namespaces/src/Animals.cpp" title="Animals.cpp" tooltip="Namespaces/src/Animals.cpp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Namespaces/src/Animals.cpp"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="363" selectionTopPixel="15"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="Animals.h" partName="Animals.h" path="/Users/GeorgeQuentin/Dev/Cpp/LearningCppFromCaveOfProgramming/workspace/Namespaces/src/Animals.h" title="Animals.h" tooltip="Namespaces/src/Animals.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Namespaces/src/Animals.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="7" selectionOffset="160" selectionTopPixel="16"/>
 </editor>
 </editors>
 <views>
@@ -49,7 +69,7 @@
 <view id="org.eclipse.cdt.make.ui.views.MakeView" partName="Make Target"/>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
-<expanded>&#x0A;<category IMemento.internal.id="Warnings (4 items)"/>
+<expanded>&#x0A;<category IMemento.internal.id="Warnings (5 items)"/>
 </expanded>
 <columnWidths org.eclipse.ui.ide.locationField="0" org.eclipse.ui.ide.markerType="0" org.eclipse.ui.ide.pathField="0" org.eclipse.ui.ide.resourceField="0" org.eclipse.ui.ide.severityAndDescriptionField="0"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
@@ -184,9 +204,160 @@
 <navigationHistory>
 <editors>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Namespaces/src/Namespaces.cpp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Namespaces/src/Dog.cpp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Namespaces/src/Dog.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Namespaces/src/Animals.cpp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Namespaces/src/Animals.h"/>
 </editors>
+<item historyLabel="Animals.cpp" index="3">
+<position info="not_deleted" x="164" y="0"/>
+</item>
+<item historyLabel="Namespaces.cpp" index="0">
+<position/>
+</item>
+<item historyLabel="Animals.h" index="4">
+<position info="not_deleted" x="138" y="0"/>
+</item>
+<item historyLabel="Animals.cpp" index="3">
+<position info="not_deleted" x="363" y="0"/>
+</item>
+<item historyLabel="Namespaces.cpp" index="0">
+<position/>
+</item>
+<item historyLabel="Animals.cpp" index="3">
+<position info="not_deleted" x="363" y="0"/>
+</item>
+<item historyLabel="Dog.h" index="2">
+<position info="not_deleted" x="151" y="15"/>
+</item>
+<item historyLabel="Dog.h" index="2">
+<position info="not_deleted" x="343" y="0"/>
+</item>
+<item historyLabel="Dog.h" index="2">
+<position info="not_deleted" x="398" y="0"/>
+</item>
+<item historyLabel="Namespaces.cpp" index="0">
+<position/>
+</item>
+<item historyLabel="Dog.cpp" index="1">
+<position info="not_deleted" x="154" y="0"/>
+</item>
+<item historyLabel="Namespaces.cpp" index="0">
+<position/>
+</item>
+<item historyLabel="Dog.h" index="2">
+<position info="not_deleted" x="319" y="0"/>
+</item>
+<item historyLabel="Namespaces.cpp" index="0">
+<position/>
+</item>
+<item historyLabel="Dog.cpp" index="1">
+<position info="not_deleted" x="154" y="0"/>
+</item>
+<item historyLabel="Dog.h" index="2">
+<position info="not_deleted" x="319" y="0"/>
+</item>
+<item historyLabel="Dog.h" index="2">
+<position/>
+</item>
+<item historyLabel="Dog.h" index="2">
+<position info="not_deleted" x="343" y="0"/>
+</item>
+<item historyLabel="Namespaces.cpp" index="0">
+<position/>
+</item>
+<item historyLabel="Dog.h" index="2">
+<position info="not_deleted" x="343" y="0"/>
+</item>
+<item historyLabel="Dog.h" index="2">
+<position info="not_deleted" x="302" y="0"/>
+</item>
+<item historyLabel="Dog.h" index="2">
+<position info="not_deleted" x="319" y="0"/>
+</item>
+<item historyLabel="Namespaces.cpp" index="0">
+<position info="not_deleted" x="827" y="0"/>
+</item>
+<item historyLabel="Namespaces.cpp" index="0">
+<position info="not_deleted" x="977" y="0"/>
+</item>
+<item historyLabel="Namespaces.cpp" index="0">
+<position info="not_deleted" x="1007" y="0"/>
+</item>
+<item historyLabel="Namespaces.cpp" index="0">
+<position info="not_deleted" x="982" y="0"/>
+</item>
+<item historyLabel="Animals.h" index="4">
+<position info="not_deleted" x="138" y="0"/>
+</item>
+<item historyLabel="Dog.h" index="2">
+<position info="not_deleted" x="319" y="0"/>
+</item>
+<item historyLabel="Dog.cpp" index="1">
+<position info="not_deleted" x="154" y="0"/>
+</item>
+<item historyLabel="Dog.h" index="2">
+<position info="not_deleted" x="354" y="7"/>
+</item>
+<item historyLabel="Namespaces.cpp" index="0">
+<position info="not_deleted" x="982" y="0"/>
+</item>
+<item historyLabel="Namespaces.cpp" index="0">
+<position info="not_deleted" x="1052" y="0"/>
+</item>
+<item historyLabel="Namespaces.cpp" index="0">
+<position info="not_deleted" x="1015" y="0"/>
+</item>
+<item historyLabel="Animals.cpp" index="3">
+<position info="not_deleted" x="363" y="0"/>
+</item>
+<item historyLabel="Animals.h" index="4">
+<position info="not_deleted" x="138" y="0"/>
+</item>
+<item historyLabel="Animals.h" index="4">
+<position info="not_deleted" x="142" y="34"/>
+</item>
+<item historyLabel="Dog.h" index="2">
+<position info="not_deleted" x="174" y="0"/>
+</item>
+<item historyLabel="Animals.h" index="4">
+<position info="not_deleted" x="227" y="0"/>
+</item>
+<item historyLabel="Namespaces.cpp" index="0">
+<position info="not_deleted" x="1015" y="0"/>
+</item>
+<item historyLabel="Animals.h" index="4">
+<position info="not_deleted" x="227" y="0"/>
+</item>
+<item historyLabel="Animals.cpp" index="3">
+<position info="not_deleted" x="363" y="0"/>
+</item>
+<item historyLabel="Namespaces.cpp" index="0">
+<position info="not_deleted" x="1332" y="0"/>
+</item>
+<item historyLabel="Dog.h" index="2">
+<position info="not_deleted" x="174" y="0"/>
+</item>
+<item historyLabel="Animals.h" index="4">
+<position info="not_deleted" x="160" y="7"/>
+</item>
+<item historyLabel="Namespaces.cpp" index="0">
+<position info="not_deleted" x="1332" y="0"/>
+</item>
+<item historyLabel="Namespaces.cpp" index="0">
+<position info="not_deleted" x="1332" y="0"/>
+</item>
+<item historyLabel="Animals.h" index="4">
+<position info="not_deleted" x="160" y="7"/>
+</item>
+<item historyLabel="Namespaces.cpp" index="0">
+<position info="not_deleted" x="1351" y="0"/>
+</item>
+<item historyLabel="Dog.h" index="2">
+<position info="not_deleted" x="174" y="0"/>
+</item>
 <item active="true" historyLabel="Namespaces.cpp" index="0">
-<position info="not_deleted" x="0" y="0"/>
+<position info="not_deleted" x="1351" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -205,6 +376,18 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Animals.h" tooltip="Namespaces/src/Animals.h">
+<persistable path="/Namespaces/src/Animals.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Animals.cpp" tooltip="Namespaces/src/Animals.cpp">
+<persistable path="/Namespaces/src/Animals.cpp"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Dog.h" tooltip="Namespaces/src/Dog.h">
+<persistable path="/Namespaces/src/Dog.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Dog.cpp" tooltip="Namespaces/src/Dog.cpp">
+<persistable path="/Namespaces/src/Dog.cpp"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Namespaces.cpp" tooltip="Namespaces/src/Namespaces.cpp">
 <persistable path="/Namespaces/src/Namespaces.cpp"/>
 </file>
@@ -237,18 +420,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="ReturningObjectsFromFunctions.cpp" tooltip="ReturningObjectsFromFunctions/src/ReturningObjectsFromFunctions.cpp">
 <persistable path="/ReturningObjectsFromFunctions/src/ReturningObjectsFromFunctions.cpp"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="ConstructorInitialisationList.cpp" tooltip="ConstructorInitialisationList/src/ConstructorInitialisationList.cpp">
-<persistable path="/ConstructorInitialisationList/src/ConstructorInitialisationList.cpp"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Trainers.h" tooltip="ConstructorInitialisationList/src/Trainers.h">
-<persistable path="/ConstructorInitialisationList/src/Trainers.h"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Animal.h" tooltip="ConstKeyword/src/Animal.h">
-<persistable path="/ConstKeyword/src/Animal.h"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="GameConsoles.h" tooltip="ConstructorsAndDestructors/src/GameConsoles.h">
-<persistable path="/ConstructorsAndDestructors/src/GameConsoles.h"/>
 </file>
 </mruList>
 </workbench>
