@@ -17,8 +17,6 @@ void show1(string texts[], const int length){
 	}
 }
 
-
-
 //show2 is equivalent to show1
 void show2(string *texts, const int length){
 

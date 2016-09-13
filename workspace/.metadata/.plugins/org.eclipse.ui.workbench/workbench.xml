@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="19" version="2.0">
+<workbench progressCount="21" version="2.0">
 <workbenchAdvisor/>
-<window height="755" width="1201" x="78" y="23">
+<window height="768" width="1024" x="0" y="28">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="160"/>
@@ -15,7 +15,7 @@
 <coolItem id="org.eclipse.cdt.ui.buildConfigActionSet" itemType="typeToolBarContribution" x="69" y="22"/>
 <coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="100" y="22"/>
 <coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="84" y="22"/>
-<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="98" y="22"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="225" y="22"/>
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="152" y="22"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
@@ -23,55 +23,31 @@
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
 </coolbarLayout>
-<page aggregateWorkingSetId="Aggregate for window 1470844088436" focus="true" label="Workspace - C/C++">
+<page aggregateWorkingSetId="Aggregate for window 1473523454546" focus="true" label="Workspace - C/C++">
 <editors>
 <editorArea activeWorkbook="DefaultEditorWorkbook">
 <info part="DefaultEditorWorkbook">
 <folder appearance="1" expanded="2">
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
-<part id="1"/>
-<part id="2"/>
-<part id="3"/>
-<part id="4"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="Namespaces.cpp" partName="Namespaces.cpp" path="/Users/GeorgeQuentin/Dev/Cpp/LearningCppFromCaveOfProgramming/workspace/Namespaces/src/Namespaces.cpp" title="Namespaces.cpp" tooltip="Namespaces/src/Namespaces.cpp" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Namespaces/src/Namespaces.cpp"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="433" selectionTopPixel="300"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="Dog.cpp" partName="Dog.cpp" path="/Users/GeorgeQuentin/Dev/Cpp/LearningCppFromCaveOfProgramming/workspace/Namespaces/src/Dog.cpp" title="Dog.cpp" tooltip="Namespaces/src/Dog.cpp" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Namespaces/src/Dog.cpp"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="154" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="Dog.h" partName="Dog.h" path="/Users/GeorgeQuentin/Dev/Cpp/LearningCppFromCaveOfProgramming/workspace/Namespaces/src/Dog.h" title="Dog.h" tooltip="Namespaces/src/Dog.h" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Namespaces/src/Dog.h"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="174" selectionTopPixel="30"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="Animals.cpp" partName="Animals.cpp" path="/Users/GeorgeQuentin/Dev/Cpp/LearningCppFromCaveOfProgramming/workspace/Namespaces/src/Animals.cpp" title="Animals.cpp" tooltip="Namespaces/src/Animals.cpp" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Namespaces/src/Animals.cpp"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="363" selectionTopPixel="15"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="Animals.h" partName="Animals.h" path="/Users/GeorgeQuentin/Dev/Cpp/LearningCppFromCaveOfProgramming/workspace/Namespaces/src/Animals.h" title="Animals.h" tooltip="Namespaces/src/Animals.h" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Namespaces/src/Animals.h"/>
-<editorState selectionHorizontalPixel="0" selectionLength="7" selectionOffset="160" selectionTopPixel="16"/>
+<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="ArraysAndFunctions.cpp" partName="ArraysAndFunctions.cpp" path="/Users/GeorgeQuentin/Dev/Cpp/LearningCppFromCaveOfProgramming/workspace/ArraysAndFunctions/src/ArraysAndFunctions.cpp" title="ArraysAndFunctions.cpp" tooltip="ArraysAndFunctions/src/ArraysAndFunctions.cpp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ArraysAndFunctions/src/ArraysAndFunctions.cpp"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="492" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
 <view id="org.eclipse.ui.navigator.ProjectExplorer" partName="Project Explorer">
 <viewState CommonNavigator.LINKING_ENABLED="0" CommonNavigator.LINKING_ENABLED.delayed="0" org.eclipse.cdt.ui.cview.groupincludes="false" org.eclipse.cdt.ui.cview.groupmacros="false" org.eclipse.cdt.ui.editor.CUChildren="true" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0"/>
 </view>
-<view id="org.eclipse.ui.views.PropertySheet" partName="Properties">
-<viewState/>
-</view>
+<view id="org.eclipse.ui.views.PropertySheet" partName="Properties"/>
 <view id="org.eclipse.cdt.make.ui.views.MakeView" partName="Make Target"/>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
-<expanded>&#x0A;<category IMemento.internal.id="Warnings (5 items)"/>
-</expanded>
-<columnWidths org.eclipse.ui.ide.locationField="0" org.eclipse.ui.ide.markerType="0" org.eclipse.ui.ide.pathField="0" org.eclipse.ui.ide.resourceField="0" org.eclipse.ui.ide.severityAndDescriptionField="0"/>
+<columnWidths org.eclipse.ui.ide.locationField="84" org.eclipse.ui.ide.markerType="114" org.eclipse.ui.ide.pathField="144" org.eclipse.ui.ide.resourceField="114" org.eclipse.ui.ide.severityAndDescriptionField="300"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
@@ -79,9 +55,7 @@
 <visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
 </viewState>
 </view>
-<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
-<viewState/>
-</view>
+<view id="org.eclipse.ui.console.ConsoleView" partName="Console"/>
 <view id="org.eclipse.mylyn.tasks.ui.views.tasks" partName="Task List"/>
 <view id="org.eclipse.ui.views.TaskList" partName="Tasks"/>
 <view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
@@ -138,6 +112,7 @@
 <new_wizard_action id="org.eclipse.mylyn.tasks.ui.wizards.new.repository.task"/>
 <perspective_action id="org.eclipse.debug.ui.DebugPerspective"/>
 <perspective_action id="org.eclipse.team.ui.TeamSynchronizingPerspective"/>
+<hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
 <hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
 <view id="org.eclipse.ui.navigator.ProjectExplorer"/>
 <view id="org.eclipse.ui.views.ProblemView"/>
@@ -161,17 +136,16 @@
 </presentation>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@2278e185" ratio="0.75" ratioLeft="762" ratioRight="254" relationship="2" relative="topLeft">
+<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="762" ratioRight="254" relationship="2" relative="topLeft">
 <folder appearance="2" expanded="2">
-<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
 <page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.25" ratioLeft="254" ratioRight="762" relationship="2" relative="topLeft"/>
-<info folder="true" part="bottom" ratio="0.69415295" ratioLeft="463" ratioRight="204" relationship="4" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
+<info folder="true" part="bottom" ratio="0.74963397" ratioLeft="512" ratioRight="171" relationship="4" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.views.ProblemView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
 <page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
 <page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
@@ -203,161 +177,10 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Namespaces/src/Namespaces.cpp"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Namespaces/src/Dog.cpp"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Namespaces/src/Dog.h"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Namespaces/src/Animals.cpp"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Namespaces/src/Animals.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/ArraysAndFunctions/src/ArraysAndFunctions.cpp"/>
 </editors>
-<item historyLabel="Animals.cpp" index="3">
-<position info="not_deleted" x="164" y="0"/>
-</item>
-<item historyLabel="Namespaces.cpp" index="0">
-<position/>
-</item>
-<item historyLabel="Animals.h" index="4">
-<position info="not_deleted" x="138" y="0"/>
-</item>
-<item historyLabel="Animals.cpp" index="3">
-<position info="not_deleted" x="363" y="0"/>
-</item>
-<item historyLabel="Namespaces.cpp" index="0">
-<position/>
-</item>
-<item historyLabel="Animals.cpp" index="3">
-<position info="not_deleted" x="363" y="0"/>
-</item>
-<item historyLabel="Dog.h" index="2">
-<position info="not_deleted" x="151" y="15"/>
-</item>
-<item historyLabel="Dog.h" index="2">
-<position info="not_deleted" x="343" y="0"/>
-</item>
-<item historyLabel="Dog.h" index="2">
-<position info="not_deleted" x="398" y="0"/>
-</item>
-<item historyLabel="Namespaces.cpp" index="0">
-<position/>
-</item>
-<item historyLabel="Dog.cpp" index="1">
-<position info="not_deleted" x="154" y="0"/>
-</item>
-<item historyLabel="Namespaces.cpp" index="0">
-<position/>
-</item>
-<item historyLabel="Dog.h" index="2">
-<position info="not_deleted" x="319" y="0"/>
-</item>
-<item historyLabel="Namespaces.cpp" index="0">
-<position/>
-</item>
-<item historyLabel="Dog.cpp" index="1">
-<position info="not_deleted" x="154" y="0"/>
-</item>
-<item historyLabel="Dog.h" index="2">
-<position info="not_deleted" x="319" y="0"/>
-</item>
-<item historyLabel="Dog.h" index="2">
-<position/>
-</item>
-<item historyLabel="Dog.h" index="2">
-<position info="not_deleted" x="343" y="0"/>
-</item>
-<item historyLabel="Namespaces.cpp" index="0">
-<position/>
-</item>
-<item historyLabel="Dog.h" index="2">
-<position info="not_deleted" x="343" y="0"/>
-</item>
-<item historyLabel="Dog.h" index="2">
-<position info="not_deleted" x="302" y="0"/>
-</item>
-<item historyLabel="Dog.h" index="2">
-<position info="not_deleted" x="319" y="0"/>
-</item>
-<item historyLabel="Namespaces.cpp" index="0">
-<position info="not_deleted" x="827" y="0"/>
-</item>
-<item historyLabel="Namespaces.cpp" index="0">
-<position info="not_deleted" x="977" y="0"/>
-</item>
-<item historyLabel="Namespaces.cpp" index="0">
-<position info="not_deleted" x="1007" y="0"/>
-</item>
-<item historyLabel="Namespaces.cpp" index="0">
-<position info="not_deleted" x="982" y="0"/>
-</item>
-<item historyLabel="Animals.h" index="4">
-<position info="not_deleted" x="138" y="0"/>
-</item>
-<item historyLabel="Dog.h" index="2">
-<position info="not_deleted" x="319" y="0"/>
-</item>
-<item historyLabel="Dog.cpp" index="1">
-<position info="not_deleted" x="154" y="0"/>
-</item>
-<item historyLabel="Dog.h" index="2">
-<position info="not_deleted" x="354" y="7"/>
-</item>
-<item historyLabel="Namespaces.cpp" index="0">
-<position info="not_deleted" x="982" y="0"/>
-</item>
-<item historyLabel="Namespaces.cpp" index="0">
-<position info="not_deleted" x="1052" y="0"/>
-</item>
-<item historyLabel="Namespaces.cpp" index="0">
-<position info="not_deleted" x="1015" y="0"/>
-</item>
-<item historyLabel="Animals.cpp" index="3">
-<position info="not_deleted" x="363" y="0"/>
-</item>
-<item historyLabel="Animals.h" index="4">
-<position info="not_deleted" x="138" y="0"/>
-</item>
-<item historyLabel="Animals.h" index="4">
-<position info="not_deleted" x="142" y="34"/>
-</item>
-<item historyLabel="Dog.h" index="2">
-<position info="not_deleted" x="174" y="0"/>
-</item>
-<item historyLabel="Animals.h" index="4">
-<position info="not_deleted" x="227" y="0"/>
-</item>
-<item historyLabel="Namespaces.cpp" index="0">
-<position info="not_deleted" x="1015" y="0"/>
-</item>
-<item historyLabel="Animals.h" index="4">
-<position info="not_deleted" x="227" y="0"/>
-</item>
-<item historyLabel="Animals.cpp" index="3">
-<position info="not_deleted" x="363" y="0"/>
-</item>
-<item historyLabel="Namespaces.cpp" index="0">
-<position info="not_deleted" x="1332" y="0"/>
-</item>
-<item historyLabel="Dog.h" index="2">
-<position info="not_deleted" x="174" y="0"/>
-</item>
-<item historyLabel="Animals.h" index="4">
-<position info="not_deleted" x="160" y="7"/>
-</item>
-<item historyLabel="Namespaces.cpp" index="0">
-<position info="not_deleted" x="1332" y="0"/>
-</item>
-<item historyLabel="Namespaces.cpp" index="0">
-<position info="not_deleted" x="1332" y="0"/>
-</item>
-<item historyLabel="Animals.h" index="4">
-<position info="not_deleted" x="160" y="7"/>
-</item>
-<item historyLabel="Namespaces.cpp" index="0">
-<position info="not_deleted" x="1351" y="0"/>
-</item>
-<item historyLabel="Dog.h" index="2">
-<position info="not_deleted" x="174" y="0"/>
-</item>
-<item active="true" historyLabel="Namespaces.cpp" index="0">
-<position info="not_deleted" x="1351" y="0"/>
+<item active="true" historyLabel="ArraysAndFunctions.cpp" index="0">
+<position info="not_deleted" x="0" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -376,6 +199,9 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="ArraysAndFunctions.cpp" tooltip="ArraysAndFunctions/src/ArraysAndFunctions.cpp">
+<persistable path="/ArraysAndFunctions/src/ArraysAndFunctions.cpp"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Animals.h" tooltip="Namespaces/src/Animals.h">
 <persistable path="/Namespaces/src/Animals.h"/>
 </file>
@@ -411,9 +237,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Animal.cpp" tooltip="Namespaces/src/Animal.cpp">
 <persistable path="/Namespaces/src/Animal.cpp"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="ArraysAndFunctions.cpp" tooltip="ArraysAndFunctions/src/ArraysAndFunctions.cpp">
-<persistable path="/ArraysAndFunctions/src/ArraysAndFunctions.cpp"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="AllocatingMemory.cpp" tooltip="AllocatingMemory/src/AllocatingMemory.cpp">
 <persistable path="/AllocatingMemory/src/AllocatingMemory.cpp"/>
