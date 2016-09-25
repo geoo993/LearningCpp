@@ -1,6 +1,0 @@
-
-#include "Cat.h"
-
-void speak(){
-	cout << "Meoowwww!!!" << endl;
-}

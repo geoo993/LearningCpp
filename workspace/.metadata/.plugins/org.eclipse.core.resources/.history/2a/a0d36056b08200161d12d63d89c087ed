@@ -1,0 +1,50 @@
+//============================================================================
+// Name        : Inheritance.cpp
+// Author      : George Quentin
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+
+
+class Animal {//spuer class
+
+private:
+	string name;
+
+public:
+	Animal(string name=""): name(name){};
+	void print(){ cout << "Animal Name is: " << name << endl; };
+};
+
+class Cat: public Animal {//sub class of Animal
+
+	//here you are adding more things that the superclass does not have
+private:
+	string color;
+public:
+	string catColor(string color){ this -> color = color; return color; };
+	void jump(){ cout << "Cat Jumping  ad has" <<  color << endl; };
+
+
+};
+
+
+int main() {
+
+	//inheritance allows you to create new classes based on another class, which can have other functionality or just have a few things changed based on the other class
+	//inheritance is when you create child classes or sub classes based on a particular class
+	//the subclass/child class are a type of the super class, which in this case means, Animal is the super class and Cat is the subclass/child class of Animal class. Cat becomes a type of the Animal class
+	Animal a("Max");
+	a.print();
+
+	Cat cat;
+	cat.catColor("Brown and White");
+	cat.jump();
+
+	return 0;
+}

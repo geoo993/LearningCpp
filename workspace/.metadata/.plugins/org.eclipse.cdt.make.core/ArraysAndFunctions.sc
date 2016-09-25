@@ -4,8 +4,11 @@
 <scannerInfo id="org.eclipse.cdt.make.core.discoveredScannerInfo">
 <instance id="cdt.managedbuild.config.gnu.macosx.exe.debug.1508789614;cdt.managedbuild.config.gnu.macosx.exe.debug.1508789614.;cdt.managedbuild.tool.gnu.cpp.compiler.macosx.exe.debug.1109367759;cdt.managedbuild.tool.gnu.cpp.compiler.input.179125153">
 <collector id="org.eclipse.cdt.make.core.PerProjectSICollector">
+<includePath path="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 <includePath path="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 <includePath path="/usr/local/include"/>
+<includePath path="/Library/Developer/CommandLineTools/usr/bin/../lib/clang/7.3.0/include"/>
+<includePath path="/Library/Developer/CommandLineTools/usr/include"/>
 <includePath path="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.3.0/include"/>
 <includePath path="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
 <includePath path="/usr/include"/>
@@ -351,6 +354,8 @@
 <instance id="cdt.managedbuild.config.gnu.macosx.exe.debug.1508789614;cdt.managedbuild.config.gnu.macosx.exe.debug.1508789614.;cdt.managedbuild.tool.gnu.c.compiler.macosx.exe.debug.1537998735;cdt.managedbuild.tool.gnu.c.compiler.input.1254978232">
 <collector id="org.eclipse.cdt.make.core.PerProjectSICollector">
 <includePath path="/usr/local/include"/>
+<includePath path="/Library/Developer/CommandLineTools/usr/bin/../lib/clang/7.3.0/include"/>
+<includePath path="/Library/Developer/CommandLineTools/usr/include"/>
 <includePath path="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.3.0/include"/>
 <includePath path="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
 <includePath path="/usr/include"/>

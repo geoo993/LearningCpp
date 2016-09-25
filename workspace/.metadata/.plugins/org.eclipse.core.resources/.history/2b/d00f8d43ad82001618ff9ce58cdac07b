@@ -1,0 +1,34 @@
+//============================================================================
+// Name        : Inheritance.cpp
+// Author      : George Quentin
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+
+
+class Animal {
+
+private:
+	string name;
+
+public:
+	Animal(string name=""): name(name){};
+	void print(){ cout << "Animal Name is: " << name << endl; };
+};
+
+int main() {
+
+	//inheritance allows you to create new classes based on another class
+	Animal a("Max");
+
+	a.print();
+
+	cout << "!!!Hello World!!!" << endl; // prints !!!Hello World!!!
+
+	return 0;
+}

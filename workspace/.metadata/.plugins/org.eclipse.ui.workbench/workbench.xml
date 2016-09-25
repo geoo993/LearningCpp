@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="21" version="2.0">
+<workbench progressCount="22" version="2.0">
 <workbenchAdvisor/>
-<window height="768" width="1024" x="0" y="28">
+<window height="768" width="1173" x="4" y="23">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="160"/>
@@ -15,7 +15,7 @@
 <coolItem id="org.eclipse.cdt.ui.buildConfigActionSet" itemType="typeToolBarContribution" x="69" y="22"/>
 <coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="100" y="22"/>
 <coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="84" y="22"/>
-<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="225" y="22"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="98" y="22"/>
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="152" y="22"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
@@ -34,20 +34,24 @@
 </folder>
 </info>
 </editorArea>
-<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="ArraysAndFunctions.cpp" partName="ArraysAndFunctions.cpp" path="/Users/GeorgeQuentin/Dev/Cpp/LearningCppFromCaveOfProgramming/workspace/ArraysAndFunctions/src/ArraysAndFunctions.cpp" title="ArraysAndFunctions.cpp" tooltip="ArraysAndFunctions/src/ArraysAndFunctions.cpp" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ArraysAndFunctions/src/ArraysAndFunctions.cpp"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="492" selectionTopPixel="0"/>
+<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="Inheritance.cpp" partName="Inheritance.cpp" path="/Users/GeorgeQuentin/Dev/Cpp/LearningCppFromCaveOfProgramming/workspace/Inheritance/src/Inheritance.cpp" title="Inheritance.cpp" tooltip="Inheritance/src/Inheritance.cpp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Inheritance/src/Inheritance.cpp"/>
+<editorState selectionHorizontalPixel="15" selectionLength="0" selectionOffset="435" selectionTopPixel="450"/>
 </editor>
 </editors>
 <views>
 <view id="org.eclipse.ui.navigator.ProjectExplorer" partName="Project Explorer">
 <viewState CommonNavigator.LINKING_ENABLED="0" CommonNavigator.LINKING_ENABLED.delayed="0" org.eclipse.cdt.ui.cview.groupincludes="false" org.eclipse.cdt.ui.cview.groupmacros="false" org.eclipse.cdt.ui.editor.CUChildren="true" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0"/>
 </view>
-<view id="org.eclipse.ui.views.PropertySheet" partName="Properties"/>
+<view id="org.eclipse.ui.views.PropertySheet" partName="Properties">
+<viewState/>
+</view>
 <view id="org.eclipse.cdt.make.ui.views.MakeView" partName="Make Target"/>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
-<columnWidths org.eclipse.ui.ide.locationField="84" org.eclipse.ui.ide.markerType="114" org.eclipse.ui.ide.pathField="144" org.eclipse.ui.ide.resourceField="114" org.eclipse.ui.ide.severityAndDescriptionField="300"/>
+<expanded>&#x0A;<category IMemento.internal.id="Warnings (4 items)"/>
+</expanded>
+<columnWidths org.eclipse.ui.ide.locationField="0" org.eclipse.ui.ide.markerType="0" org.eclipse.ui.ide.pathField="0" org.eclipse.ui.ide.resourceField="0" org.eclipse.ui.ide.severityAndDescriptionField="0"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
@@ -55,9 +59,22 @@
 <visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
 </viewState>
 </view>
-<view id="org.eclipse.ui.console.ConsoleView" partName="Console"/>
+<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
+<viewState/>
+</view>
 <view id="org.eclipse.mylyn.tasks.ui.views.tasks" partName="Task List"/>
-<view id="org.eclipse.ui.views.TaskList" partName="Tasks"/>
+<view id="org.eclipse.ui.views.TaskList" partName="Tasks">
+<viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.completionField" categoryGroup="none" markerContentGenerator="org.eclipse.ui.ide.tasksGenerator" partName="Tasks">
+<columnWidths org.eclipse.ui.ide.completionField="40" org.eclipse.ui.ide.descriptionField="324" org.eclipse.ui.ide.locationField="84" org.eclipse.ui.ide.markerType="114" org.eclipse.ui.ide.pathField="144" org.eclipse.ui.ide.priorityField="40" org.eclipse.ui.ide.resourceField="114"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.completionField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.priorityField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.descriptionField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.locationField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
+</viewState>
+</view>
 <view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
 <viewState/>
 </view>
@@ -145,7 +162,7 @@
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.25" ratioLeft="254" ratioRight="762" relationship="2" relative="topLeft"/>
 <info folder="true" part="bottom" ratio="0.74963397" ratioLeft="512" ratioRight="171" relationship="4" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.ui.views.ProblemView" appearance="2" expanded="2">
+<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
 <page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
 <page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
@@ -178,9 +195,126 @@
 <navigationHistory>
 <editors>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/ArraysAndFunctions/src/ArraysAndFunctions.cpp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Inheritance/src/Inheritance.cpp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/ConstructorsAndDestructors/src/GameConsoles.cpp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/ConstructorsAndDestructors/src/GameConsoles.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Classes/src/Countries.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Classes/src/Cat.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Namespaces/src/Dog.h"/>
 </editors>
-<item active="true" historyLabel="ArraysAndFunctions.cpp" index="0">
+<item historyLabel="ArraysAndFunctions.cpp" index="0">
+<position info="not_deleted" x="372" y="0"/>
+</item>
+<item historyLabel="Inheritance.cpp" index="1">
 <position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Inheritance.cpp" index="1">
+<position/>
+</item>
+<item historyLabel="Inheritance.cpp" index="1">
+<position info="not_deleted" x="458" y="0"/>
+</item>
+<item historyLabel="ArraysAndFunctions.cpp" index="0">
+<position info="not_deleted" x="372" y="0"/>
+</item>
+<item historyLabel="Inheritance.cpp" index="1">
+<position info="not_deleted" x="458" y="0"/>
+</item>
+<item historyLabel="GameConsoles.cpp" index="2">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="GameConsoles.h" index="3">
+<position info="not_deleted" x="186" y="17"/>
+</item>
+<item historyLabel="Inheritance.cpp" index="1">
+<position/>
+</item>
+<item historyLabel="GameConsoles.h" index="3">
+<position info="not_deleted" x="529" y="29"/>
+</item>
+<item historyLabel="Inheritance.cpp" index="1">
+<position info="not_deleted" x="443" y="0"/>
+</item>
+<item historyLabel="GameConsoles.h" index="3">
+<position info="not_deleted" x="529" y="29"/>
+</item>
+<item historyLabel="Countries.h" index="4">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Cat.h" index="5">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Dog.h" index="6">
+<position info="not_deleted" x="285" y="62"/>
+</item>
+<item historyLabel="Inheritance.cpp" index="1">
+<position info="not_deleted" x="419" y="0"/>
+</item>
+<item historyLabel="Dog.h" index="6">
+<position info="not_deleted" x="400" y="67"/>
+</item>
+<item historyLabel="Inheritance.cpp" index="1">
+<position info="not_deleted" x="518" y="0"/>
+</item>
+<item historyLabel="Dog.h" index="6">
+<position info="not_deleted" x="400" y="67"/>
+</item>
+<item historyLabel="Inheritance.cpp" index="1">
+<position info="not_deleted" x="518" y="0"/>
+</item>
+<item historyLabel="Inheritance.cpp" index="1">
+<position info="not_deleted" x="840" y="0"/>
+</item>
+<item historyLabel="Inheritance.cpp" index="1">
+<position info="not_deleted" x="823" y="0"/>
+</item>
+<item historyLabel="Inheritance.cpp" index="1">
+<position info="not_deleted" x="827" y="0"/>
+</item>
+<item historyLabel="Inheritance.cpp" index="1">
+<position info="not_deleted" x="1176" y="0"/>
+</item>
+<item historyLabel="Inheritance.cpp" index="1">
+<position info="not_deleted" x="1211" y="0"/>
+</item>
+<item historyLabel="Inheritance.cpp" index="1">
+<position info="not_deleted" x="1176" y="0"/>
+</item>
+<item historyLabel="Inheritance.cpp" index="1">
+<position info="not_deleted" x="1176" y="0"/>
+</item>
+<item historyLabel="Inheritance.cpp" index="1">
+<position info="not_deleted" x="1197" y="0"/>
+</item>
+<item historyLabel="Inheritance.cpp" index="1">
+<position info="not_deleted" x="989" y="0"/>
+</item>
+<item historyLabel="Inheritance.cpp" index="1">
+<position info="not_deleted" x="1033" y="0"/>
+</item>
+<item historyLabel="Inheritance.cpp" index="1">
+<position info="not_deleted" x="1838" y="1"/>
+</item>
+<item historyLabel="Inheritance.cpp" index="1">
+<position info="not_deleted" x="907" y="70"/>
+</item>
+<item historyLabel="Inheritance.cpp" index="1">
+<position info="not_deleted" x="1256" y="0"/>
+</item>
+<item historyLabel="Inheritance.cpp" index="1">
+<position info="not_deleted" x="1292" y="0"/>
+</item>
+<item historyLabel="Inheritance.cpp" index="1">
+<position info="not_deleted" x="1940" y="0"/>
+</item>
+<item historyLabel="Inheritance.cpp" index="1">
+<position info="not_deleted" x="521" y="0"/>
+</item>
+<item historyLabel="Inheritance.cpp" index="1">
+<position info="not_deleted" x="533" y="0"/>
+</item>
+<item active="true" historyLabel="Inheritance.cpp" index="1">
+<position info="not_deleted" x="988" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -199,6 +333,24 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Dog.h" tooltip="Namespaces/src/Dog.h">
+<persistable path="/Namespaces/src/Dog.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Cat.h" tooltip="Classes/src/Cat.h">
+<persistable path="/Classes/src/Cat.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Countries.h" tooltip="Classes/src/Countries.h">
+<persistable path="/Classes/src/Countries.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="GameConsoles.h" tooltip="ConstructorsAndDestructors/src/GameConsoles.h">
+<persistable path="/ConstructorsAndDestructors/src/GameConsoles.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="GameConsoles.cpp" tooltip="ConstructorsAndDestructors/src/GameConsoles.cpp">
+<persistable path="/ConstructorsAndDestructors/src/GameConsoles.cpp"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Inheritance.cpp" tooltip="Inheritance/src/Inheritance.cpp">
+<persistable path="/Inheritance/src/Inheritance.cpp"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="ArraysAndFunctions.cpp" tooltip="ArraysAndFunctions/src/ArraysAndFunctions.cpp">
 <persistable path="/ArraysAndFunctions/src/ArraysAndFunctions.cpp"/>
 </file>
@@ -207,9 +359,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Animals.cpp" tooltip="Namespaces/src/Animals.cpp">
 <persistable path="/Namespaces/src/Animals.cpp"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Dog.h" tooltip="Namespaces/src/Dog.h">
-<persistable path="/Namespaces/src/Dog.h"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Dog.cpp" tooltip="Namespaces/src/Dog.cpp">
 <persistable path="/Namespaces/src/Dog.cpp"/>
@@ -228,21 +377,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Cat.cpp" tooltip="UsingNamespaces/src/Cat.cpp">
 <persistable path="/UsingNamespaces/src/Cat.cpp"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="UsingNamespaces.cpp" tooltip="UsingNamespaces/src/UsingNamespaces.cpp">
-<persistable path="/UsingNamespaces/src/UsingNamespaces.cpp"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Animal.h" tooltip="Namespaces/src/Animal.h">
-<persistable path="/Namespaces/src/Animal.h"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Animal.cpp" tooltip="Namespaces/src/Animal.cpp">
-<persistable path="/Namespaces/src/Animal.cpp"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="AllocatingMemory.cpp" tooltip="AllocatingMemory/src/AllocatingMemory.cpp">
-<persistable path="/AllocatingMemory/src/AllocatingMemory.cpp"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="ReturningObjectsFromFunctions.cpp" tooltip="ReturningObjectsFromFunctions/src/ReturningObjectsFromFunctions.cpp">
-<persistable path="/ReturningObjectsFromFunctions/src/ReturningObjectsFromFunctions.cpp"/>
 </file>
 </mruList>
 </workbench>
