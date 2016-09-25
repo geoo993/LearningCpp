@@ -1,0 +1,34 @@
+//============================================================================
+// Name        : ConstructorInheritance.cpp
+// Author      : George Quentin
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+class Vehicle {
+
+private:
+	string name;
+	string manufacturer;
+
+
+public:
+	//this is the class constructor
+	Vehicle(string name="", string manufacturer=""): name(name), manufacturer(manufacturer) {
+		cout << "Vehicle constructor called" << endl;
+	}
+	string getManufacturer(){ return manufacturer; }
+	void print(){cout << " is manufactured by " << getManufacturer() << endl;}
+};
+
+
+int main() {
+
+	Vehicle machine;
+
+	return 0;
+}

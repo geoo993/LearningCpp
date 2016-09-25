@@ -1,0 +1,43 @@
+//============================================================================
+// Name        : Encapsulation.cpp
+// Author      : George Quentin
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+
+class Frog {
+
+	// here we are encapsulating, by hiding away properties of this class using private
+	//here we encapsulate all the instance variable, making them private and hiding them away, so no one can mess with them
+private:
+	string name;
+	int frogNum;
+
+public :
+	//we only provide public methods that can run the encapsulate elements of this class.
+	//we declare the methods of the class because its public other wide they are being encapsulated in the class
+	Frog(string name, int frogNum): name(name), frogNum(frogNum){}
+	void setName(string name){ this -> name = name; };
+	string getName(){ return name; };
+	string getNunmer(){ return frogNum; };
+	void info(){ cout << "Checking current frog..... Name: " << name << "   Number: " << frogNum << "." << endl; };
+};
+
+
+
+int main() {
+
+	//this is an example of encapsulation at work,
+	Frog frog("Toad");
+	cout << "this Frog name is " << frog.getName() << endl;
+
+	frog.setName("LAbs") ;
+	cout << "this Frog new name is " << frog.getName() << endl;
+
+	return 0;
+}

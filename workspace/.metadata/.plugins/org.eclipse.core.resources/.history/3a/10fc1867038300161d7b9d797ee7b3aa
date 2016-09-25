@@ -1,0 +1,60 @@
+//============================================================================
+// Name        : ConstructorInheritance.cpp
+// Author      : George Quentin
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+class Machine{
+
+private :
+	int id;
+	string name;
+public:
+	Machine(int id): id(id) { cout << "Machine constructor is called." << endl; };
+	void machineInfo(){ cout << "Machine ID: " << id << endl; };
+};
+
+class Vehicle: public Machine {
+
+private:
+	string name;
+	string manufacturer;
+
+public:
+	//this is the class constructor of Vehicle which is a subclass of machine
+	Vehicle(string name="", string manufacturer=""): Machine(name), manufacturer(manufacturer) {
+		cout << "Vehicle constructor called. It is the sub class Machine" << endl;
+	}
+	string getName(){ return name; }
+	string getManufacturer(){ return manufacturer; }
+
+	void info(){cout << getName() <<  " is manufactured by " << getManufacturer() << endl;}
+};
+
+class Car: public Vehicle{
+
+
+	//this is a sub class of the Vehicle class
+public:
+	Car(){ cout << "This is the Vehicle Car constructor." << endl;}
+};
+
+
+int main() {
+
+
+	Vehicle vehicle("Airplane", "Boeing");
+	vehicle.info();
+
+	//this car class is based on the vehicle class, it is a sub class of vehicle class where when called it will run the super class first which is Vehicle and then run its self
+	//this car subclass cannot assess the private instances in the vehicle super class
+	Car car;
+	car.info();
+
+	return 0;
+}

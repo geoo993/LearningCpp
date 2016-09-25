@@ -1,0 +1,28 @@
+//============================================================================
+// Name        : TwosComplement.cpp
+// Author      : George Quentin
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+
+int main() {
+
+	//we set this char to the maximum value of char, meaning 127 is the maximum value that you can fit in a char.
+	//you have to be wary of this because cpp will not give you any hint/warning on this and this may end up crashing or bugging your program
+	// you have to be wary of this because cpp just does not check these when you run your program, it trust you that you know what you are doing, so be wary of maximum and minimum values of instances like char, ints (short, long), floats
+	//just be aware of the storage capacity of integer types especially char because it has a small amount that you can set which is 127.
+	char value = 127;
+	cout << (int)value << endl;
+
+
+	value ++;
+	cout << (int)value << endl;// you get -128, which is the minimum value of a char
+
+
+	return 0;
+}
