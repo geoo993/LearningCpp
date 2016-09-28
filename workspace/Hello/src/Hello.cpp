@@ -32,5 +32,23 @@ int main() {
 
 	cout << "Hello George!, you are "+ s + str2 +myString(". Great!") << endl; // prints !!!Hello George!!!
 
+
+
+
+	string input = "Fred Starts";
+//	cout << input;
+//	cin >> input;
+//	cout << input << endl;
+	//input.erase();
+
+	//cout << "erasing ...." << input;
+	//cout << sizeof(input) << endl;
+
+
+	while ( cin >> input )
+		cout << "Input: " << input << endl;//'\n';
+
+
+
 	return 0;
 }

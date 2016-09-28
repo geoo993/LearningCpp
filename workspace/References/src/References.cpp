@@ -9,6 +9,8 @@
 #include <iostream>
 using namespace std;
 
+//pointer references allow you to point and reference to a variable initialized outside if a function or method. it help you save memory and stops you from creating copies of those variable but instsead helping to point to an earlier variable.
+
 double changeSomethingWithReturn (double dValue){
 	dValue = 4.5934;
 	return dValue;
