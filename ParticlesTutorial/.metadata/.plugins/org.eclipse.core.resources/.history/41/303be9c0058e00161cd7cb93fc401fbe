@@ -1,0 +1,41 @@
+//============================================================================
+// Name        : ParticleSwarm.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include <math.h>
+#include <SDL.h>
+#include <SDL_opengl.h>
+#include <stdio.h>
+#include "Screen.h"
+
+using namespace std;
+
+int main() {
+
+	Screen screen;
+	if (screen.init() == false) {
+		cout << "ERROR INITIALIZING SCREEN WITH SDL." << endl;
+	}
+
+	SDL_Event event;
+	bool runningGame = true;
+
+	while (runningGame) {
+		while (SDL_PollEvent(&event)) {
+
+			if (event.type == SDL_QUIT) {
+				runningGame = false;
+			}
+
+		}
+	}
+
+	screen.close();
+
+	return 0;
+}

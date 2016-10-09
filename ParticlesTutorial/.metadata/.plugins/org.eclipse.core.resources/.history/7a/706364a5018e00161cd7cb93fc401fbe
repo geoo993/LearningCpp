@@ -1,0 +1,18 @@
+/*
+ * Screen.h
+ *
+ *  Created on: Oct 8, 2016
+ *      Author: GeorgeQuentin
+ */
+
+#ifndef SCREEN_H_
+#define SCREEN_H_
+
+namespace programingparticles {
+
+class Screen {
+};
+
+}
+
+#endif /* SCREEN_H_ */

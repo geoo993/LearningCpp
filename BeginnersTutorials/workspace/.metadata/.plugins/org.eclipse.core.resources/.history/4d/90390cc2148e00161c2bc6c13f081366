@@ -1,0 +1,58 @@
+//============================================================================
+// Name        : BitShiftingAndHexColor.cpp
+// Author      : George Quentin
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include <iomanip>
+
+using namespace std;
+
+int main() {
+
+	//argb color (a: 34, r: 255, g: 158, b: 98)
+	//in hex you go by these binary rules
+	//(1,1,1,1,1,1,1,1,1,1,1,1,1)
+	//to covert color numbers to hex, you need to get their decimal values and covert to hex value, meaning
+	//To convert from decimal to hex, where hex (also known as base 16, or hexadecimal) is a positional numeral system with a radix, or base, of 16. It uses sixteen distinct symbols
+	//which are                      [0, 1, 2, 3, 4, 5, 6, 7, 8, 9,  A,  B,  C,  D,  E,  F ]
+	//similarly decimal base go from [0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16]
+
+
+
+	//bit shifting
+	// 0xFF123456
+	unsigned char alpha = 0xFF;
+	unsigned char red = 0x12;
+	unsigned char green = 0x34;
+	unsigned char blue = 0x56;
+
+	unsigned int color = 0;
+
+	color += alpha;
+
+	//color = color << 8; same as color <<= 8; the bit shift << in cpp is very useful, where you would often want to shift bits and bites around, this is a great low level programming example.
+	//color = color << 24;
+	color <<= 8;
+	color += red;
+	color <<= 8;
+	color += green;
+	color <<= 8;
+	color += blue;
+
+	//cout << color << endl;
+	//cout << hex << color << endl;
+	cout << setfill('0') << setw(8) << hex << color << endl;
+
+
+	color >>= 8; //there is also a right bit operator >>
+	color -= alpha;
+
+	cout << setfill('0') << setw(8) << hex << color << endl;
+
+	return 0;
+
+}

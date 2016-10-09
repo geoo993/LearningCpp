@@ -1,0 +1,28 @@
+/*
+ * Screen.h
+ *
+ *  Created on: Oct 8, 2016
+ *      Author: GeorgeQuentin
+ */
+
+#ifndef SCREEN_H_
+#define SCREEN_H_
+
+namespace programingparticles {
+
+class Screen {
+	//using m for making that these are member variables
+private:
+	SDL_Window *m_window;
+	SDL_Renderer *m_renderer;
+	SDL_Texture *texture;
+	Uint32 *buffer;
+
+public:
+
+
+};
+
+}
+
+#endif /* SCREEN_H_ */

@@ -1,0 +1,27 @@
+/*
+ * Screen.cpp
+ *
+ *  Created on: Oct 8, 2016
+ *      Author: GeorgeQuentin
+ */
+
+#include "Screen.h"
+
+namespace programmingparticles {
+
+Screen::Screen() {
+
+}
+
+bool Screen::init() {
+
+}
+
+bool Screen::proccessEvents() {
+
+}
+void Screen::close() {
+
+}
+
+}
