@@ -1,0 +1,31 @@
+/*
+ * Particle.h
+ *
+ *  Created on: Oct 9, 2016
+ *      Author: GeorgeQuentin
+ */
+
+#ifndef PARTICLE_H_
+#define PARTICLE_H_
+#include <SDL.h>
+
+
+namespace programmingparticles {
+
+class Particle {
+
+public:
+	//member variable
+	double m_x;
+	double m_y;
+
+public:
+	Particle();
+	virtual ~Particle();
+
+
+};
+
+}
+
+#endif /* PARTICLE_H_ */

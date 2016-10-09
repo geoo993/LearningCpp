@@ -7,10 +7,12 @@
 //============================================================================
 
 #include <iostream>
+#include <iomanip>
 #include <math.h>
 #include <SDL.h>
 #include <SDL_opengl.h>
 #include <stdio.h>
+
 
 using namespace std;
 
@@ -112,19 +114,54 @@ int main(int argc, char** argv) {
 		buffer[i] = 0xFF00FFFF;
 	}
 
-	SDL_UpdateTexture(texture, NULL, buffer, SCREEN_WIDTH * sizeof(Uint32));
-	SDL_RenderClear(renderer);
-	SDL_RenderCopy(renderer, texture, NULL, NULL);
-	SDL_RenderPresent(renderer);
 
 
 	SDL_Event event; //used to store any events from the OS
 	bool runningGame = true; //used to determine if we are running the game
 
+	Uint8 red = 255;
+	Uint8 blue = 0;
 
 	//created game loop, which is a loop that will run for as long as the game is running
 	while (runningGame){
 		//in this loop we will update particles, draw particles and we will check for messages/events like button/mouse click
+
+
+		// Animate color
+		//unsigned int redValue = 255;
+		//unsigned int greenValue = 255;
+		//unsigned int blueValue = 255;
+		int elapsed = SDL_GetTicks();
+		//double green = (1 + sin(elapsed * 0.001)) * ((green+1)/2);//sin takes a number and return with a range minus plus 1
+		//int green = (1 + sin(M_PI/2)) * ((greenValue+1)/2);
+		//if (green > max) max = green;
+
+		unsigned char green = (unsigned char )((1 + sin(elapsed * 0.001)) * 128);
+
+		for(int y=0; y < SCREEN_HEIGHT; y++){
+			for(int x=0; x < SCREEN_WIDTH; x++){
+
+				Uint32 color = 0;
+
+				color += red;
+				color <<= 8;
+				color += green;
+				color <<= 8;
+				color += blue;
+				color <<= 8;
+				color += 0xFF;  // this is alpha channel FF, it is opaque
+
+				buffer[(y * SCREEN_WIDTH) + x] = color;
+
+			}
+		}
+
+
+		SDL_UpdateTexture(texture, NULL, buffer, SCREEN_WIDTH * sizeof(Uint32));
+		SDL_RenderClear(renderer);
+		SDL_RenderCopy(renderer, texture, NULL, NULL);
+		SDL_RenderPresent(renderer);
+
 
 
 		//poll for events from SDL, this check for the events that are happening, it will fetch the latest event in the queue of possible events that have been built up

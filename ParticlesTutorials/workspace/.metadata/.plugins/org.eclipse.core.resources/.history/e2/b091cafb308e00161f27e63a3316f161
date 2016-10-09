@@ -1,0 +1,22 @@
+/*
+ * Swarm.cpp
+ *
+ *  Created on: Oct 9, 2016
+ *      Author: GeorgeQuentin
+ */
+
+#include "Swarm.h"
+
+namespace programmingparticles {
+
+Swarm::Swarm() {
+	// TODO Auto-generated constructor stub
+	cout << "SWARM CONSTRUCTOR " << endl;
+}
+
+Swarm::~Swarm() {
+	// TODO Auto-generated destructor stub
+	cout << "SWARM DESSTRUCTOR " << endl;
+}
+
+}

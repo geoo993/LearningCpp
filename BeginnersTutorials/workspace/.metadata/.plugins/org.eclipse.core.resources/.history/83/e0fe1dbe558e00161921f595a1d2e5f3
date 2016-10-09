@@ -1,0 +1,23 @@
+//============================================================================
+// Name        : BitwiseAnd.cpp
+// Author      : George Quentin
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+int main() {
+
+	// to extract values from hexadecimals, you can use a bitwise  &operator
+	int color2 = 0x12345678;
+
+	// two AND(&&) symbol in cpp is the logical and meaning. its like boolean logic, but when you use a single AND(&), it does a bitwise comparison
+	//int red
+
+
+	//cout << "!!!Hello World!!!" << endl; // prints !!!Hello World!!!
+	return 0;
+}

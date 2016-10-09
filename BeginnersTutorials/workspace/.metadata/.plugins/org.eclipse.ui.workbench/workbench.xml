@@ -31,6 +31,7 @@
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
 <part id="1"/>
+<part id="2"/>
 </presentation>
 </folder>
 </info>
@@ -39,9 +40,13 @@
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Pointers/src/Pointers.cpp"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="367" selectionTopPixel="0"/>
 </editor>
-<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="BitShiftingAndHexColor.cpp" partName="BitShiftingAndHexColor.cpp" path="/Users/GeorgeQuentin/Dev/Cpp/LearningCppFromCaveOfProgramming/BeginnersTutorials/workspace/BitShiftingAndHexColor/src/BitShiftingAndHexColor.cpp" title="BitShiftingAndHexColor.cpp" tooltip="BitShiftingAndHexColor/src/BitShiftingAndHexColor.cpp" workbook="DefaultEditorWorkbook">
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="BitShiftingAndHexColor.cpp" partName="BitShiftingAndHexColor.cpp" path="/Users/GeorgeQuentin/Dev/Cpp/LearningCppFromCaveOfProgramming/BeginnersTutorials/workspace/BitShiftingAndHexColor/src/BitShiftingAndHexColor.cpp" title="BitShiftingAndHexColor.cpp" tooltip="BitShiftingAndHexColor/src/BitShiftingAndHexColor.cpp" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/BitShiftingAndHexColor/src/BitShiftingAndHexColor.cpp"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2316" selectionTopPixel="240"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3159" selectionTopPixel="555"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="BitwiseAnd.cpp" partName="BitwiseAnd.cpp" path="/Users/GeorgeQuentin/Dev/Cpp/LearningCppFromCaveOfProgramming/BeginnersTutorials/workspace/BitwiseAnd/src/BitwiseAnd.cpp" title="BitwiseAnd.cpp" tooltip="BitwiseAnd/src/BitwiseAnd.cpp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/BitwiseAnd/src/BitwiseAnd.cpp"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1789" selectionTopPixel="255"/>
 </editor>
 </editors>
 <views>
@@ -54,6 +59,9 @@
 <view id="org.eclipse.cdt.make.ui.views.MakeView" partName="Make Target"/>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
+<expanded>
+<category IMemento.internal.id="Warnings (1 item)"/>
+</expanded>
 <columnWidths org.eclipse.ui.ide.locationField="0" org.eclipse.ui.ide.markerType="0" org.eclipse.ui.ide.pathField="0" org.eclipse.ui.ide.resourceField="0" org.eclipse.ui.ide.severityAndDescriptionField="0"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
@@ -208,16 +216,8 @@
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/ConstructorInheritance/src/ConstructorInheritance.cpp"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Hello/src/Hello.cpp"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/BitShiftingAndHexColor/src/BitShiftingAndHexColor.cpp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/BitwiseAnd/src/BitwiseAnd.cpp"/>
 </editors>
-<item historyLabel="ConstructorInheritance.cpp" index="1">
-<position info="not_deleted" x="1691" y="0"/>
-</item>
-<item historyLabel="ConstructorInheritance.cpp" index="1">
-<position info="not_deleted" x="1312" y="0"/>
-</item>
-<item historyLabel="ConstructorInheritance.cpp" index="1">
-<position info="not_deleted" x="1327" y="0"/>
-</item>
 <item historyLabel="ConstructorInheritance.cpp" index="1">
 <position info="not_deleted" x="1679" y="0"/>
 </item>
@@ -356,8 +356,17 @@
 <item historyLabel="BitShiftingAndHexColor.cpp" index="10">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item active="true" historyLabel="BitShiftingAndHexColor.cpp" index="10">
+<item historyLabel="BitShiftingAndHexColor.cpp" index="10">
 <position info="not_deleted" x="1505" y="0"/>
+</item>
+<item historyLabel="BitwiseAnd.cpp" index="11">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="BitwiseAnd.cpp" index="11">
+<position info="not_deleted" x="1550" y="0"/>
+</item>
+<item active="true" historyLabel="BitwiseAnd.cpp" index="11">
+<position info="not_deleted" x="1507" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -376,6 +385,9 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="BitwiseAnd.cpp" tooltip="BitwiseAnd/src/BitwiseAnd.cpp">
+<persistable path="/BitwiseAnd/src/BitwiseAnd.cpp"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="BitShiftingAndHexColor.cpp" tooltip="BitShiftingAndHexColor/src/BitShiftingAndHexColor.cpp">
 <persistable path="/BitShiftingAndHexColor/src/BitShiftingAndHexColor.cpp"/>
 </file>
@@ -417,9 +429,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Countries.h" tooltip="Classes/src/Countries.h">
 <persistable path="/Classes/src/Countries.h"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="GameConsoles.h" tooltip="ConstructorsAndDestructors/src/GameConsoles.h">
-<persistable path="/ConstructorsAndDestructors/src/GameConsoles.h"/>
 </file>
 </mruList>
 </workbench>

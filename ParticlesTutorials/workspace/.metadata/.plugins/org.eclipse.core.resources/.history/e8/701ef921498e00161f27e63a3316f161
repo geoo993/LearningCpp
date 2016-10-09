@@ -1,0 +1,40 @@
+/*
+ * Particle.h
+ *
+ *  Created on: Oct 9, 2016
+ *      Author: GeorgeQuentin
+ */
+
+#ifndef PARTICLE_H_
+#define PARTICLE_H_
+#include <SDL.h>
+#include <math.h>
+
+namespace programmingparticles {
+
+struct Particle { // class and struct are the same thing, the onl difference is that by default class members of struct are public
+//class Particle { //when setting class, its members by default are private
+
+
+	//member variable
+	double m_x;
+	double m_y;
+
+	//(rand()/RAND_MAX) * 0.02
+	double m_movementSpeed = 0.008;
+
+	double m_xSpeed ;
+	double m_ySpeed ;
+
+public:
+	Particle();
+	virtual ~Particle();
+	void setMovementSpeed(double move){ this -> m_movementSpeed = move; }
+	void update();
+
+
+};
+
+}
+
+#endif /* PARTICLE_H_ */
