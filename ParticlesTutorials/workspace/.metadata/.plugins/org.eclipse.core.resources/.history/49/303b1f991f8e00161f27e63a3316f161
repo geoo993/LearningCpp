@@ -1,0 +1,32 @@
+/*
+ * Screen.cpp
+ *
+ *  Created on: Oct 9, 2016
+ *      Author: GeorgeQuentin
+ */
+
+#include <iostream>
+#include "Screen.h"
+
+using namespace std;
+
+
+namespace programmingparticles {
+
+Screen::Screen() {
+	// TODO Auto-generated constructor stub
+
+}
+
+Screen::Screen() :
+
+	m_window(NULL), m_renderer(NULL), m_texture(NULL), m_buffer(NULL) {
+
+}
+
+
+Screen::~Screen() {
+	// TODO Auto-generated destructor stub
+}
+
+}
