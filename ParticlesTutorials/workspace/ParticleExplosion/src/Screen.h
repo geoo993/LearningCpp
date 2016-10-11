@@ -15,8 +15,8 @@ namespace programmingparticles {
 class Screen {
 
 public:
-	const static int SCREEN_WIDTH = 800;
-	const static int SCREEN_HEIGHT = 600;
+	const static int SCREEN_WIDTH = 1200;
+	const static int SCREEN_HEIGHT = 720;
 
 private:
 	//using m for making that these are member variables
