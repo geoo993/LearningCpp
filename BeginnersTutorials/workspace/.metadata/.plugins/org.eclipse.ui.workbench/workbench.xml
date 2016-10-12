@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workbench progressCount="22" version="2.0">
 <workbenchAdvisor/>
-<window height="768" width="1173" x="4" y="23">
+<window height="736" width="1173" x="4" y="23">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="160"/>
@@ -32,21 +32,36 @@
 <part id="0"/>
 <part id="1"/>
 <part id="2"/>
+<part id="3"/>
+<part id="4"/>
+<part id="5"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
 <editor id="org.eclipse.cdt.ui.editor.CEditor" name="Pointers.cpp" partName="Pointers.cpp" path="/Users/GeorgeQuentin/Dev/Cpp/LearningCppFromCaveOfProgramming/BeginnersTutorials/workspace/Pointers/src/Pointers.cpp" title="Pointers.cpp" tooltip="Pointers/src/Pointers.cpp" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Pointers/src/Pointers.cpp"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="367" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="13" selectionLength="0" selectionOffset="367" selectionTopPixel="542"/>
 </editor>
 <editor id="org.eclipse.cdt.ui.editor.CEditor" name="BitShiftingAndHexColor.cpp" partName="BitShiftingAndHexColor.cpp" path="/Users/GeorgeQuentin/Dev/Cpp/LearningCppFromCaveOfProgramming/BeginnersTutorials/workspace/BitShiftingAndHexColor/src/BitShiftingAndHexColor.cpp" title="BitShiftingAndHexColor.cpp" tooltip="BitShiftingAndHexColor/src/BitShiftingAndHexColor.cpp" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/BitShiftingAndHexColor/src/BitShiftingAndHexColor.cpp"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3159" selectionTopPixel="555"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3159" selectionTopPixel="101"/>
 </editor>
-<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="BitwiseAnd.cpp" partName="BitwiseAnd.cpp" path="/Users/GeorgeQuentin/Dev/Cpp/LearningCppFromCaveOfProgramming/BeginnersTutorials/workspace/BitwiseAnd/src/BitwiseAnd.cpp" title="BitwiseAnd.cpp" tooltip="BitwiseAnd/src/BitwiseAnd.cpp" workbook="DefaultEditorWorkbook">
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="BitwiseAnd.cpp" partName="BitwiseAnd.cpp" path="/Users/GeorgeQuentin/Dev/Cpp/LearningCppFromCaveOfProgramming/BeginnersTutorials/workspace/BitwiseAnd/src/BitwiseAnd.cpp" title="BitwiseAnd.cpp" tooltip="BitwiseAnd/src/BitwiseAnd.cpp" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/BitwiseAnd/src/BitwiseAnd.cpp"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1789" selectionTopPixel="255"/>
+<editorState selectionHorizontalPixel="24" selectionLength="0" selectionOffset="1707" selectionTopPixel="332"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="Cat.cpp" partName="Cat.cpp" path="/Users/GeorgeQuentin/Dev/Cpp/LearningCppFromCaveOfProgramming/BeginnersTutorials/workspace/DataMembers/src/Cat.cpp" title="Cat.cpp" tooltip="DataMembers/src/Cat.cpp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/DataMembers/src/Cat.cpp"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="2"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="Cat.h" partName="Cat.h" path="/Users/GeorgeQuentin/Dev/Cpp/LearningCppFromCaveOfProgramming/BeginnersTutorials/workspace/DataMembers/src/Cat.h" title="Cat.h" tooltip="DataMembers/src/Cat.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/DataMembers/src/Cat.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="DataMembers.cpp" partName="DataMembers.cpp" path="/Users/GeorgeQuentin/Dev/Cpp/LearningCppFromCaveOfProgramming/BeginnersTutorials/workspace/DataMembers/src/DataMembers.cpp" title="DataMembers.cpp" tooltip="DataMembers/src/DataMembers.cpp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/DataMembers/src/DataMembers.cpp"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
@@ -60,7 +75,7 @@
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
 <expanded>
-<category IMemento.internal.id="Warnings (1 item)"/>
+<category IMemento.internal.id="Warnings (6 items)"/>
 </expanded>
 <columnWidths org.eclipse.ui.ide.locationField="0" org.eclipse.ui.ide.markerType="0" org.eclipse.ui.ide.pathField="0" org.eclipse.ui.ide.resourceField="0" org.eclipse.ui.ide.severityAndDescriptionField="0"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
@@ -205,7 +220,6 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Encapsulation/src/Encapsulation.cpp"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/ConstructorInheritance/src/ConstructorInheritance.cpp"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/TwosComplement/src/TwosComplement.cpp"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/StaticKeyword/src/StaticKeyword.cpp"/>
@@ -217,156 +231,161 @@
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Hello/src/Hello.cpp"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/BitShiftingAndHexColor/src/BitShiftingAndHexColor.cpp"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/BitwiseAnd/src/BitwiseAnd.cpp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Pointers/src/Pointers.cpp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/BitShiftingAndHexColor/src/BitShiftingAndHexColor.cpp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/DataMembers/src/Cat.cpp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/DataMembers/src/Cat.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/DataMembers/src/DataMembers.cpp"/>
 </editors>
-<item historyLabel="ConstructorInheritance.cpp" index="1">
-<position info="not_deleted" x="1679" y="0"/>
-</item>
-<item historyLabel="Encapsulation.cpp" index="0">
-<position info="not_deleted" x="2377" y="0"/>
-</item>
-<item historyLabel="ConstructorInheritance.cpp" index="1">
-<position info="not_deleted" x="1679" y="0"/>
-</item>
-<item historyLabel="ConstructorInheritance.cpp" index="1">
-<position info="not_deleted" x="1558" y="0"/>
-</item>
-<item historyLabel="ConstructorInheritance.cpp" index="1">
-<position/>
-</item>
-<item historyLabel="ConstructorInheritance.cpp" index="1">
+<item historyLabel="ConstructorInheritance.cpp" index="0">
 <position info="not_deleted" x="1311" y="0"/>
 </item>
-<item historyLabel="ConstructorInheritance.cpp" index="1">
+<item historyLabel="ConstructorInheritance.cpp" index="0">
 <position info="not_deleted" x="1642" y="0"/>
 </item>
-<item historyLabel="ConstructorInheritance.cpp" index="1">
+<item historyLabel="ConstructorInheritance.cpp" index="0">
 <position info="not_deleted" x="1757" y="0"/>
 </item>
-<item historyLabel="ConstructorInheritance.cpp" index="1">
+<item historyLabel="ConstructorInheritance.cpp" index="0">
 <position info="not_deleted" x="2078" y="0"/>
 </item>
-<item historyLabel="ConstructorInheritance.cpp" index="1">
+<item historyLabel="ConstructorInheritance.cpp" index="0">
 <position info="not_deleted" x="2067" y="0"/>
 </item>
-<item historyLabel="ConstructorInheritance.cpp" index="1">
+<item historyLabel="ConstructorInheritance.cpp" index="0">
 <position info="not_deleted" x="2097" y="0"/>
 </item>
-<item historyLabel="ConstructorInheritance.cpp" index="1">
+<item historyLabel="ConstructorInheritance.cpp" index="0">
 <position info="not_deleted" x="1907" y="0"/>
 </item>
-<item historyLabel="ConstructorInheritance.cpp" index="1">
+<item historyLabel="ConstructorInheritance.cpp" index="0">
 <position info="not_deleted" x="2381" y="0"/>
 </item>
-<item historyLabel="ConstructorInheritance.cpp" index="1">
+<item historyLabel="ConstructorInheritance.cpp" index="0">
 <position info="not_deleted" x="678" y="0"/>
 </item>
-<item historyLabel="ConstructorInheritance.cpp" index="1">
+<item historyLabel="ConstructorInheritance.cpp" index="0">
 <position info="not_deleted" x="686" y="0"/>
 </item>
-<item historyLabel="ConstructorInheritance.cpp" index="1">
+<item historyLabel="ConstructorInheritance.cpp" index="0">
 <position info="not_deleted" x="961" y="0"/>
 </item>
-<item historyLabel="ConstructorInheritance.cpp" index="1">
+<item historyLabel="ConstructorInheritance.cpp" index="0">
 <position info="not_deleted" x="810" y="0"/>
 </item>
-<item historyLabel="ConstructorInheritance.cpp" index="1">
+<item historyLabel="ConstructorInheritance.cpp" index="0">
 <position info="not_deleted" x="838" y="0"/>
 </item>
-<item historyLabel="ConstructorInheritance.cpp" index="1">
+<item historyLabel="ConstructorInheritance.cpp" index="0">
 <position info="not_deleted" x="1613" y="0"/>
 </item>
-<item historyLabel="ConstructorInheritance.cpp" index="1">
+<item historyLabel="ConstructorInheritance.cpp" index="0">
 <position info="not_deleted" x="1675" y="0"/>
 </item>
-<item historyLabel="ConstructorInheritance.cpp" index="1">
+<item historyLabel="ConstructorInheritance.cpp" index="0">
 <position info="not_deleted" x="1958" y="0"/>
 </item>
-<item historyLabel="ConstructorInheritance.cpp" index="1">
+<item historyLabel="ConstructorInheritance.cpp" index="0">
 <position info="not_deleted" x="1982" y="0"/>
 </item>
-<item historyLabel="ConstructorInheritance.cpp" index="1">
+<item historyLabel="ConstructorInheritance.cpp" index="0">
 <position info="not_deleted" x="1349" y="0"/>
 </item>
-<item historyLabel="ConstructorInheritance.cpp" index="1">
+<item historyLabel="ConstructorInheritance.cpp" index="0">
 <position info="not_deleted" x="690" y="0"/>
 </item>
-<item historyLabel="TwosComplement.cpp" index="2">
+<item historyLabel="TwosComplement.cpp" index="1">
 <position info="not_deleted" x="1769" y="0"/>
 </item>
-<item historyLabel="StaticKeyword.cpp" index="3">
+<item historyLabel="StaticKeyword.cpp" index="2">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="StaticKeyword.cpp" index="3">
+<item historyLabel="StaticKeyword.cpp" index="2">
 <position/>
 </item>
-<item historyLabel="StaticKeyword.cpp" index="3">
+<item historyLabel="StaticKeyword.cpp" index="2">
 <position info="not_deleted" x="1365" y="0"/>
 </item>
-<item historyLabel="StaticKeyword.cpp" index="3">
+<item historyLabel="StaticKeyword.cpp" index="2">
 <position info="not_deleted" x="1766" y="0"/>
 </item>
-<item historyLabel="StaticKeyword.cpp" index="3">
+<item historyLabel="StaticKeyword.cpp" index="2">
 <position info="not_deleted" x="2353" y="0"/>
 </item>
-<item historyLabel="NewProject.cpp" index="4">
+<item historyLabel="NewProject.cpp" index="3">
 <position info="not_deleted" x="383" y="64"/>
 </item>
-<item historyLabel="StaticKeyword.cpp" index="3">
+<item historyLabel="StaticKeyword.cpp" index="2">
 <position info="not_deleted" x="1526" y="0"/>
 </item>
-<item historyLabel="Hello.cpp" index="5">
+<item historyLabel="Hello.cpp" index="4">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="Hello.cpp" index="5">
+<item historyLabel="Hello.cpp" index="4">
 <position/>
 </item>
-<item historyLabel="Hello.cpp" index="5">
+<item historyLabel="Hello.cpp" index="4">
 <position info="not_deleted" x="618" y="0"/>
 </item>
-<item historyLabel="Hello.cpp" index="5">
+<item historyLabel="Hello.cpp" index="4">
 <position info="not_deleted" x="681" y="0"/>
 </item>
-<item historyLabel="Hello.cpp" index="5">
+<item historyLabel="Hello.cpp" index="4">
 <position info="not_deleted" x="716" y="0"/>
 </item>
-<item historyLabel="Hello.cpp" index="5">
+<item historyLabel="Hello.cpp" index="4">
 <position info="not_deleted" x="761" y="0"/>
 </item>
-<item historyLabel="Pointers.cpp" index="6">
+<item historyLabel="Pointers.cpp" index="5">
 <position info="not_deleted" x="367" y="0"/>
 </item>
-<item historyLabel="References.cpp" index="7">
+<item historyLabel="References.cpp" index="6">
 <position info="not_deleted" x="437" y="11"/>
 </item>
-<item historyLabel="Pointers.cpp" index="6">
+<item historyLabel="Pointers.cpp" index="5">
 <position info="not_deleted" x="367" y="0"/>
 </item>
-<item historyLabel="ConstructorInheritance.cpp" index="8">
+<item historyLabel="ConstructorInheritance.cpp" index="7">
 <position info="not_deleted" x="690" y="0"/>
 </item>
-<item historyLabel="Pointers.cpp" index="6">
+<item historyLabel="Pointers.cpp" index="5">
 <position info="not_deleted" x="367" y="0"/>
 </item>
-<item historyLabel="Hello.cpp" index="9">
+<item historyLabel="Hello.cpp" index="8">
 <position info="not_deleted" x="755" y="0"/>
 </item>
-<item historyLabel="Pointers.cpp" index="6">
+<item historyLabel="Pointers.cpp" index="5">
 <position info="not_deleted" x="367" y="0"/>
 </item>
-<item historyLabel="BitShiftingAndHexColor.cpp" index="10">
+<item historyLabel="BitShiftingAndHexColor.cpp" index="9">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="BitShiftingAndHexColor.cpp" index="10">
+<item historyLabel="BitShiftingAndHexColor.cpp" index="9">
 <position info="not_deleted" x="1505" y="0"/>
 </item>
-<item historyLabel="BitwiseAnd.cpp" index="11">
+<item historyLabel="BitwiseAnd.cpp" index="10">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="BitwiseAnd.cpp" index="11">
+<item historyLabel="BitwiseAnd.cpp" index="10">
 <position info="not_deleted" x="1550" y="0"/>
 </item>
-<item active="true" historyLabel="BitwiseAnd.cpp" index="11">
+<item historyLabel="BitwiseAnd.cpp" index="10">
 <position info="not_deleted" x="1507" y="0"/>
+</item>
+<item historyLabel="Pointers.cpp" index="11">
+<position info="not_deleted" x="367" y="0"/>
+</item>
+<item historyLabel="BitShiftingAndHexColor.cpp" index="12">
+<position info="not_deleted" x="3159" y="0"/>
+</item>
+<item historyLabel="Cat.cpp" index="13">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Cat.h" index="14">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item active="true" historyLabel="DataMembers.cpp" index="15">
+<position info="not_deleted" x="0" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -374,6 +393,12 @@
 <workbenchWindowAdvisor/>
 <actionBarAdvisor/>
 <trimLayout>
+<trimArea IMemento.internal.id="16384">
+<trimItem IMemento.internal.id="topLeft"/>
+</trimArea>
+<trimArea IMemento.internal.id="131072">
+<trimItem IMemento.internal.id="topRight"/>
+</trimArea>
 <trimArea IMemento.internal.id="128">
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
 </trimArea>
@@ -381,10 +406,20 @@
 <trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
 <trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
+<trimItem IMemento.internal.id="bottom"/>
 </trimArea>
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="DataMembers.cpp" tooltip="DataMembers/src/DataMembers.cpp">
+<persistable path="/DataMembers/src/DataMembers.cpp"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Cat.h" tooltip="DataMembers/src/Cat.h">
+<persistable path="/DataMembers/src/Cat.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Cat.cpp" tooltip="DataMembers/src/Cat.cpp">
+<persistable path="/DataMembers/src/Cat.cpp"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="BitwiseAnd.cpp" tooltip="BitwiseAnd/src/BitwiseAnd.cpp">
 <persistable path="/BitwiseAnd/src/BitwiseAnd.cpp"/>
 </file>
@@ -420,15 +455,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Encapsulation.cpp" tooltip="Encapsulation/src/Encapsulation.cpp">
 <persistable path="/Encapsulation/src/Encapsulation.cpp"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Dog.h" tooltip="Namespaces/src/Dog.h">
-<persistable path="/Namespaces/src/Dog.h"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Cat.h" tooltip="Classes/src/Cat.h">
-<persistable path="/Classes/src/Cat.h"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Countries.h" tooltip="Classes/src/Countries.h">
-<persistable path="/Classes/src/Countries.h"/>
 </file>
 </mruList>
 </workbench>
