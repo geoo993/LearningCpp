@@ -1,0 +1,54 @@
+//============================================================================
+// Name        : Polymorphism.cpp
+// Author      : George Quentin
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+//this is a sub type polymorphism tutorial
+class Animal{
+public:
+
+	void speak(){
+		cout << "ANIMAL ?????????" << endl;
+	}
+
+	~Animal(){};
+
+};
+
+class Cat: public Animal{// Cat is sub class of Animal, Cat inherited from Animal
+
+public:
+
+	void speak(){
+		cout << "CAT MSMANNNNNS" << endl;
+	}
+
+	~Cat(){};
+};
+
+class HouseCat: public Cat{// HouseCat is sub class of Cat, HouseCat inherited from Cat
+public:
+
+	void speak(){
+			cout << "HOUSE CAT Meeoooowww" << endl;
+		}
+	~HouseCat(){};
+
+};
+
+
+
+int main() {
+
+	Animal * pAnimal = new CAt;
+
+
+	cout << "!!!Hello World!!!" << endl; // prints !!!Hello World!!!
+	return 0;
+}

@@ -1,0 +1,31 @@
+//============================================================================
+// Name        : NewProject.cpp
+// Author      : George Quentin
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include <string>
+#include <vector>
+
+using namespace std;
+
+
+vector<string> vc = {"One","Two","Three"};
+
+int main() {
+
+	//postfix
+	int i = 0;
+	i++;
+	cout << i << endl; // prints !!!Hello World!!!
+
+	for ( auto x : vc)
+	{
+		cout << x << endl;
+	}
+
+	return 0;
+}

@@ -3,4 +3,7 @@
 <project name="CopyConstructorsAndNewOperator">
 <provider id="org.eclipse.cdt.ui.provider1"/>
 </project>
+<project name="PostfixAndPrefix">
+<provider id="org.eclipse.cdt.ui.provider1"/>
+</project>
 </cHelpSettings>

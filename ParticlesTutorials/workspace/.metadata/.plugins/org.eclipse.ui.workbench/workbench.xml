@@ -40,9 +40,9 @@
 </folder>
 </info>
 </editorArea>
-<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="Screen.cpp" partName="Screen.cpp" path="/Users/GeorgeQuentin/Dev/Cpp/LearningCppFromCaveOfProgramming/ParticlesTutorials/workspace/ParticleExplosion/src/Screen.cpp" title="Screen.cpp" tooltip="ParticleExplosion/src/Screen.cpp" workbook="DefaultEditorWorkbook">
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="Screen.cpp" partName="Screen.cpp" path="/Users/GeorgeQuentin/Dev/Cpp/LearningCppFromCaveOfProgramming/ParticlesTutorials/workspace/ParticleExplosion/src/Screen.cpp" title="Screen.cpp" tooltip="ParticleExplosion/src/Screen.cpp" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ParticleExplosion/src/Screen.cpp"/>
-<editorState selectionHorizontalPixel="14" selectionLength="1" selectionOffset="3417" selectionTopPixel="1911"/>
+<editorState selectionHorizontalPixel="0" selectionLength="1" selectionOffset="3417" selectionTopPixel="1767"/>
 </editor>
 <editor id="org.eclipse.cdt.ui.editor.CEditor" name="Screen.h" partName="Screen.h" path="/Users/GeorgeQuentin/Dev/Cpp/LearningCppFromCaveOfProgramming/ParticlesTutorials/workspace/ParticleExplosion/src/Screen.h" title="Screen.h" tooltip="ParticleExplosion/src/Screen.h" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ParticleExplosion/src/Screen.h"/>
@@ -64,9 +64,9 @@
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ParticleExplosion/src/Swarm.h"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="291" selectionTopPixel="115"/>
 </editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="Main.cpp" partName="Main.cpp" path="/Users/GeorgeQuentin/Dev/Cpp/LearningCppFromCaveOfProgramming/ParticlesTutorials/workspace/ParticleExplosion/src/Main.cpp" title="Main.cpp" tooltip="ParticleExplosion/src/Main.cpp" workbook="DefaultEditorWorkbook">
+<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="Main.cpp" partName="Main.cpp" path="/Users/GeorgeQuentin/Dev/Cpp/LearningCppFromCaveOfProgramming/ParticlesTutorials/workspace/ParticleExplosion/src/Main.cpp" title="Main.cpp" tooltip="ParticleExplosion/src/Main.cpp" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ParticleExplosion/src/Main.cpp"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1028" selectionTopPixel="1105"/>
+<editorState selectionHorizontalPixel="35" selectionLength="0" selectionOffset="1028" selectionTopPixel="754"/>
 </editor>
 </editors>
 <views>
@@ -229,10 +229,8 @@
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/ParticleExplosion/src/Particle.cpp"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/ParticleExplosion/src/Main.cpp"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/ParticleExplosion/src/Swarm.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/ParticleExplosion/src/Main.cpp"/>
 </editors>
-<item historyLabel="Particle.cpp" index="3">
-<position info="not_deleted" x="1623" y="0"/>
-</item>
 <item historyLabel="Particle.h" index="4">
 <position info="not_deleted" x="565" y="0"/>
 </item>
@@ -377,8 +375,11 @@
 <item historyLabel="Screen.h" index="2">
 <position info="not_deleted" x="228" y="0"/>
 </item>
-<item active="true" historyLabel="Screen.cpp" index="8">
+<item historyLabel="Screen.cpp" index="8">
 <position info="not_deleted" x="346" y="0"/>
+</item>
+<item active="true" historyLabel="Main.cpp" index="14">
+<position info="not_deleted" x="1028" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
