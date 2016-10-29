@@ -1,0 +1,33 @@
+//============================================================================
+// Name        : WritingTextFiles.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+// streams are objects that we can read or write data from
+
+#include <iostream>
+#include <fstream>//file stream
+
+using namespace std;
+
+int main() {
+
+	ofstream outFile;
+
+	string outputFilename = "newtextFile.txt";
+	outFile.open(outputFilename);
+
+	if(outFile.is_open()){
+
+	}else{
+		//handle exception here when file does not open
+		cout << "Could not create file " << outputFilename << endl;
+
+		outFile.open(outputFilename);
+	}
+
+	return 0;
+}

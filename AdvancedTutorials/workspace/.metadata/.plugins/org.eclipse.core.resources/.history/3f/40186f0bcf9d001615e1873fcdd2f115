@@ -1,0 +1,25 @@
+//============================================================================
+// Name        : BinaryFiles.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+
+using namespace std;
+
+// how to write a struct in a binary file
+
+//the only difference between a struct and a class is that the members of a struct are public
+struct Person{
+
+};
+
+int main() {
+
+
+	cout << "!!!Hello World!!!" << endl;
+	return 0;
+}

@@ -1,0 +1,42 @@
+//============================================================================
+// Name        : ParsingTextinFiles.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include <fstream>
+
+using namespace std;
+
+int main() {
+
+	string fileName = "stats.txt";
+
+	ifstream input;
+	input.open(fileName);
+
+	if (!input.is_open()){
+		return 1;
+	}
+
+	while (input){
+		string line;
+
+
+		//get line allows us to supply delimiter, meaning separators, were it will read the file up to the delimiter that you gave. Then the delimiter will be thrown away
+		//you have to use single quotes, because you use a single to create a single literal character, which is different from string
+		getline(input, line, ':');
+
+		int population;
+		input >> population;
+
+		cout << "'" << line << "'" << "--" << population << endl;
+
+	}
+	input.close();
+
+	return 0;
+}

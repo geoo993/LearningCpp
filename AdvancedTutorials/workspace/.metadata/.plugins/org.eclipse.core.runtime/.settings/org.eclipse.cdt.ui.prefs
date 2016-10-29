@@ -1,6 +1,7 @@
-#Mon Oct 24 18:22:13 BST 2016
+#Sat Oct 29 12:53:16 BST 2016
 spelling_locale_initialized=true
 useAnnotationsPrefPage=true
+content_assist_disabled_computers=org.eclipse.cdt.ui.parserProposalCategory\u0000org.eclipse.cdt.ui.textProposalCategory\u0000
 spelling_locale=en_GB
 eclipse.preferences.version=1
 useQuickDiffPrefPage=true

@@ -1,0 +1,19 @@
+//============================================================================
+// Name        : BinaryFiles.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+
+// how to write a struct in a binary file
+int main() {
+
+
+	cout << "!!!Hello World!!!" << endl;
+	return 0;
+}

@@ -1,0 +1,27 @@
+//============================================================================
+// Name        : ParsingTextinFiles.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include <fstream>
+
+using namespace std;
+
+int main() {
+
+	string fileName = "stats.txt";
+
+	ifstream input;
+	input.open(fileName);
+
+	if (input.is_open()){
+		return 1;
+	}
+	cout << "!!!Hello World!!!" << endl;
+
+	return 0;
+}
