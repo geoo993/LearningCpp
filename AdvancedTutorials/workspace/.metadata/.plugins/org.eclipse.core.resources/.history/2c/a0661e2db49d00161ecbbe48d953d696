@@ -1,0 +1,45 @@
+//============================================================================
+// Name        : BasicExceptions.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+//Can use exceptions to detect error conditions
+// it helps to figure things that are not working
+void mightGoWrong(){
+
+	bool error = true;
+
+	if (error){
+
+		//throw 8;
+		throw "Something went wrong";// if we throw a string, the type of it is going to be char
+	}else{
+
+	}
+
+}
+
+
+// when there are errors, you can handle error messages with exceptions try and catch
+int main() {
+
+	try {
+		mightGoWrong();
+	}
+	catch(int e){
+		cout << "Int Error Code:" << e << endl;
+	}
+	catch(char const *e){
+		cout << "Char Error Message" << e << endl;
+	}
+
+	cout << "Program still running" << endl;
+
+	return 0;
+}

@@ -1,0 +1,26 @@
+//============================================================================
+// Name        : CustomExceptions.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include <exception>// adding exception header will allow you to use exception code or library
+
+using namespace std;
+
+//inherit from c++ exception
+class MyException: public exception {
+
+
+
+};
+
+
+
+int main() {
+	cout << "!!!Hello World!!!" << endl; // prints !!!Hello World!!!
+	return 0;
+}
