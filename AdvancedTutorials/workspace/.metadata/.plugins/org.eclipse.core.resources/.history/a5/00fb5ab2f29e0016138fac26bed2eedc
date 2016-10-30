@@ -1,0 +1,65 @@
+//============================================================================
+// Name        : TemplateFunctions.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+
+using namespace std;
+
+//you can mix and add multiple types in template classes
+template<class C, class K>
+class Test {
+
+private:
+
+	C obj1;
+	K obj2;
+
+public:
+
+	Test(C obj1, K obj2): obj1(obj1), obj2(obj2) {}
+	~Test(){};
+
+	void print(){
+		cout << obj1 << ": " << obj2 << endl;
+	}
+
+};
+
+
+//Suppose you want to make this function take any type at all, you need to make it pass in a template
+void show(int i){
+	cout << i << endl;
+}
+
+
+// you do not have to use class, you can also use typename. this works with both classes and functions
+//most people prefer typename because its kind of clarifies what you should do whereby it tell you what to insert which is a typename such as int, double
+//template<class T>
+template<typename T>
+void showType(T i){
+	cout << i << endl;
+}
+
+
+int main() {
+
+	Test<string, int> test1("Mauri", 23);
+	test1.print();
+
+	cout << endl;
+
+
+	showType<string>("Hello");
+	showType<double>(23.1);
+	showType<float>(0.234);
+
+	showType<char> ('V');
+	showType<bool> ((rand() % 5)>2);
+
+	return 0;
+}
