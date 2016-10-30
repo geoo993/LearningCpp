@@ -1,0 +1,21 @@
+/*
+ * Complex.cpp
+ *
+ *  Created on: 30 Oct 2016
+ *      Author: GeorgeQuentin
+ */
+
+#include "Complex.h"
+
+namespace complexnumbering {
+
+Complex::Complex() : real(0) , imaginary(0) {
+	// TODO Auto-generated constructor stub
+
+}
+
+Complex::~Complex() {
+	// TODO Auto-generated destructor stub
+}
+
+}

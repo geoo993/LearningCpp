@@ -1,0 +1,21 @@
+/*
+ * Complex.h
+ *
+ *  Created on: 30 Oct 2016
+ *      Author: GeorgeQuentin
+ */
+
+#ifndef COMPLEX_H_
+#define COMPLEX_H_
+
+namespace complexnumbering {
+
+class Complex {
+public:
+	Complex();
+	virtual ~Complex();
+};
+
+}
+
+#endif /* COMPLEX_H_ */

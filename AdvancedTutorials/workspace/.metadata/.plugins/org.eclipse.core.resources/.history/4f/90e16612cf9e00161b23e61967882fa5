@@ -1,0 +1,21 @@
+//============================================================================
+// Name        : ComplexNumberClass.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+int main() {
+
+
+	//we can use complex number class to overload operators
+	//complex numbers have a real and imaginary part
+
+	Complex c1;
+
+	return 0;
+}

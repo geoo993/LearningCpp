@@ -1,0 +1,22 @@
+//============================================================================
+// Name        : OverloadingComparisonOperator.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+int main() {
+
+	Complex c1(12, 3.6);
+
+	Complex c2(23, 7.1);
+
+	cout << c1 << endl;
+
+	cout << endl;
+	return 0;
+}

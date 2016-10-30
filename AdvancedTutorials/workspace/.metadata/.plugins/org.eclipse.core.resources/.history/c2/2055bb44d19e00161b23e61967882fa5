@@ -1,0 +1,43 @@
+/*
+ * Complex.cpp
+ *
+ *  Created on: 30 Oct 2016
+ *      Author: GeorgeQuentin
+ */
+
+#include "Complex.h"
+
+namespace complexnumbering {
+
+Complex::Complex() :
+	real(0), imaginary(0) {
+	// TODO Auto-generated constructor stub
+
+}
+Complex::Complex(double real, double imaginary) :
+	real(real), imaginary(imaginary) {
+}
+
+//copy constructor
+Complex::Complex(const Complex &other) {
+	cout << "Copy Running" << endl;
+
+	//real = other.real;
+	//imaginary = other.imaginary;
+	*this = other;
+}
+
+const Test &Complex::operator=(const Test &other) {
+
+	cout << "Assignment Constructor running" << endl;
+	id = other.id;
+	name = other.name;
+
+	return *this;
+}
+
+Complex::~Complex() {
+	// TODO Auto-generated destructor stub
+}
+
+}
