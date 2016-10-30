@@ -1,0 +1,40 @@
+//============================================================================
+// Name        : VectorsAndMemory.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include <vector>
+
+using namespace std;
+
+int main() {
+
+
+	//vector <double> numbers(20, 1.7);// here we are pre-sizing the vector to 20 element and each elements value is 1
+	//vector <double> numbers(0);
+	vector <double> numbers(30);
+
+	const int NUMBERS_SIZE = numbers.size();
+
+	cout << "Size: " << NUMBERS_SIZE << endl;
+
+	int capacity = numbers.capacity();//a vector has a method called capacity, this is the size of the internal array that the vector is using and that size s going to increase in steps as you add elements to the vector
+
+	cout << "Capacity: " << capacity << endl;
+
+	for (int i = 0; i < 10000; i++){
+
+		if (numbers.capacity() != capacity){
+			capacity =  numbers.capacity();
+			cout << "Capacity: " << capacity << endl;//this outputs the capacity whenever it changes
+		}
+
+		numbers.push_back(i);
+	}
+
+	return 0;
+}

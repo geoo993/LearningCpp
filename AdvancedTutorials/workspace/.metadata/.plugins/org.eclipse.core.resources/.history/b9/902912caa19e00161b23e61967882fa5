@@ -1,0 +1,25 @@
+//============================================================================
+// Name        : Sets.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include <set>
+
+using namespace std;
+
+int main() {
+
+	//a set only stores unique elements, you can use insert to insert elements to it but will only allow unique elemnts
+	//set also arranges the elements in the set
+
+	set<int> numbers;
+	numbers.insert(11,0);
+
+
+
+	return 0;
+}

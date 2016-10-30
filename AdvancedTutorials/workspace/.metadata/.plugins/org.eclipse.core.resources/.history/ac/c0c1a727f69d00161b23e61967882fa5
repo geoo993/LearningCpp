@@ -1,0 +1,33 @@
+//============================================================================
+// Name        : Vectors.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include <vector>
+using namespace std;
+
+
+// a vector is basically like a resizable array
+int main() {
+
+	// a vector is also called a template class in c++, that means you have to tell it what type of object its going to work with i.e. int, string etc...
+	// vector of string type, a vector that contains strings
+	// you can also pre size a vector just like an array
+
+	vector<string> strings(6);
+
+	strings.push_back("nine");
+	strings.push_back("ten");
+	strings.push_front("three");
+	strings.push_front("two");
+	strings.push_front("one");
+	strings[3] = "four";
+
+	//vector is resizeable it will automatically handle size and memory for you
+	cout << strings[3] << endl;
+	return 0;
+}

@@ -1,0 +1,60 @@
+//============================================================================
+// Name        : SortingVectors.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include <vector>
+using namespace std;
+
+class Test {
+private:
+	int id;
+	string name;
+
+public:
+
+	Test() :
+		id(0), name("") {
+	}
+
+	Test(int id, string name) :
+		id(id), name(name) {
+	}
+
+	~Test() {
+		//cout << "Destroyed Object" << endl;
+	}
+
+	void print() const {
+		cout << name << ": " << id << endl;
+	}
+
+	bool operator<(const Test &other) const {
+		return name < other.name;
+	}
+};
+
+int main() {
+
+	vector<Test> tests;
+
+	tests.push_back(Test(15, "Ela"));
+	tests.push_back(Test(23, "Yousuf"));
+	tests.push_back(Test(28, "Daniel"));
+	tests.push_back(Test(58, "Simba"));
+	tests.push_back(Test(10, "Zelda"));
+
+	//you can sort the vector, iterating with the sort type which takes the first element, and the the last element in the vector and lit sort automatically
+	//the sort takes the part or range of the vector that we want to sort
+	sort (tests.begin(), tests.end());
+
+	for (int i=0; i< tests.size(); i++){
+		tests[i].print();
+	}
+
+	return 0;
+}

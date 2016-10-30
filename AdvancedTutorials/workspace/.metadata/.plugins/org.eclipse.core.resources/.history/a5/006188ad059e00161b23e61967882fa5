@@ -1,0 +1,23 @@
+//============================================================================
+// Name        : TwoDimensionalVectors.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include <vector>
+
+using namespace std;
+
+int main() {
+
+
+	//A grid system is a great example of two dimensional array or vectors
+	// to create a grid you have to have vectors of vectors
+	vector <vector< int>> grid(4, vector<int>(8, 0));
+
+
+	return 0;
+}

@@ -1,0 +1,29 @@
+//============================================================================
+// Name        : Multimap.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include<map>
+using namespace std;
+
+int main() {
+
+	//multimap allows you to store values with duplicate keys
+	//you declare a multimap the same way as a map
+	multimap<int, string> lookup;
+
+	lookup.insert(make_pair(23, "Marvel"));
+	lookup.insert(make_pair(34, "capCom"));
+	lookup.insert(make_pair(12, "DC"));
+
+	for (multimap<int, string>::iterator it = lookup.begin(); it != lookup.end(); it++){
+		cout << it->first << ": " << it->second << endl;
+	}
+
+
+	return 0;
+}

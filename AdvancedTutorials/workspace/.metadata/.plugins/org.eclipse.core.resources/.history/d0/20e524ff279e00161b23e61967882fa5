@@ -1,0 +1,22 @@
+//============================================================================
+// Name        : Multimap.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include<map>
+using namespace std;
+
+int main() {
+
+	//multimap allows you to store values with duplicate keys
+	//you declare a multimap the same way as a map
+
+	multimap<int, string> lookup;
+
+
+	return 0;
+}

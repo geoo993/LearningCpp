@@ -1,0 +1,46 @@
+//============================================================================
+// Name        : CustomObjectsAsMapValues.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include <map>
+
+using namespace std;
+
+
+class Person {
+
+private:
+	string name;
+	int age;
+
+public:
+
+	Person(){};
+	Person(string name, int age): name(name), age(age){}
+	void print() { cout<< name << ": "<< age << endl; }
+
+};
+
+int main() {
+
+	map <int, Person> people;
+	people[0] = Person("Ziggy", 24);
+	people[1] = Person("Geo",23);
+	people[2] = Person("Raj", 56);
+	people[3] = Person("Zhan", 25);
+	people[3] = Person("Celina", 13);
+
+
+	for (map<int, Person>::iterator it = people.begin(); it != people.end(); it++){
+		it->second.print();
+	}
+
+
+
+	return 0;
+}

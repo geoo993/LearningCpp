@@ -1,0 +1,36 @@
+//============================================================================
+// Name        : Lists.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include <list>
+using namespace std;
+
+
+int main() {
+
+	// list is similar to a vector but has some important differences
+	//the difference is that you can insert items into a list at the beginning or the middle of the list, whereas with a vector you are just restricted to just adding items at the end
+	// the reason for that is, with a vector all the different elements
+	list < string > strings;
+
+	strings.push_front("three");
+	strings.push_front("two");
+	strings.push_front("one");
+	strings.push_back("four");
+	strings.push_back("five");
+	strings.push_back("six");
+
+	const int V_SIZE = strings.size();// length or size of list
+	cout << V_SIZE << endl;
+
+	for (int i = 0; i < strings.size(); i++) {
+		cout << strings[i] << endl;
+	}
+
+	return 0;
+}

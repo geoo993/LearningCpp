@@ -1,0 +1,45 @@
+//============================================================================
+// Name        : Maps.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include <map>
+
+using namespace std;
+
+int main() {
+
+	//maps is another most useful collection
+	//map allows to store key values pairs, like a look up table, the idea is that you can store bits of information which you can retrieve with a key
+	map <string, string> peopleAges; //the first part of the map is the key, and the next element is the value type inside the key
+
+	// a map is just like a table
+	peopleAges["Ziggy"] = "a";
+	peopleAges["Geo"] = "b";
+	peopleAges["Raj"] = "c";
+	peopleAges["Zhan"] = "d";
+
+	cout << "Raj: "<< peopleAges["Raj"] << endl;
+
+	//you can also iterate through map
+	for (map<string, string>::iterator it = peopleAges.begin(); it != peopleAges.end(); it++){
+
+		//must use arrow pointer to extract the values from the map
+		cout << it->first << ": " << it->second << endl;//this is just for layout purposes where the string is first and the int is second
+
+	}
+
+	//adding value with same key, you can do this because the keys in the map must and are always unique, its almost like it you are getting to their index like an array
+	peopleAges["Raj"] = "l";
+	cout << "Raj: "<< peopleAges["Raj"] << endl;
+
+	//when you try and access and element that is not in the map, it will return a empty initialiser
+	cout << "Empty: "<< peopleAges["Sue"] << endl;
+
+
+	return 0;
+}
