@@ -1,0 +1,38 @@
+//============================================================================
+// Name        : AbstractClasses.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+class Animal {
+
+public:
+	virtual void print() {
+		cout << "Animal parent" << endl;
+	}
+};
+
+// an abstract class is a class containing methods which have no implementation and we say that they are pure virtual functions/methods
+class Dog: public Animal {
+
+	void print() {
+		cout << "Dog...." << endl;
+	}
+};
+
+class Cat: public Animal {
+
+	void print() {
+		cout << "Cat...." << endl;
+	}
+};
+
+int main() {
+
+	return 0;
+}

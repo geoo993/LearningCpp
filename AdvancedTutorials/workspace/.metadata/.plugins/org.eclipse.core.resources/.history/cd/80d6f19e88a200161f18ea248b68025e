@@ -1,0 +1,38 @@
+//============================================================================
+// Name        : ObjectSlicingAndPolymorphism.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+class Sport{
+public:
+	void print(){
+		cout << "Sport" << endl;
+	}
+};
+
+class Tennis: Sport {
+public:
+	void print(){
+		cout << "Tennis" << endl;
+	}
+};
+
+class Rugby: Sport {
+public:
+	void print(){
+		cout << "Rugby" << endl;
+	}
+};
+
+
+
+int main() {
+	cout << "!!!Hello World!!!" << endl; // prints !!!Hello World!!!
+	return 0;
+}

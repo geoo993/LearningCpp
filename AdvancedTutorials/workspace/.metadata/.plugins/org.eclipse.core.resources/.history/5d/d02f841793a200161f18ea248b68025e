@@ -1,0 +1,17 @@
+//============================================================================
+// Name        : Functors.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+int main() {
+
+	// functors are another way of passing blocks of code to function, they are an alternative to function pointers
+	// functors may have some advantages as oppose to function pointers
+	return 0;
+}
