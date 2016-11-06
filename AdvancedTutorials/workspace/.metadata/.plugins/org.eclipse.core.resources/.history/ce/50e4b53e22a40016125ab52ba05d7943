@@ -1,0 +1,36 @@
+//============================================================================
+// Name        : StaticCast.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+
+class Film {
+
+
+};
+
+class Hostle: public Film {
+
+};
+
+class Oculus: public Film{
+
+};
+
+class Chucky: public Film{
+
+};
+
+int main() {
+
+	Film film;
+	Hostle hostle;
+
+	return 0;
+}

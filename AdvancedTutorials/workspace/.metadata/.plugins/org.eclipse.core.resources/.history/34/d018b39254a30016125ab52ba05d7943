@@ -1,0 +1,33 @@
+//============================================================================
+// Name        : ObjectInitializatioDeleteDefault.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+
+class Tess{
+
+private:
+	int id{0};
+	string name{""};
+
+public:
+	void print(){
+		cout << "id"<< ": "<< name << endl;
+
+	}
+};
+
+
+int main() {
+
+
+	Test test;
+	test.print();
+	return 0;
+}

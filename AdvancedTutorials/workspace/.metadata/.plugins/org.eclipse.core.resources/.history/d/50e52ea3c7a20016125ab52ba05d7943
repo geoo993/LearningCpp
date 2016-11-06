@@ -1,0 +1,20 @@
+//============================================================================
+// Name        : EnhancedForLoop.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+
+int main() {
+
+
+	char texts[] = {"one", "two", "three"};// in c++ 11 you dont need a type declaration anymore
+
+
+	return 0;
+}

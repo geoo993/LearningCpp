@@ -31,18 +31,13 @@
 <folder appearance="1" expanded="2">
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
-<part id="1"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="TemplateFunctions.cpp" partName="TemplateFunctions.cpp" path="/Users/GeorgeQuentin/Dev/Cpp/LearningCppFromCaveOfProgramming/AdvancedTutorials/workspace/TemplateFunctions/src/TemplateFunctions.cpp" title="TemplateFunctions.cpp" tooltip="TemplateFunctions/src/TemplateFunctions.cpp" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TemplateFunctions/src/TemplateFunctions.cpp"/>
-<editorState selectionHorizontalPixel="0" selectionLength="114" selectionOffset="1288" selectionTopPixel="657"/>
-</editor>
-<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="FunctionPointers.cpp" partName="FunctionPointers.cpp" path="/Users/GeorgeQuentin/Dev/Cpp/LearningCppFromCaveOfProgramming/AdvancedTutorials/workspace/FunctionPointers/src/FunctionPointers.cpp" title="FunctionPointers.cpp" tooltip="FunctionPointers/src/FunctionPointers.cpp" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/FunctionPointers/src/FunctionPointers.cpp"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="699" selectionTopPixel="0"/>
+<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="Functors.cpp" partName="Functors.cpp" path="/Users/GeorgeQuentin/Dev/Cpp/LearningCppFromCaveOfProgramming/AdvancedTutorials/workspace/Functors/src/Functors.cpp" title="Functors.cpp" tooltip="Functors/src/Functors.cpp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Functors/src/Functors.cpp"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1837" selectionTopPixel="397"/>
 </editor>
 </editors>
 <views>
@@ -53,7 +48,8 @@
 <view id="org.eclipse.cdt.make.ui.views.MakeView" partName="Make Target"/>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
-<expanded>&#x0A;<category IMemento.internal.id="Warnings (3 items)"/>
+<expanded>
+<category IMemento.internal.id="Warnings (2 items)"/>
 </expanded>
 <columnWidths org.eclipse.ui.ide.locationField="0" org.eclipse.ui.ide.markerType="0" org.eclipse.ui.ide.pathField="0" org.eclipse.ui.ide.resourceField="0" org.eclipse.ui.ide.severityAndDescriptionField="0"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
@@ -189,164 +185,160 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/OverloadingTheDereferenceOperator/src/OverloadingTheDereferenceOperator.cpp"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/OverloadingTheDereferenceOperator/src/Complex.h"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/OverloadingTheDereferenceOperator/src/Complex.cpp"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Templates/src/Templates.cpp"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/TemplateClasses/src/TemplateClasses.cpp"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/TemplateFunctions/src/TemplateFunctions.cpp"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/FunctionPointers/src/FunctionPointers.cpp"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/TemplateClasses/src/TemplateClasses.cpp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/ObjectSlicingAndPolymorphism/src/ObjectSlicingAndPolymorphism.cpp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/AbstractClasses/src/AbstractClasses.cpp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Functors/src/Functors.cpp"/>
 </editors>
-<item historyLabel="Complex.cpp" index="2">
-<position info="not_deleted" x="1775" y="0"/>
+<item historyLabel="FunctionPointers.cpp" index="0">
+<position info="not_deleted" x="3537" y="0"/>
 </item>
-<item historyLabel="Complex.h" index="1">
-<position info="not_deleted" x="1854" y="0"/>
+<item historyLabel="FunctionPointers.cpp" index="0">
+<position info="not_deleted" x="3568" y="0"/>
 </item>
-<item historyLabel="Complex.cpp" index="2">
-<position info="not_deleted" x="1717" y="0"/>
+<item historyLabel="FunctionPointers.cpp" index="0">
+<position info="not_deleted" x="3581" y="0"/>
 </item>
-<item historyLabel="Complex.h" index="1">
-<position info="not_deleted" x="1854" y="0"/>
+<item historyLabel="FunctionPointers.cpp" index="0">
+<position/>
 </item>
-<item historyLabel="Complex.cpp" index="2">
-<position info="not_deleted" x="1894" y="0"/>
+<item historyLabel="FunctionPointers.cpp" index="0">
+<position info="not_deleted" x="1560" y="0"/>
 </item>
-<item historyLabel="Complex.h" index="1">
-<position info="not_deleted" x="1854" y="0"/>
+<item historyLabel="FunctionPointers.cpp" index="0">
+<position info="not_deleted" x="1609" y="0"/>
 </item>
-<item historyLabel="OverloadingTheDereferenceOperator.cpp" index="0">
-<position info="not_deleted" x="685" y="0"/>
+<item historyLabel="FunctionPointers.cpp" index="0">
+<position info="not_deleted" x="1607" y="0"/>
 </item>
-<item historyLabel="OverloadingTheDereferenceOperator.cpp" index="0">
-<position info="not_deleted" x="625" y="0"/>
+<item historyLabel="FunctionPointers.cpp" index="0">
+<position info="not_deleted" x="1605" y="0"/>
 </item>
-<item historyLabel="Templates.cpp" index="3">
-<position info="not_deleted" x="355" y="1041"/>
-</item>
-<item historyLabel="TemplateClasses.cpp" index="4">
-<position info="not_deleted" x="1404" y="0"/>
-</item>
-<item historyLabel="Templates.cpp" index="3">
-<position info="not_deleted" x="355" y="1041"/>
-</item>
-<item historyLabel="TemplateClasses.cpp" index="4">
-<position info="not_deleted" x="1420" y="0"/>
-</item>
-<item historyLabel="Complex.h" index="1">
-<position info="not_deleted" x="1854" y="0"/>
-</item>
-<item historyLabel="TemplateClasses.cpp" index="4">
-<position info="not_deleted" x="1420" y="0"/>
-</item>
-<item historyLabel="OverloadingTheDereferenceOperator.cpp" index="0">
-<position info="not_deleted" x="625" y="0"/>
-</item>
-<item historyLabel="TemplateClasses.cpp" index="4">
-<position info="not_deleted" x="1420" y="0"/>
-</item>
-<item historyLabel="TemplateClasses.cpp" index="4">
-<position info="not_deleted" x="2150" y="0"/>
-</item>
-<item historyLabel="TemplateClasses.cpp" index="4">
-<position info="not_deleted" x="2203" y="0"/>
-</item>
-<item historyLabel="TemplateClasses.cpp" index="4">
-<position info="not_deleted" x="2185" y="0"/>
-</item>
-<item historyLabel="TemplateClasses.cpp" index="4">
-<position info="not_deleted" x="2352" y="0"/>
-</item>
-<item historyLabel="TemplateClasses.cpp" index="4">
-<position info="not_deleted" x="2367" y="0"/>
-</item>
-<item historyLabel="TemplateClasses.cpp" index="4">
-<position info="not_deleted" x="2366" y="0"/>
-</item>
-<item historyLabel="TemplateClasses.cpp" index="4">
-<position info="not_deleted" x="2383" y="0"/>
-</item>
-<item historyLabel="TemplateClasses.cpp" index="4">
-<position info="not_deleted" x="2095" y="29"/>
-</item>
-<item historyLabel="TemplateFunctions.cpp" index="5">
+<item historyLabel="ObjectSlicingAndPolymorphism.cpp" index="1">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="TemplateClasses.cpp" index="4">
-<position info="not_deleted" x="2205" y="0"/>
+<item historyLabel="FunctionPointers.cpp" index="0">
+<position info="not_deleted" x="1605" y="0"/>
 </item>
-<item historyLabel="TemplateFunctions.cpp" index="5">
-<position info="not_deleted" x="1403" y="0"/>
-</item>
-<item historyLabel="TemplateClasses.cpp" index="4">
-<position info="not_deleted" x="2095" y="0"/>
-</item>
-<item historyLabel="TemplateFunctions.cpp" index="5">
-<position info="not_deleted" x="1403" y="0"/>
-</item>
-<item historyLabel="TemplateFunctions.cpp" index="5">
-<position info="not_deleted" x="599" y="0"/>
-</item>
-<item historyLabel="TemplateClasses.cpp" index="4">
-<position info="not_deleted" x="2341" y="60"/>
-</item>
-<item historyLabel="TemplateFunctions.cpp" index="5">
-<position info="not_deleted" x="599" y="0"/>
-</item>
-<item historyLabel="TemplateFunctions.cpp" index="5">
-<position info="not_deleted" x="531" y="0"/>
-</item>
-<item historyLabel="TemplateFunctions.cpp" index="5">
-<position info="not_deleted" x="543" y="0"/>
-</item>
-<item historyLabel="TemplateFunctions.cpp" index="5">
-<position info="not_deleted" x="742" y="0"/>
-</item>
-<item historyLabel="TemplateFunctions.cpp" index="5">
-<position info="not_deleted" x="1109" y="0"/>
-</item>
-<item historyLabel="TemplateFunctions.cpp" index="5">
-<position info="not_deleted" x="1585" y="0"/>
-</item>
-<item historyLabel="TemplateFunctions.cpp" index="5">
-<position info="not_deleted" x="1640" y="0"/>
-</item>
-<item historyLabel="TemplateFunctions.cpp" index="5">
-<position info="not_deleted" x="1646" y="0"/>
-</item>
-<item historyLabel="TemplateFunctions.cpp" index="5">
-<position info="not_deleted" x="1230" y="0"/>
-</item>
-<item historyLabel="TemplateFunctions.cpp" index="5">
-<position info="not_deleted" x="1534" y="0"/>
-</item>
-<item historyLabel="TemplateFunctions.cpp" index="5">
-<position info="not_deleted" x="778" y="0"/>
-</item>
-<item historyLabel="TemplateFunctions.cpp" index="5">
-<position info="not_deleted" x="1390" y="0"/>
-</item>
-<item historyLabel="TemplateFunctions.cpp" index="5">
-<position info="not_deleted" x="1915" y="0"/>
-</item>
-<item historyLabel="FunctionPointers.cpp" index="6">
+<item historyLabel="ObjectSlicingAndPolymorphism.cpp" index="1">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="TemplateFunctions.cpp" index="5">
-<position info="not_deleted" x="1879" y="0"/>
+<item historyLabel="ObjectSlicingAndPolymorphism.cpp" index="1">
+<position info="not_deleted" x="911" y="0"/>
 </item>
-<item historyLabel="TemplateClasses.cpp" index="7">
-<position info="not_deleted" x="2341" y="60"/>
+<item historyLabel="ObjectSlicingAndPolymorphism.cpp" index="1">
+<position info="not_deleted" x="930" y="0"/>
 </item>
-<item historyLabel="TemplateFunctions.cpp" index="5">
-<position info="not_deleted" x="1288" y="114"/>
+<item historyLabel="ObjectSlicingAndPolymorphism.cpp" index="1">
+<position info="not_deleted" x="1809" y="0"/>
 </item>
-<item historyLabel="FunctionPointers.cpp" index="6">
+<item historyLabel="ObjectSlicingAndPolymorphism.cpp" index="1">
+<position info="not_deleted" x="962" y="0"/>
+</item>
+<item historyLabel="ObjectSlicingAndPolymorphism.cpp" index="1">
+<position info="not_deleted" x="678" y="0"/>
+</item>
+<item historyLabel="ObjectSlicingAndPolymorphism.cpp" index="1">
+<position info="not_deleted" x="747" y="0"/>
+</item>
+<item historyLabel="ObjectSlicingAndPolymorphism.cpp" index="1">
+<position info="not_deleted" x="637" y="0"/>
+</item>
+<item historyLabel="ObjectSlicingAndPolymorphism.cpp" index="1">
+<position info="not_deleted" x="647" y="0"/>
+</item>
+<item historyLabel="ObjectSlicingAndPolymorphism.cpp" index="1">
+<position info="not_deleted" x="645" y="0"/>
+</item>
+<item historyLabel="ObjectSlicingAndPolymorphism.cpp" index="1">
+<position info="not_deleted" x="686" y="0"/>
+</item>
+<item historyLabel="ObjectSlicingAndPolymorphism.cpp" index="1">
+<position info="not_deleted" x="1980" y="0"/>
+</item>
+<item historyLabel="AbstractClasses.cpp" index="2">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item active="true" historyLabel="FunctionPointers.cpp" index="6">
-<position info="not_deleted" x="764" y="0"/>
+<item historyLabel="AbstractClasses.cpp" index="2">
+<position info="not_deleted" x="779" y="0"/>
+</item>
+<item historyLabel="AbstractClasses.cpp" index="2">
+<position info="not_deleted" x="1119" y="0"/>
+</item>
+<item historyLabel="AbstractClasses.cpp" index="2">
+<position info="not_deleted" x="1592" y="0"/>
+</item>
+<item historyLabel="AbstractClasses.cpp" index="2">
+<position info="not_deleted" x="1218" y="0"/>
+</item>
+<item historyLabel="AbstractClasses.cpp" index="2">
+<position info="not_deleted" x="1781" y="0"/>
+</item>
+<item historyLabel="AbstractClasses.cpp" index="2">
+<position info="not_deleted" x="1880" y="0"/>
+</item>
+<item historyLabel="AbstractClasses.cpp" index="2">
+<position info="not_deleted" x="1791" y="0"/>
+</item>
+<item historyLabel="AbstractClasses.cpp" index="2">
+<position info="not_deleted" x="1799" y="0"/>
+</item>
+<item historyLabel="AbstractClasses.cpp" index="2">
+<position info="not_deleted" x="1893" y="0"/>
+</item>
+<item historyLabel="AbstractClasses.cpp" index="2">
+<position info="not_deleted" x="1942" y="0"/>
+</item>
+<item historyLabel="AbstractClasses.cpp" index="2">
+<position info="not_deleted" x="1470" y="0"/>
+</item>
+<item historyLabel="AbstractClasses.cpp" index="2">
+<position info="not_deleted" x="1482" y="0"/>
+</item>
+<item historyLabel="AbstractClasses.cpp" index="2">
+<position info="not_deleted" x="2025" y="0"/>
+</item>
+<item historyLabel="Functors.cpp" index="3">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Functors.cpp" index="3">
+<position info="not_deleted" x="1414" y="0"/>
+</item>
+<item historyLabel="Functors.cpp" index="3">
+<position info="not_deleted" x="1082" y="0"/>
+</item>
+<item historyLabel="Functors.cpp" index="3">
+<position info="not_deleted" x="1095" y="0"/>
+</item>
+<item historyLabel="Functors.cpp" index="3">
+<position info="not_deleted" x="1121" y="0"/>
+</item>
+<item historyLabel="Functors.cpp" index="3">
+<position info="not_deleted" x="1776" y="0"/>
+</item>
+<item historyLabel="Functors.cpp" index="3">
+<position info="not_deleted" x="1798" y="0"/>
+</item>
+<item historyLabel="Functors.cpp" index="3">
+<position info="not_deleted" x="1142" y="0"/>
+</item>
+<item historyLabel="Functors.cpp" index="3">
+<position info="not_deleted" x="459" y="0"/>
+</item>
+<item historyLabel="Functors.cpp" index="3">
+<position info="not_deleted" x="1427" y="0"/>
+</item>
+<item historyLabel="Functors.cpp" index="3">
+<position info="not_deleted" x="1426" y="0"/>
+</item>
+<item historyLabel="Functors.cpp" index="3">
+<position info="not_deleted" x="1465" y="0"/>
+</item>
+<item historyLabel="Functors.cpp" index="3">
+<position info="not_deleted" x="1841" y="0"/>
+</item>
+<item active="true" historyLabel="Functors.cpp" index="3">
+<position info="not_deleted" x="1837" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -368,6 +360,18 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Functors.cpp" tooltip="Functors/src/Functors.cpp">
+<persistable path="/Functors/src/Functors.cpp"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="AbstractClasses.cpp" tooltip="AbstractClasses/src/AbstractClasses.cpp">
+<persistable path="/AbstractClasses/src/AbstractClasses.cpp"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="ObjectSlicingAndPolymorphism.cpp" tooltip="ObjectSlicingAndPolymorphism/src/ObjectSlicingAndPolymorphism.cpp">
+<persistable path="/ObjectSlicingAndPolymorphism/src/ObjectSlicingAndPolymorphism.cpp"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Maps.cpp" tooltip="Maps/src/Maps.cpp">
+<persistable path="/Maps/src/Maps.cpp"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="FunctionPointers.cpp" tooltip="FunctionPointers/src/FunctionPointers.cpp">
 <persistable path="/FunctionPointers/src/FunctionPointers.cpp"/>
 </file>
@@ -400,18 +404,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Complex.cpp" tooltip="OverloadingPlusOperator/src/Complex.cpp">
 <persistable path="/OverloadingPlusOperator/src/Complex.cpp"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="OverloadingPlusOperator.cpp" tooltip="OverloadingPlusOperator/src/OverloadingPlusOperator.cpp">
-<persistable path="/OverloadingPlusOperator/src/OverloadingPlusOperator.cpp"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="SortingVectors.cpp" tooltip="SortingVectors/src/SortingVectors.cpp">
-<persistable path="/SortingVectors/src/SortingVectors.cpp"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Maps.cpp" tooltip="Maps/src/Maps.cpp">
-<persistable path="/Maps/src/Maps.cpp"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Complex.h" tooltip="ComplexNumberClass/src/Complex.h">
-<persistable path="/ComplexNumberClass/src/Complex.h"/>
 </file>
 </mruList>
 </workbench>

@@ -1,0 +1,55 @@
+//============================================================================
+// Name        : ElisionAndOptimization.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+
+class Test{
+private:
+	int id{2};
+	string name = "Aio";
+
+public:
+
+	Test(): Test(12, "Jon"){//using another constructor
+		cout << "No Parameters in Constructor" << endl;
+	}
+
+	Test(string name){
+		this -> name = name;
+		cout << "String Parameter in Constructor" << endl;
+	}
+
+	Test(int id, string name): id(id), name(name){
+		cout << "Int and String Parameter in Constructor" << endl;
+	}
+
+	Test(const Test &other) = default;
+	Test &operator=(const Test &other) = default;
+
+	void print(){
+		cout << id << ": " << name << endl;
+	}
+
+	~Test(){
+		cout << "Destructor" << endl;
+	}
+};
+
+
+
+int main() {
+
+	Test test1(21, "Dan");
+
+	Test test2 = test1;
+	test2.print();
+
+	return 0;
+}

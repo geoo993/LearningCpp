@@ -1,0 +1,36 @@
+//============================================================================
+// Name        : Bind.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include <functional>
+
+using namespace std;
+using namespace placeholders;
+
+int add(int a, int b, int c) {
+	cout << a << ", " << b << ", " << c << endl;
+	return a + b + c;
+}
+
+int main() {
+
+	//bind is supported natively in c++ 11 and bind allows us to create kind of aliases (also known as, aka) to functions, a bit like function pointers
+	//you need to include functional header to use bind
+	cout << add(1,2,3) << endl;
+
+	auto calculate = bind(add, 3, 2, 8);//here we binded is the add function and give it its arguments using bind, now every time we all this calculate its going to put together those arguments
+	cout << calculate() << endl;//calculate is going to behave like the add function due to the bind
+
+	int result = calculate(2,4,7);
+
+	auto calculateWithPlaceholders = bind(add, _0, _1, _2);//using placeholders allows us to initialise the variable with preset values which can then be changed later.
+
+
+
+	return 0;
+}

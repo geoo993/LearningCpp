@@ -1,0 +1,27 @@
+//============================================================================
+// Name        : LambdaCapturingThis.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+class Test {
+private:
+	int one;
+	int two;
+
+public:
+
+	void run(){
+
+	}
+};
+
+int main() {
+
+	return 0;
+}

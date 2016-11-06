@@ -1,0 +1,65 @@
+//============================================================================
+// Name        : ObjectInitializatioDeleteDefault.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+
+class Test{
+
+private:
+	int id{3};
+	string name{"Ki"};
+
+public:
+
+
+//	Test(){
+//
+//	}
+	Test() = default;// now you can simply set the constructor to default without having to put the curly brackets
+
+	Test(const Test &other) = default;//copy constructor will automatically set the values to copy using this default
+
+	Test &operator=(const Test &other) = default;
+
+	Test(int id): id(id)//now you dont need to do all these initialisations
+	{
+
+	}
+	Test(int id, string name) = default;//now you do not need to do all these initialisations
+
+
+	void print(){
+		cout << id << ": "<< name << endl;
+
+	}
+};
+
+
+int main() {
+
+
+	Test test;
+	test.print();
+
+
+	Test test1(66);// now you can overrride the default or the initialisation value set in the class
+	test1.print();
+
+
+	Test test2 = test1;
+	test2.print();
+
+
+	Test test3(30);
+	test3.print();
+
+
+	return 0;
+}

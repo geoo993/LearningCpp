@@ -1,0 +1,18 @@
+//============================================================================
+// Name        : UniquePointer.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+
+//unique pointer are kind of smart pointer, behaves like normal pointer except they handle the deallocation of memory for you
+
+int main() {
+	cout << "!!!Hello World!!!" << endl; // prints !!!Hello World!!!
+	return 0;
+}

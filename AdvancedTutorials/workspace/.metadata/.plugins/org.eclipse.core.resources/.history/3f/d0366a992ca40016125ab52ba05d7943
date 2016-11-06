@@ -1,0 +1,30 @@
+//============================================================================
+// Name        : PerfectForwarding.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+//return values
+Test getTest(){
+	return Test();
+}
+
+void check(const Test &value){
+
+	cout << "L value function." << endl;
+}
+
+void check(Test &&value){
+
+	cout << "R value function." << endl;
+}
+
+int main() {
+	cout << "!!!Hello World!!!" << endl; // prints !!!Hello World!!!
+	return 0;
+}

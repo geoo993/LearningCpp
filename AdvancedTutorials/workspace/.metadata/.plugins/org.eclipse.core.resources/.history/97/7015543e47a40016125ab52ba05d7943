@@ -1,0 +1,30 @@
+//============================================================================
+// Name        : Bind.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include <functional>
+
+using namespace std;
+using namespace placeholders;
+
+int add(int a, int b, int c) {
+	cout << a << ", " << b << ", " << c << endl;
+	return a + b + c;
+}
+
+int main() {
+
+	//bind is supported natively in c++ 11 and bind allows us to create kind of aliases (also known as, aka) to functions, a bit like function pointers
+	//you need to include functional header to use bind
+	cout << add(1,2,3) << endl;
+
+	auto calculator = bind();
+
+
+	return 0;
+}

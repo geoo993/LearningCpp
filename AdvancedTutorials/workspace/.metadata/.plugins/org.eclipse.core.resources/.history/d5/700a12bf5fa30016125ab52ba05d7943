@@ -1,0 +1,28 @@
+//============================================================================
+// Name        : LambdaExpressionsParametersAndReturnTypes.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+
+
+using namespace std;
+
+int main() {
+
+	auto y = [] (int first, int second)
+	{
+	    return first + second;
+	};
+
+	auto x1 = [](int i){ return i; }; // OK: return type is int
+
+
+	auto glambda = [](int a, int&& b) { return a < b; };
+	bool b = glambda(3, 3.14); // ok
+
+	return 0;
+}

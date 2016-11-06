@@ -1,0 +1,44 @@
+//============================================================================
+// Name        : DelegatingConstructors.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+class Parent{
+private:
+	int id = 0;
+	string name = "Aio";
+
+public:
+	Parent(){
+		id = 1;
+		cout << "No Parameter Parent Constructor" << endl;
+	}
+
+	Parent(string name){
+		id = 2;
+		this -> name = name;
+		cout << "String Parameter Parent Constructor" << endl;
+	}
+	~Parent(){
+		cout << "Destructor" << endl;
+	}
+};
+
+
+class Child: public Parent{
+
+};
+
+
+int main() {
+
+
+
+	return 0;
+}

@@ -1,0 +1,28 @@
+//============================================================================
+// Name        : InitialiszationC++98.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+int main() {
+
+
+	int values[] = {1,2,3,4,5};
+
+	cout << values[0] << endl;
+
+	class S1 {
+	public:
+		string text;
+		int id;
+	};
+
+	S1 s1 = {"hello", 6};
+	cout << s1.text << endl;
+	return 0;
+}

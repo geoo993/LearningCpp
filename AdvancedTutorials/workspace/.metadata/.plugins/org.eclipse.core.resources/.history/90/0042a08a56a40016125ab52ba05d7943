@@ -1,0 +1,35 @@
+//============================================================================
+// Name        : SharedPointer.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include <memory>
+
+using namespace std;
+
+class Test {
+public:
+	Test(){
+		cout << "Constructor to create" << endl;
+	}
+
+	void print(){
+		cout << "Hello World!" << endl;
+	}
+
+
+	~Test(){
+		cout << "Destructor to destroy" << endl;
+	}
+};
+
+
+//shared pointers are really similar to unique pointer but just have little twist to them
+int main() {
+	cout << "!!!Hello World!!!" << endl; // prints !!!Hello World!!!
+	return 0;
+}

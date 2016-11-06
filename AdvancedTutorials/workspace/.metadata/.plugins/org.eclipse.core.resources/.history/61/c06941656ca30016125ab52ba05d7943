@@ -1,0 +1,42 @@
+//============================================================================
+// Name        : FunctionalTypes.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include <functional>
+#include <vector>
+#include <algorithm>
+
+using namespace std;
+
+//doing functional types helps or lets you easily define type equivalent to, used to reference any callable types in c++, meaning anything you can call with round brackets
+
+bool check[](){};
+
+int main() {
+
+	const int SIZE = 5;
+	vector <string> vec{
+		"one",
+		"two",
+		"three",
+		"four",
+		"five",
+		"six",
+		"seven",
+		"eight",
+		"nine",
+		"ten"
+	};
+
+	auto ex = [&](string test){ return test.size() == SIZE;};
+
+	int countThis = count_if(vec.begin(), vec.end(), ex);
+	cout << countThis << endl;
+
+	return 0;
+}

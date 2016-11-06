@@ -1,0 +1,27 @@
+//============================================================================
+// Name        : RingBuffer.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include "ring.h"
+using namespace std;
+
+int main() {
+
+	ring<string> textRing(3);//we can specify a maximum of 3 text rings
+	textRing.add("one");
+	textRing.add("two");
+	textRing.add("three");
+	textRing.add("four");//so if you add a forth one, it will just keep adding to the beginning
+
+	//you would like to also iterate through it and see it
+	for (int i = 0; textRing.size(); i++) {
+		cout << textRing.get(i) << endl;
+	}
+
+	return 0;
+}

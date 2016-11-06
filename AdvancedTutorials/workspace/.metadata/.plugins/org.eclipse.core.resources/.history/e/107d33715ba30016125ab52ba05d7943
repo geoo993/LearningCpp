@@ -1,0 +1,19 @@
+//============================================================================
+// Name        : LambdaExpressions.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+int main() {
+
+	//you can use lambda expression to pass around functions
+	//lambda expression looks alot like a bracket fest/party
+	[](){};// this is a valid lambda expression
+
+	return 0;
+}

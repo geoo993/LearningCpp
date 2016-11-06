@@ -1,0 +1,22 @@
+//============================================================================
+// Name        : NestedTemplateClasses.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+
+// a class that supports a range based loop
+// a collection type class, a ring buffer class
+//nest template classes
+
+int main() {
+
+
+
+	return 0;
+}

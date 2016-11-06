@@ -1,0 +1,25 @@
+/*
+ * ring.h
+ *
+ *  Created on: 5 Nov 2016
+ *      Author: GeorgeQuentin
+ */
+
+#ifndef RING_H_
+#define RING_H_
+
+template<class T>
+
+class ring {
+private:
+	T r;
+public:
+
+	ring();
+	ring(r){
+		this ->r = r;
+	}
+	virtual ~ring();
+};
+
+#endif /* RING_H_ */

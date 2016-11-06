@@ -1,0 +1,24 @@
+//============================================================================
+// Name        : LambdaExpressionsParametersAndReturnTypes.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+
+
+using namespace std;
+
+int main() {
+
+	auto y = [] (int first, int second)
+	{
+	    return first + second;
+	};
+
+	auto x1 = [](int i){ return i; }; // OK: return type is int
+
+	return 0;
+}

@@ -1,0 +1,16 @@
+//============================================================================
+// Name        : FunctionalTypes.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+//doing functional types helps or lets you easily define type equivalent to, used to reference any callable types in c++, meaning anything you can call with round brackets
+int main() {
+
+	return 0;
+}
