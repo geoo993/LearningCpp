@@ -66,7 +66,7 @@ int main() {
 	tests.push_back(Test(58, "Simba"));
 	tests.push_back(Test(10, "Zelda"));
 
-	//you can sort the vector, iterating with the sort type which takes the first element, and the the last element in the vector and lit sort automatically
+	//you can sort the vector, iterating with the sort type which takes the first element, and the the last element in the vector and it sort automatically
 	//the sort takes the part or range of the vector that we want to sort
 	//you must create an overloaded bool function in the class so that it can compare the elements
 	//sort(tests.begin(), tests.end());
