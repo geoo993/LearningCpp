@@ -42,7 +42,7 @@ private:
 	int two;
 public:
 
-	Tennis(): two(2)// cant access variable one from the supper class
+	Tennis(): two(2)// cant assecc variable one from the supper class
 	{
 
 	}

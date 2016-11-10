@@ -31,13 +31,23 @@
 <folder appearance="1" expanded="2">
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
+<part id="1"/>
+<part id="2"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="FractalCreator.cpp" partName="FractalCreator.cpp" path="/Users/GeorgeQuentin/Dev/Cpp/LearningCppFromCaveOfProgramming/AdvancedTutorials/workspace/FractalCreator/src/FractalCreator.cpp" title="FractalCreator.cpp" tooltip="FractalCreator/src/FractalCreator.cpp" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/FractalCreator/src/FractalCreator.cpp"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="451" selectionTopPixel="0"/>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="ReinterpretCast.cpp" partName="ReinterpretCast.cpp" path="/Users/GeorgeQuentin/Dev/Cpp/LearningCppFromCaveOfProgramming/AdvancedTutorials/workspace/ReinterpretCast/src/ReinterpretCast.cpp" title="ReinterpretCast.cpp" tooltip="ReinterpretCast/src/ReinterpretCast.cpp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ReinterpretCast/src/ReinterpretCast.cpp"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="403"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="ObjectSlicingAndPolymorphism.cpp" partName="ObjectSlicingAndPolymorphism.cpp" path="/Users/GeorgeQuentin/Dev/Cpp/LearningCppFromCaveOfProgramming/AdvancedTutorials/workspace/ObjectSlicingAndPolymorphism/src/ObjectSlicingAndPolymorphism.cpp" title="ObjectSlicingAndPolymorphism.cpp" tooltip="ObjectSlicingAndPolymorphism/src/ObjectSlicingAndPolymorphism.cpp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ObjectSlicingAndPolymorphism/src/ObjectSlicingAndPolymorphism.cpp"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1090" selectionTopPixel="179"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="AbstractClasses.cpp" partName="AbstractClasses.cpp" path="/Users/GeorgeQuentin/Dev/Cpp/LearningCppFromCaveOfProgramming/AdvancedTutorials/workspace/AbstractClasses/src/AbstractClasses.cpp" title="AbstractClasses.cpp" tooltip="AbstractClasses/src/AbstractClasses.cpp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/AbstractClasses/src/AbstractClasses.cpp"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="146"/>
 </editor>
 </editors>
 <views>
@@ -199,8 +209,77 @@
 <navigationHistory>
 <editors>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/FractalCreator/src/FractalCreator.cpp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/DelegatingConstructors/src/DelegatingConstructors.cpp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Bind/src/Bind.cpp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/MoveConstructors/src/MoveConstructors.cpp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/NestedTemplateClasses/src/NestedTemplateClasses.cpp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/ReinterpretCast/src/ReinterpretCast.cpp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/UniquePointer/src/UniquePointer.cpp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/PerfectForwarding/src/PerfectForwarding.cpp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/ObjectSlicingAndPolymorphism/src/ObjectSlicingAndPolymorphism.cpp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/AbstractClasses/src/AbstractClasses.cpp"/>
 </editors>
-<item active="true" historyLabel="FractalCreator.cpp" index="0">
+<item historyLabel="FractalCreator.cpp" index="0">
+<position info="not_deleted" x="451" y="0"/>
+</item>
+<item historyLabel="DelegatingConstructors.cpp" index="1">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Bind.cpp" index="2">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="MoveConstructors.cpp" index="3">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="NestedTemplateClasses.cpp" index="4">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="ReinterpretCast.cpp" index="5">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="UniquePointer.cpp" index="6">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="PerfectForwarding.cpp" index="7">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="ReinterpretCast.cpp" index="5">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="ObjectSlicingAndPolymorphism.cpp" index="8">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="ReinterpretCast.cpp" index="5">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="UniquePointer.cpp" index="6">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="ReinterpretCast.cpp" index="5">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="NestedTemplateClasses.cpp" index="4">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="ReinterpretCast.cpp" index="5">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="PerfectForwarding.cpp" index="7">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="ReinterpretCast.cpp" index="5">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="ObjectSlicingAndPolymorphism.cpp" index="8">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="AbstractClasses.cpp" index="9">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="ObjectSlicingAndPolymorphism.cpp" index="8">
+<position info="not_deleted" x="1090" y="0"/>
+</item>
+<item active="true" historyLabel="AbstractClasses.cpp" index="9">
 <position info="not_deleted" x="0" y="0"/>
 </item>
 </navigationHistory>
@@ -223,17 +302,38 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="AbstractClasses.cpp" tooltip="AbstractClasses/src/AbstractClasses.cpp">
+<persistable path="/AbstractClasses/src/AbstractClasses.cpp"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="ObjectSlicingAndPolymorphism.cpp" tooltip="ObjectSlicingAndPolymorphism/src/ObjectSlicingAndPolymorphism.cpp">
+<persistable path="/ObjectSlicingAndPolymorphism/src/ObjectSlicingAndPolymorphism.cpp"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="PerfectForwarding.cpp" tooltip="PerfectForwarding/src/PerfectForwarding.cpp">
+<persistable path="/PerfectForwarding/src/PerfectForwarding.cpp"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="UniquePointer.cpp" tooltip="UniquePointer/src/UniquePointer.cpp">
+<persistable path="/UniquePointer/src/UniquePointer.cpp"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="ReinterpretCast.cpp" tooltip="ReinterpretCast/src/ReinterpretCast.cpp">
+<persistable path="/ReinterpretCast/src/ReinterpretCast.cpp"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="NestedTemplateClasses.cpp" tooltip="NestedTemplateClasses/src/NestedTemplateClasses.cpp">
+<persistable path="/NestedTemplateClasses/src/NestedTemplateClasses.cpp"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="MoveConstructors.cpp" tooltip="MoveConstructors/src/MoveConstructors.cpp">
+<persistable path="/MoveConstructors/src/MoveConstructors.cpp"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Bind.cpp" tooltip="Bind/src/Bind.cpp">
+<persistable path="/Bind/src/Bind.cpp"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="DelegatingConstructors.cpp" tooltip="DelegatingConstructors/src/DelegatingConstructors.cpp">
+<persistable path="/DelegatingConstructors/src/DelegatingConstructors.cpp"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="FractalCreator.cpp" tooltip="FractalCreator/src/FractalCreator.cpp">
 <persistable path="/FractalCreator/src/FractalCreator.cpp"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="SharedPointer.cpp" tooltip="SharedPointer/src/SharedPointer.cpp">
 <persistable path="/SharedPointer/src/SharedPointer.cpp"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="UniquePointer.cpp" tooltip="UniquePointer/src/UniquePointer.cpp">
-<persistable path="/UniquePointer/src/UniquePointer.cpp"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Bind.cpp" tooltip="Bind/src/Bind.cpp">
-<persistable path="/Bind/src/Bind.cpp"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="RValueReferences.cpp" tooltip="RValueReferences/src/RValueReferences.cpp">
 <persistable path="/RValueReferences/src/RValueReferences.cpp"/>
@@ -241,32 +341,11 @@
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="RvaluesAndLvalues.cpp" tooltip="RvaluesAndLvalues/src/RvaluesAndLvalues.cpp">
 <persistable path="/RvaluesAndLvalues/src/RvaluesAndLvalues.cpp"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="PerfectForwarding.cpp" tooltip="PerfectForwarding/src/PerfectForwarding.cpp">
-<persistable path="/PerfectForwarding/src/PerfectForwarding.cpp"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="ReinterpretCast.cpp" tooltip="ReinterpretCast/src/ReinterpretCast.cpp">
-<persistable path="/ReinterpretCast/src/ReinterpretCast.cpp"/>
-</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="DynamicCast.cpp" tooltip="DynamicCast/src/DynamicCast.cpp">
 <persistable path="/DynamicCast/src/DynamicCast.cpp"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="StaticCast.cpp" tooltip="StaticCast/src/StaticCast.cpp">
 <persistable path="/StaticCast/src/StaticCast.cpp"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="MoveAssignmentOperator.cpp" tooltip="MoveAssignmentOperator/src/MoveAssignmentOperator.cpp">
-<persistable path="/MoveAssignmentOperator/src/MoveAssignmentOperator.cpp"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="MoveConstructors.cpp" tooltip="MoveConstructors/src/MoveConstructors.cpp">
-<persistable path="/MoveConstructors/src/MoveConstructors.cpp"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="LValueReferences.cpp" tooltip="LValueReferences/src/LValueReferences.cpp">
-<persistable path="/LValueReferences/src/LValueReferences.cpp"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="ConstructorsAndMemory.cpp" tooltip="ConstructorsAndMemory/src/ConstructorsAndMemory.cpp">
-<persistable path="/ConstructorsAndMemory/src/ConstructorsAndMemory.cpp"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="ElisionAndOptimization.cpp" tooltip="ElisionAndOptimization/src/ElisionAndOptimization.cpp">
-<persistable path="/ElisionAndOptimization/src/ElisionAndOptimization.cpp"/>
 </file>
 </mruList>
 </workbench>
