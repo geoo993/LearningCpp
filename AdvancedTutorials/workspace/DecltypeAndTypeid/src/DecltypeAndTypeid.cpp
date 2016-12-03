@@ -19,6 +19,7 @@ int main() {
 	double value3;
 	string value4;
 	char value5;
+	long double value6;
 
 	// this is going to give us a type information
 	// type id gives us type information of variables
@@ -32,6 +33,9 @@ int main() {
 
 	cout << typeid(name).name()  << endl;
 	cout << name  << endl;
+
+	string ss = typeid(int).name();
+	cout << ss << endl;
 
 	return 0;
 }

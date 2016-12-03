@@ -31,18 +31,13 @@
 <folder appearance="1" expanded="2">
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
-<part id="1"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="OverloadingTheInsertionOperatorForPrinting.cpp" partName="OverloadingTheInsertionOperatorForPrinting.cpp" path="/Users/GeorgeQuentin/Dev/Cpp/LearningCppFromCaveOfProgramming/AdvancedTutorials/workspace/OverloadingTheInsertionOperatorForPrinting/src/OverloadingTheInsertionOperatorForPrinting.cpp" title="OverloadingTheInsertionOperatorForPrinting.cpp" tooltip="OverloadingTheInsertionOperatorForPrinting/src/OverloadingTheInsertionOperatorForPrinting.cpp" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/OverloadingTheInsertionOperatorForPrinting/src/OverloadingTheInsertionOperatorForPrinting.cpp"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="640"/>
-</editor>
-<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="TemplateClasses.cpp" partName="TemplateClasses.cpp" path="/Users/GeorgeQuentin/Dev/Cpp/LearningCppFromCaveOfProgramming/AdvancedTutorials/workspace/TemplateClasses/src/TemplateClasses.cpp" title="TemplateClasses.cpp" tooltip="TemplateClasses/src/TemplateClasses.cpp" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TemplateClasses/src/TemplateClasses.cpp"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="460"/>
+<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="ReadingTextFiles.cpp" partName="ReadingTextFiles.cpp" path="/Users/GeorgeQuentin/Dev/Cpp/LearningCppFromCaveOfProgramming/AdvancedTutorials/workspace/ReadingTextFiles/src/ReadingTextFiles.cpp" title="ReadingTextFiles.cpp" tooltip="ReadingTextFiles/src/ReadingTextFiles.cpp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ReadingTextFiles/src/ReadingTextFiles.cpp"/>
+<editorState selectionHorizontalPixel="0" selectionLength="15" selectionOffset="1005" selectionTopPixel="265"/>
 </editor>
 </editors>
 <views>
@@ -53,6 +48,8 @@
 <view id="org.eclipse.cdt.make.ui.views.MakeView" partName="Make Target"/>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
+<expanded>&#x0A;<category IMemento.internal.id="Warnings (18 items)"/>
+</expanded>
 <columnWidths org.eclipse.ui.ide.locationField="0" org.eclipse.ui.ide.markerType="0" org.eclipse.ui.ide.pathField="0" org.eclipse.ui.ide.resourceField="0" org.eclipse.ui.ide.severityAndDescriptionField="0"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
@@ -214,6 +211,12 @@
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/ObjectSlicingAndPolymorphism/src/ObjectSlicingAndPolymorphism.cpp"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/OverloadingTheInsertionOperatorForPrinting/src/OverloadingTheInsertionOperatorForPrinting.cpp"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/TemplateClasses/src/TemplateClasses.cpp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/WritingTextFiles/src/WritingTextFiles.cpp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/ReadingTextFiles/src/ReadingTextFiles.cpp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/InitialiszationC++11/src/InitialiszationC++11.cpp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/DecltypeAndTypeid/src/DecltypeAndTypeid.cpp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/ReadingTextFiles/rooneyFile.txt"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/ReadingTextFiles/src/ReadingTextFiles.cpp"/>
 </editors>
 <item historyLabel="FractalCreator.cpp" index="0">
 <position info="not_deleted" x="451" y="0"/>
@@ -287,7 +290,31 @@
 <item historyLabel="OverloadingTheInsertionOperatorForPrinting.cpp" index="11">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item active="true" historyLabel="TemplateClasses.cpp" index="12">
+<item historyLabel="TemplateClasses.cpp" index="12">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="WritingTextFiles.cpp" index="13">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="ReadingTextFiles.cpp" index="14">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="InitialiszationC++11.cpp" index="15">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="DecltypeAndTypeid.cpp" index="16">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="DecltypeAndTypeid.cpp" index="16">
+<position info="not_deleted" x="1020" y="0"/>
+</item>
+<item historyLabel="rooneyFile.txt" index="17">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="DecltypeAndTypeid.cpp" index="16">
+<position info="not_deleted" x="1020" y="0"/>
+</item>
+<item active="true" historyLabel="ReadingTextFiles.cpp" index="18">
 <position info="not_deleted" x="0" y="0"/>
 </item>
 </navigationHistory>
@@ -296,9 +323,6 @@
 <workbenchWindowAdvisor/>
 <actionBarAdvisor/>
 <trimLayout>
-<trimArea IMemento.internal.id="16384">
-<trimItem IMemento.internal.id="topLeft"/>
-</trimArea>
 <trimArea IMemento.internal.id="131072">
 <trimItem IMemento.internal.id="topRight"/>
 </trimArea>
@@ -309,11 +333,25 @@
 <trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
 <trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
-<trimItem IMemento.internal.id="bottom"/>
 </trimArea>
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="ReadingTextFiles.cpp" tooltip="ReadingTextFiles/src/ReadingTextFiles.cpp">
+<persistable path="/ReadingTextFiles/src/ReadingTextFiles.cpp"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="rooneyFile.txt" tooltip="ReadingTextFiles/rooneyFile.txt">
+<persistable path="/ReadingTextFiles/rooneyFile.txt"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="DecltypeAndTypeid.cpp" tooltip="DecltypeAndTypeid/src/DecltypeAndTypeid.cpp">
+<persistable path="/DecltypeAndTypeid/src/DecltypeAndTypeid.cpp"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="InitialiszationC++11.cpp" tooltip="InitialiszationC++11/src/InitialiszationC++11.cpp">
+<persistable path="/InitialiszationC++11/src/InitialiszationC++11.cpp"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="WritingTextFiles.cpp" tooltip="WritingTextFiles/src/WritingTextFiles.cpp">
+<persistable path="/WritingTextFiles/src/WritingTextFiles.cpp"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="TemplateClasses.cpp" tooltip="TemplateClasses/src/TemplateClasses.cpp">
 <persistable path="/TemplateClasses/src/TemplateClasses.cpp"/>
 </file>
@@ -343,21 +381,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Bind.cpp" tooltip="Bind/src/Bind.cpp">
 <persistable path="/Bind/src/Bind.cpp"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="DelegatingConstructors.cpp" tooltip="DelegatingConstructors/src/DelegatingConstructors.cpp">
-<persistable path="/DelegatingConstructors/src/DelegatingConstructors.cpp"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="FractalCreator.cpp" tooltip="FractalCreator/src/FractalCreator.cpp">
-<persistable path="/FractalCreator/src/FractalCreator.cpp"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="SharedPointer.cpp" tooltip="SharedPointer/src/SharedPointer.cpp">
-<persistable path="/SharedPointer/src/SharedPointer.cpp"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="RValueReferences.cpp" tooltip="RValueReferences/src/RValueReferences.cpp">
-<persistable path="/RValueReferences/src/RValueReferences.cpp"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="RvaluesAndLvalues.cpp" tooltip="RvaluesAndLvalues/src/RvaluesAndLvalues.cpp">
-<persistable path="/RvaluesAndLvalues/src/RvaluesAndLvalues.cpp"/>
 </file>
 </mruList>
 </workbench>

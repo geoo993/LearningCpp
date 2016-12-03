@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="22" version="2.0">
+<workbench progressCount="23" version="2.0">
 <workbenchAdvisor/>
 <window height="736" width="1173" x="107" y="23">
 <fastViewData fastViewLocation="1024"/>
@@ -31,22 +31,17 @@
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
 <part id="1"/>
-<part id="2"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="StaticAndDynamicLibraries.cpp" partName="StaticAndDynamicLibraries.cpp" path="/Users/GeorgeQuentin/Dev/Cpp/LearningCppFromCaveOfProgramming/BeginnersTutorials/workspace/StaticAndDynamicLibraries/src/StaticAndDynamicLibraries.cpp" title="StaticAndDynamicLibraries.cpp" tooltip="StaticAndDynamicLibraries/src/StaticAndDynamicLibraries.cpp" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/StaticAndDynamicLibraries/src/StaticAndDynamicLibraries.cpp"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="4134" selectionTopPixel="347"/>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="Input.cpp" partName="Input.cpp" path="/Users/GeorgeQuentin/Dev/Cpp/LearningCppFromCaveOfProgramming/BeginnersTutorials/workspace/Input/src/Input.cpp" title="Input.cpp" tooltip="Input/src/Input.cpp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Input/src/Input.cpp"/>
+<editorState selectionHorizontalPixel="7" selectionLength="0" selectionOffset="0" selectionTopPixel="152"/>
 </editor>
-<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="Cat.cpp" partName="Cat.cpp" path="/Users/GeorgeQuentin/Dev/Cpp/LearningCppFromCaveOfProgramming/BeginnersTutorials/workspace/animals/Cat.cpp" title="Cat.cpp" tooltip="animals/Cat.cpp" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/animals/Cat.cpp"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="331" selectionTopPixel="45"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="Cat.h" partName="Cat.h" path="/Users/GeorgeQuentin/Dev/Cpp/LearningCppFromCaveOfProgramming/BeginnersTutorials/workspace/animals/Cat.h" title="Cat.h" tooltip="animals/Cat.h" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/animals/Cat.h"/>
-<editorState selectionHorizontalPixel="0" selectionLength="20" selectionOffset="136" selectionTopPixel="0"/>
+<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="PointersAndArray.cpp" partName="PointersAndArray.cpp" path="/Users/GeorgeQuentin/Dev/Cpp/LearningCppFromCaveOfProgramming/BeginnersTutorials/workspace/PointersAndArray/src/PointersAndArray.cpp" title="PointersAndArray.cpp" tooltip="PointersAndArray/src/PointersAndArray.cpp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/PointersAndArray/src/PointersAndArray.cpp"/>
+<editorState selectionHorizontalPixel="0" selectionLength="194" selectionOffset="393" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
@@ -213,16 +208,10 @@
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/StaticAndDynamicLibraries/src/StaticAndDynamicLibraries.cpp"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/animals/Cat.cpp"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/animals/Cat.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/FloatingPointTypes/src/FloatingPointTypes.cpp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Input/src/Input.cpp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/PointersAndArray/src/PointersAndArray.cpp"/>
 </editors>
-<item historyLabel="NewProject.cpp" index="0">
-<position info="not_deleted" x="438" y="0"/>
-</item>
-<item historyLabel="NewProject.cpp" index="0">
-<position info="not_deleted" x="446" y="0"/>
-</item>
-<item historyLabel="NewProject.cpp" index="0">
-<position info="not_deleted" x="549" y="0"/>
-</item>
 <item historyLabel="TestCpp11.cpp" index="1">
 <position info="not_deleted" x="0" y="0"/>
 </item>
@@ -361,8 +350,17 @@
 <item historyLabel="StaticAndDynamicLibraries.cpp" index="6">
 <position info="not_deleted" x="4134" y="0"/>
 </item>
-<item active="true" historyLabel="Cat.cpp" index="7">
-<position info="not_deleted" x="129" y="37"/>
+<item historyLabel="Cat.cpp" index="7">
+<position info="not_deleted" x="331" y="0"/>
+</item>
+<item historyLabel="FloatingPointTypes.cpp" index="9">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Input.cpp" index="10">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item active="true" historyLabel="PointersAndArray.cpp" index="11">
+<position info="not_deleted" x="0" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -381,6 +379,15 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="PointersAndArray.cpp" tooltip="PointersAndArray/src/PointersAndArray.cpp">
+<persistable path="/PointersAndArray/src/PointersAndArray.cpp"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Input.cpp" tooltip="Input/src/Input.cpp">
+<persistable path="/Input/src/Input.cpp"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="FloatingPointTypes.cpp" tooltip="FloatingPointTypes/src/FloatingPointTypes.cpp">
+<persistable path="/FloatingPointTypes/src/FloatingPointTypes.cpp"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Cat.h" tooltip="animals/Cat.h">
 <persistable path="/animals/Cat.h"/>
 </file>
@@ -416,15 +423,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Cat.cpp" tooltip="DataMembers/src/Cat.cpp">
 <persistable path="/DataMembers/src/Cat.cpp"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="BitwiseAnd.cpp" tooltip="BitwiseAnd/src/BitwiseAnd.cpp">
-<persistable path="/BitwiseAnd/src/BitwiseAnd.cpp"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="BitShiftingAndHexColor.cpp" tooltip="BitShiftingAndHexColor/src/BitShiftingAndHexColor.cpp">
-<persistable path="/BitShiftingAndHexColor/src/BitShiftingAndHexColor.cpp"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="References.cpp" tooltip="References/src/References.cpp">
-<persistable path="/References/src/References.cpp"/>
 </file>
 </mruList>
 </workbench>
