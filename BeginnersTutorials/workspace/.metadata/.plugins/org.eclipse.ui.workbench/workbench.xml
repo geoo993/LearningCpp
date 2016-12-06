@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="23" version="2.0">
+<workbench progressCount="22" version="2.0">
 <workbenchAdvisor/>
 <window height="736" width="1173" x="107" y="23">
 <fastViewData fastViewLocation="1024"/>
@@ -41,7 +41,7 @@
 </editor>
 <editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="PointersAndArray.cpp" partName="PointersAndArray.cpp" path="/Users/GeorgeQuentin/Dev/Cpp/LearningCppFromCaveOfProgramming/BeginnersTutorials/workspace/PointersAndArray/src/PointersAndArray.cpp" title="PointersAndArray.cpp" tooltip="PointersAndArray/src/PointersAndArray.cpp" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/PointersAndArray/src/PointersAndArray.cpp"/>
-<editorState selectionHorizontalPixel="0" selectionLength="194" selectionOffset="393" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="566" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
