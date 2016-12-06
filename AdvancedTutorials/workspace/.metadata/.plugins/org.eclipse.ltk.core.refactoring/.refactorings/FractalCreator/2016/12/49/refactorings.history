@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;FractalCreator/src/BitmapInfoHeader&apos; to &apos;BitmapInfoHeader.h&apos;" description="Rename resource &apos;BitmapInfoHeader&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/BitmapInfoHeader" name="BitmapInfoHeader.h" stamp="1480941074017" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;FractalCreator/src/FractalCreator.cpp&apos; to &apos;main.cpp&apos;" description="Rename resource &apos;FractalCreator.cpp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/FractalCreator.cpp" name="main.cpp" stamp="1480941725898" updateReferences="true"/>
+</session>

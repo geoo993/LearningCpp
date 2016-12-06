@@ -1,0 +1,32 @@
+/*
+ * ZoomList.h
+ *
+ *  Created on: 5 Dec 2016
+ *      Author: GeorgeQuentin
+ */
+
+#ifndef ZOOMLIST_H_
+#define ZOOMLIST_H_
+
+#include "Zoom.h"
+#include <vector>
+#include <utility>
+
+namespace bitmaptutorial {
+
+class ZoomList {
+private:
+	int m_width{0};
+	int m_height{0};
+	std::vector<Zoom> zooms;
+
+public:
+	ZoomList(int width, int height);
+	void add(const Zoom &zoom);
+	std::;
+	//virtual ~ZoomList();
+};
+
+}
+
+#endif /* ZOOMLIST_H_ */

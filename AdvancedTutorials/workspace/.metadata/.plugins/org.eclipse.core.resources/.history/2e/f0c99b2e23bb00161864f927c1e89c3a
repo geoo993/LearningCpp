@@ -1,0 +1,21 @@
+/*
+ * RGB.h
+ *
+ *  Created on: 5 Dec 2016
+ *      Author: GeorgeQuentin
+ */
+
+#ifndef RGB_H_
+#define RGB_H_
+
+namespace bitmaptutorial {
+
+class RGB {
+public:
+	RGB();
+	virtual ~RGB();
+};
+
+}
+
+#endif /* RGB_H_ */

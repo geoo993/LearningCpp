@@ -1,0 +1,23 @@
+/*
+ * Mandelbrot.h
+ *
+ *  Created on: 5 Dec 2016
+ *      Author: GeorgeQuentin
+ */
+
+#ifndef MANDELBROT_H_
+#define MANDELBROT_H_
+
+namespace bitmaptutorial {
+
+class Mandelbrot {
+
+public:
+	Mandelbrot();
+	virtual ~Mandelbrot();
+
+};
+
+}
+
+#endif /* MANDELBROT_H_ */

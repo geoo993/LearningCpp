@@ -1,0 +1,23 @@
+//============================================================================
+// Name        : FractalCreatorComplete.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include "Zoom.h"
+#include "FractalGenerator.h"
+using namespace std;
+
+int main() {
+
+	//FractalGenerator fractalGenerator(800, 600);
+	//fractalGenerator.addZoom( Zoom(295, 202, 0.1) );
+	//fractalGenerator.addZoom( Zoom(312, 304, 0.1) );
+	//fractalGenerator.run("test.bmp");
+
+
+	return 0;
+}

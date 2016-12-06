@@ -1,0 +1,21 @@
+/*
+ * Bitmap.h
+ *
+ *  Created on: 5 Dec 2016
+ *      Author: GeorgeQuentin
+ */
+
+#ifndef BITMAP_H_
+#define BITMAP_H_
+
+namespace bitmaptutorial {
+
+class Bitmap {
+public:
+	Bitmap();
+	virtual ~Bitmap();
+};
+
+}
+
+#endif /* BITMAP_H_ */

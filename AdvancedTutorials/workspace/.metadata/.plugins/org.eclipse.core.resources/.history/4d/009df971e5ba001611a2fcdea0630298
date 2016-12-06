@@ -1,0 +1,20 @@
+/*
+ * BitmapFileHeader.h
+ *
+ *  Created on: 5 Dec 2016
+ *      Author: GeorgeQuentin
+ */
+
+#ifndef BITMAPFILEHEADER_H_
+#define BITMAPFILEHEADER_H_
+
+struct BitmapFileHeader {
+
+	char header[2]{'B', 'M'};
+
+
+};
+
+
+
+#endif /* BITMAPFILEHEADER_H_ */

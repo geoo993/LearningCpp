@@ -1,0 +1,28 @@
+/*
+ * FractalGenerator.h
+ *
+ *  Created on: 5 Dec 2016
+ *      Author: GeorgeQuentin
+ */
+
+#ifndef FRACTALGENERATOR_H_
+#define FRACTALGENERATOR_H_
+
+#include <string>
+
+namespace bitmaptutorial {
+
+class FractalGenerator {
+public:
+	FractalGenerator();
+
+	void calculateIterations();
+	void drawFractal();
+	void writeBitmap();
+
+	virtual ~FractalGenerator();
+};
+
+}
+
+#endif /* FRACTALGENERATOR_H_ */

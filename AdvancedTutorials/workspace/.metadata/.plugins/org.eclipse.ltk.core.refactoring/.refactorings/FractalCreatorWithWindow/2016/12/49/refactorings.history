@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;FractalCreatorWithWindow/src/FractalCreatorWithWindow.cpp&apos; to &apos;main.cpp&apos;" description="Rename resource &apos;FractalCreatorWithWindow.cpp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/FractalCreatorWithWindow.cpp" name="main.cpp" stamp="1480985763719" updateReferences="true"/>
+</session>

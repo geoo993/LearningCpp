@@ -1,0 +1,16 @@
+/*
+ * BitmapInfoHeader.h
+ *
+ *  Created on: 5 Dec 2016
+ *      Author: GeorgeQuentin
+ */
+
+#ifndef BITMAPINFOHEADER_H_
+#define BITMAPINFOHEADER_H_
+
+
+struct BitmapInfoHeader {
+
+};
+
+#endif /* BITMAPINFOHEADER_H_ */

@@ -1,0 +1,41 @@
+/*
+ * FractalGenerator.cpp
+ *
+ *  Created on: 5 Dec 2016
+ *      Author: GeorgeQuentin
+ */
+
+#include "FractalGenerator.h"
+
+namespace bitmaptutorial {
+
+FractalGenerator::FractalGenerator(int width, int height):
+		m_width(width),
+		m_height(height),
+		m_histogram(new int[Mandelbrot::MAX_ITERATIONS]{0})
+		{
+
+
+}
+
+void FractalGenerator::calculateIterations(){
+
+}
+
+void FractalGenerator::drawFractal(){
+
+}
+
+void FractalGenerator::addZoom(const Zoom& zoom){
+
+}
+
+void FractalGenerator::writeBitmap(string name){
+
+}
+
+FractalGenerator::~FractalGenerator() {
+	// TODO Auto-generated destructor stub
+}
+
+}

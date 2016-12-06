@@ -1,0 +1,21 @@
+/*
+ * ZoomList.cpp
+ *
+ *  Created on: 5 Dec 2016
+ *      Author: GeorgeQuentin
+ */
+
+#include "ZoomList.h"
+
+namespace bitmaptutorial {
+
+ZoomList::ZoomList(int width, int height): m_width(width), m_height(height) {
+	// TODO Auto-generated constructor stub
+
+}
+
+//ZoomList::~ZoomList() {
+//	// TODO Auto-generated destructor stub
+//}
+
+}

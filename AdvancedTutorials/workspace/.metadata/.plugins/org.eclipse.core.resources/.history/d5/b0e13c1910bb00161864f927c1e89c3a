@@ -1,0 +1,29 @@
+/*
+ * Zoom.h
+ *
+ *  Created on: 5 Dec 2016
+ *      Author: GeorgeQuentin
+ */
+
+#ifndef ZOOM_H_
+#define ZOOM_H_
+
+namespace bitmaptutorial {
+
+struct Zoom {
+
+	int x{0};
+	int y{0};
+
+	double scale{0.0};
+
+	Zoom(): x(0), y(y), scale(0){
+
+	}
+
+	//virtual ~Zoom();
+};
+
+}
+
+#endif /* ZOOM_H_ */

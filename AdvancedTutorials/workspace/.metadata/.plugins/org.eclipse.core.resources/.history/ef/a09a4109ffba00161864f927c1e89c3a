@@ -1,0 +1,29 @@
+/*
+ * Mandelbrot.cpp
+ *
+ *  Created on: 5 Dec 2016
+ *      Author: GeorgeQuentin
+ */
+
+#include <complex>
+#include "Mandelbrot.h"
+
+using namespace std;
+
+namespace bitmaptutorial {
+
+Mandelbrot::Mandelbrot() {
+	// TODO Auto-generated constructor stub
+
+}
+
+int Mandelbrot::getIterations(double x, double y){
+
+	return 0;
+}
+
+Mandelbrot::~Mandelbrot() {
+	// TODO Auto-generated destructor stub
+}
+
+}

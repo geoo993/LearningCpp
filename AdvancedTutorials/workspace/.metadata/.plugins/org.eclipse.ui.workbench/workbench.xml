@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workbench progressCount="22" version="2.0">
 <workbenchAdvisor/>
-<window height="803" width="1214" x="66" y="23">
+<window height="812" width="1314" x="0" y="23">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="160"/>
@@ -31,13 +31,33 @@
 <folder appearance="1" expanded="2">
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="4"/>
+<part id="3"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="ReadingTextFiles.cpp" partName="ReadingTextFiles.cpp" path="/Users/GeorgeQuentin/Dev/Cpp/LearningCppFromCaveOfProgramming/AdvancedTutorials/workspace/ReadingTextFiles/src/ReadingTextFiles.cpp" title="ReadingTextFiles.cpp" tooltip="ReadingTextFiles/src/ReadingTextFiles.cpp" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ReadingTextFiles/src/ReadingTextFiles.cpp"/>
-<editorState selectionHorizontalPixel="0" selectionLength="15" selectionOffset="1005" selectionTopPixel="265"/>
+<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="main.cpp" partName="main.cpp" path="/Users/GeorgeQuentin/Dev/Cpp/LearningCppFromCaveOfProgramming/AdvancedTutorials/workspace/FractalCreatorWithWindow/src/main.cpp" title="main.cpp" tooltip="FractalCreatorWithWindow/src/main.cpp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/FractalCreatorWithWindow/src/main.cpp"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="861" selectionTopPixel="16"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="FractalGenerator.cpp" partName="FractalGenerator.cpp" path="/Users/GeorgeQuentin/Dev/Cpp/LearningCppFromCaveOfProgramming/AdvancedTutorials/workspace/FractalCreatorWithWindow/src/FractalGenerator.cpp" title="FractalGenerator.cpp" tooltip="FractalCreatorWithWindow/src/FractalGenerator.cpp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/FractalCreatorWithWindow/src/FractalGenerator.cpp"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2922" selectionTopPixel="653"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="FractalGenerator.h" partName="FractalGenerator.h" path="/Users/GeorgeQuentin/Dev/Cpp/LearningCppFromCaveOfProgramming/AdvancedTutorials/workspace/FractalCreatorWithWindow/src/FractalGenerator.h" title="FractalGenerator.h" tooltip="FractalCreatorWithWindow/src/FractalGenerator.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/FractalCreatorWithWindow/src/FractalGenerator.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1180" selectionTopPixel="646"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="Screen.h" partName="Screen.h" path="/Users/GeorgeQuentin/Dev/Cpp/LearningCppFromCaveOfProgramming/AdvancedTutorials/workspace/FractalCreatorWithWindow/src/Screen.h" title="Screen.h" tooltip="FractalCreatorWithWindow/src/Screen.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/FractalCreatorWithWindow/src/Screen.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="266" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="Screen.cpp" partName="Screen.cpp" path="/Users/GeorgeQuentin/Dev/Cpp/LearningCppFromCaveOfProgramming/AdvancedTutorials/workspace/FractalCreatorWithWindow/src/Screen.cpp" title="Screen.cpp" tooltip="FractalCreatorWithWindow/src/Screen.cpp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/FractalCreatorWithWindow/src/Screen.cpp"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="317" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
@@ -48,9 +68,9 @@
 <view id="org.eclipse.cdt.make.ui.views.MakeView" partName="Make Target"/>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
-<expanded>&#x0A;<category IMemento.internal.id="Warnings (18 items)"/>
+<expanded>&#x0A;<category IMemento.internal.id="Warnings (22 items)"/>
 </expanded>
-<columnWidths org.eclipse.ui.ide.locationField="0" org.eclipse.ui.ide.markerType="0" org.eclipse.ui.ide.pathField="0" org.eclipse.ui.ide.resourceField="0" org.eclipse.ui.ide.severityAndDescriptionField="0"/>
+<columnWidths org.eclipse.ui.ide.locationField="84" org.eclipse.ui.ide.markerType="114" org.eclipse.ui.ide.pathField="144" org.eclipse.ui.ide.resourceField="114" org.eclipse.ui.ide.severityAndDescriptionField="300"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
@@ -76,7 +96,18 @@
 <filteredTreeFindHistory/>
 </viewState>
 </view>
-<view id="org.eclipse.ui.views.TaskList" partName="Tasks"/>
+<view id="org.eclipse.ui.views.TaskList" partName="Tasks">
+<viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.completionField" categoryGroup="none" markerContentGenerator="org.eclipse.ui.ide.tasksGenerator" partName="Tasks">
+<columnWidths org.eclipse.ui.ide.completionField="40" org.eclipse.ui.ide.descriptionField="324" org.eclipse.ui.ide.locationField="84" org.eclipse.ui.ide.markerType="114" org.eclipse.ui.ide.pathField="144" org.eclipse.ui.ide.priorityField="40" org.eclipse.ui.ide.resourceField="114"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.completionField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.priorityField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.descriptionField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.locationField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
+</viewState>
+</view>
 <view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
 <viewState/>
 </view>
@@ -198,124 +229,167 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/FractalCreator/src/FractalCreator.cpp"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/DelegatingConstructors/src/DelegatingConstructors.cpp"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Bind/src/Bind.cpp"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/MoveConstructors/src/MoveConstructors.cpp"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/NestedTemplateClasses/src/NestedTemplateClasses.cpp"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/ReinterpretCast/src/ReinterpretCast.cpp"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/UniquePointer/src/UniquePointer.cpp"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/PerfectForwarding/src/PerfectForwarding.cpp"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/ObjectSlicingAndPolymorphism/src/ObjectSlicingAndPolymorphism.cpp"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/AbstractClasses/src/AbstractClasses.cpp"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/ObjectSlicingAndPolymorphism/src/ObjectSlicingAndPolymorphism.cpp"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/OverloadingTheInsertionOperatorForPrinting/src/OverloadingTheInsertionOperatorForPrinting.cpp"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/TemplateClasses/src/TemplateClasses.cpp"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/WritingTextFiles/src/WritingTextFiles.cpp"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/ReadingTextFiles/src/ReadingTextFiles.cpp"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/InitialiszationC++11/src/InitialiszationC++11.cpp"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/DecltypeAndTypeid/src/DecltypeAndTypeid.cpp"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/ReadingTextFiles/rooneyFile.txt"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/ReadingTextFiles/src/ReadingTextFiles.cpp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/FractalCreatorWithWindow/src/FractalGenerator.cpp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/FractalCreatorWithWindow/src/FractalGenerator.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/FractalCreatorWithWindow/src/main.cpp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/FractalCreatorWithWindow/src/Screen.cpp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/FractalCreatorWithWindow/src/Screen.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/FractalCreatorWithWindow/src/Zoom.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/FractalCreatorWithWindow/src/ZoomList.cpp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/FractalCreatorWithWindow/src/ZoomList.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/FractalCreator/src/ZoomList.cpp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/FractalCreator/src/main.cpp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/FractalCreatorWithWindow/src/main.cpp"/>
 </editors>
-<item historyLabel="FractalCreator.cpp" index="0">
-<position info="not_deleted" x="451" y="0"/>
+<item historyLabel="FractalGenerator.h" index="1">
+<position info="not_deleted" x="935" y="0"/>
 </item>
-<item historyLabel="DelegatingConstructors.cpp" index="1">
+<item historyLabel="FractalGenerator.cpp" index="0">
+<position info="not_deleted" x="1124" y="9"/>
+</item>
+<item historyLabel="FractalGenerator.h" index="1">
+<position info="not_deleted" x="935" y="0"/>
+</item>
+<item historyLabel="FractalGenerator.cpp" index="0">
+<position info="not_deleted" x="1124" y="9"/>
+</item>
+<item historyLabel="FractalGenerator.cpp" index="0">
+<position info="not_deleted" x="1314" y="0"/>
+</item>
+<item historyLabel="FractalGenerator.h" index="1">
+<position info="not_deleted" x="935" y="0"/>
+</item>
+<item historyLabel="FractalGenerator.cpp" index="0">
+<position info="not_deleted" x="1314" y="0"/>
+</item>
+<item historyLabel="main.cpp" index="2">
+<position info="not_deleted" x="928" y="31"/>
+</item>
+<item historyLabel="Zoom.h" index="5">
+<position/>
+</item>
+<item historyLabel="main.cpp" index="2">
+<position info="not_deleted" x="928" y="31"/>
+</item>
+<item historyLabel="FractalGenerator.cpp" index="0">
+<position info="not_deleted" x="1265" y="0"/>
+</item>
+<item historyLabel="Zoom.h" index="5">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="Bind.cpp" index="2">
+<item historyLabel="ZoomList.cpp" index="6">
+<position/>
+</item>
+<item historyLabel="ZoomList.h" index="7">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="MoveConstructors.cpp" index="3">
+<item historyLabel="Screen.h" index="4">
+<position info="not_deleted" x="182" y="0"/>
+</item>
+<item historyLabel="Zoom.h" index="5">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="NestedTemplateClasses.cpp" index="4">
+<item historyLabel="ZoomList.cpp" index="6">
+<position/>
+</item>
+<item historyLabel="Zoom.h" index="5">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="ReinterpretCast.cpp" index="5">
+<item historyLabel="Screen.h" index="4">
+<position info="not_deleted" x="182" y="0"/>
+</item>
+<item historyLabel="FractalGenerator.cpp" index="0">
+<position info="not_deleted" x="1265" y="0"/>
+</item>
+<item historyLabel="FractalGenerator.h" index="1">
+<position info="not_deleted" x="935" y="0"/>
+</item>
+<item historyLabel="FractalGenerator.cpp" index="0">
+<position info="not_deleted" x="1331" y="0"/>
+</item>
+<item historyLabel="Screen.cpp" index="3">
+<position info="not_deleted" x="154" y="0"/>
+</item>
+<item historyLabel="FractalGenerator.cpp" index="0">
+<position info="not_deleted" x="1447" y="0"/>
+</item>
+<item historyLabel="main.cpp" index="2">
+<position info="not_deleted" x="928" y="31"/>
+</item>
+<item historyLabel="FractalGenerator.cpp" index="0">
+<position info="not_deleted" x="2922" y="0"/>
+</item>
+<item historyLabel="main.cpp" index="2">
+<position info="not_deleted" x="928" y="31"/>
+</item>
+<item historyLabel="FractalGenerator.h" index="1">
+<position info="not_deleted" x="513" y="0"/>
+</item>
+<item historyLabel="main.cpp" index="2">
+<position info="not_deleted" x="485" y="0"/>
+</item>
+<item historyLabel="FractalGenerator.cpp" index="0">
+<position info="not_deleted" x="2922" y="0"/>
+</item>
+<item historyLabel="FractalGenerator.h" index="1">
+<position info="not_deleted" x="513" y="0"/>
+</item>
+<item historyLabel="ZoomList.cpp" index="6">
+<position/>
+</item>
+<item historyLabel="ZoomList.cpp" index="8">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="UniquePointer.cpp" index="6">
+<item historyLabel="main.cpp" index="9">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="PerfectForwarding.cpp" index="7">
+<item historyLabel="ZoomList.cpp" index="8">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="ReinterpretCast.cpp" index="5">
+<item historyLabel="ZoomList.cpp" index="6">
+<position/>
+</item>
+<item historyLabel="FractalGenerator.h" index="1">
+<position info="not_deleted" x="513" y="0"/>
+</item>
+<item historyLabel="FractalGenerator.cpp" index="0">
+<position info="not_deleted" x="2922" y="0"/>
+</item>
+<item historyLabel="Screen.h" index="4">
+<position info="not_deleted" x="182" y="0"/>
+</item>
+<item historyLabel="FractalGenerator.h" index="1">
+<position info="not_deleted" x="513" y="0"/>
+</item>
+<item historyLabel="ZoomList.cpp" index="6">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="ObjectSlicingAndPolymorphism.cpp" index="8">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="FractalGenerator.h" index="1">
+<position info="not_deleted" x="1180" y="0"/>
 </item>
-<item historyLabel="ReinterpretCast.cpp" index="5">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="FractalGenerator.cpp" index="0">
+<position info="not_deleted" x="2922" y="0"/>
 </item>
-<item historyLabel="UniquePointer.cpp" index="6">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="main.cpp" index="2">
+<position info="not_deleted" x="485" y="0"/>
 </item>
-<item historyLabel="ReinterpretCast.cpp" index="5">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="FractalGenerator.cpp" index="0">
+<position info="not_deleted" x="2922" y="0"/>
 </item>
-<item historyLabel="NestedTemplateClasses.cpp" index="4">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="main.cpp" index="2">
+<position info="not_deleted" x="898" y="0"/>
 </item>
-<item historyLabel="ReinterpretCast.cpp" index="5">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="FractalGenerator.cpp" index="0">
+<position info="not_deleted" x="2922" y="0"/>
 </item>
-<item historyLabel="PerfectForwarding.cpp" index="7">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="Screen.cpp" index="3">
+<position info="not_deleted" x="317" y="0"/>
 </item>
-<item historyLabel="ReinterpretCast.cpp" index="5">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="Screen.h" index="4">
+<position info="not_deleted" x="182" y="0"/>
 </item>
-<item historyLabel="ObjectSlicingAndPolymorphism.cpp" index="8">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="AbstractClasses.cpp" index="9">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="ObjectSlicingAndPolymorphism.cpp" index="8">
-<position info="not_deleted" x="1090" y="0"/>
-</item>
-<item historyLabel="AbstractClasses.cpp" index="9">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="ObjectSlicingAndPolymorphism.cpp" index="10">
-<position info="not_deleted" x="1090" y="0"/>
-</item>
-<item historyLabel="AbstractClasses.cpp" index="9">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="OverloadingTheInsertionOperatorForPrinting.cpp" index="11">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="TemplateClasses.cpp" index="12">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="WritingTextFiles.cpp" index="13">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="ReadingTextFiles.cpp" index="14">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="InitialiszationC++11.cpp" index="15">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="DecltypeAndTypeid.cpp" index="16">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="DecltypeAndTypeid.cpp" index="16">
-<position info="not_deleted" x="1020" y="0"/>
-</item>
-<item historyLabel="rooneyFile.txt" index="17">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="DecltypeAndTypeid.cpp" index="16">
-<position info="not_deleted" x="1020" y="0"/>
-</item>
-<item active="true" historyLabel="ReadingTextFiles.cpp" index="18">
-<position info="not_deleted" x="0" y="0"/>
+<item active="true" historyLabel="main.cpp" index="10">
+<position info="not_deleted" x="900" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -337,50 +411,50 @@
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="ReadingTextFiles.cpp" tooltip="ReadingTextFiles/src/ReadingTextFiles.cpp">
-<persistable path="/ReadingTextFiles/src/ReadingTextFiles.cpp"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="ZoomList.cpp" tooltip="FractalCreatorWithWindow/src/ZoomList.cpp">
+<persistable path="/FractalCreatorWithWindow/src/ZoomList.cpp"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="rooneyFile.txt" tooltip="ReadingTextFiles/rooneyFile.txt">
-<persistable path="/ReadingTextFiles/rooneyFile.txt"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="main.cpp" tooltip="FractalCreator/src/main.cpp">
+<persistable path="/FractalCreator/src/main.cpp"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="DecltypeAndTypeid.cpp" tooltip="DecltypeAndTypeid/src/DecltypeAndTypeid.cpp">
-<persistable path="/DecltypeAndTypeid/src/DecltypeAndTypeid.cpp"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="ZoomList.cpp" tooltip="FractalCreator/src/ZoomList.cpp">
+<persistable path="/FractalCreator/src/ZoomList.cpp"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="InitialiszationC++11.cpp" tooltip="InitialiszationC++11/src/InitialiszationC++11.cpp">
-<persistable path="/InitialiszationC++11/src/InitialiszationC++11.cpp"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="ZoomList.h" tooltip="FractalCreatorWithWindow/src/ZoomList.h">
+<persistable path="/FractalCreatorWithWindow/src/ZoomList.h"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="WritingTextFiles.cpp" tooltip="WritingTextFiles/src/WritingTextFiles.cpp">
-<persistable path="/WritingTextFiles/src/WritingTextFiles.cpp"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Zoom.h" tooltip="FractalCreatorWithWindow/src/Zoom.h">
+<persistable path="/FractalCreatorWithWindow/src/Zoom.h"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="TemplateClasses.cpp" tooltip="TemplateClasses/src/TemplateClasses.cpp">
-<persistable path="/TemplateClasses/src/TemplateClasses.cpp"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Bitmap.cpp" tooltip="FractalCreatorWithWindow/src/Bitmap.cpp">
+<persistable path="/FractalCreatorWithWindow/src/Bitmap.cpp"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="OverloadingTheInsertionOperatorForPrinting.cpp" tooltip="OverloadingTheInsertionOperatorForPrinting/src/OverloadingTheInsertionOperatorForPrinting.cpp">
-<persistable path="/OverloadingTheInsertionOperatorForPrinting/src/OverloadingTheInsertionOperatorForPrinting.cpp"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Bitmap.h" tooltip="FractalCreatorWithWindow/src/Bitmap.h">
+<persistable path="/FractalCreatorWithWindow/src/Bitmap.h"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="AbstractClasses.cpp" tooltip="AbstractClasses/src/AbstractClasses.cpp">
-<persistable path="/AbstractClasses/src/AbstractClasses.cpp"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="BitmapInfoHeader.h" tooltip="FractalCreatorWithWindow/src/BitmapInfoHeader.h">
+<persistable path="/FractalCreatorWithWindow/src/BitmapInfoHeader.h"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="ObjectSlicingAndPolymorphism.cpp" tooltip="ObjectSlicingAndPolymorphism/src/ObjectSlicingAndPolymorphism.cpp">
-<persistable path="/ObjectSlicingAndPolymorphism/src/ObjectSlicingAndPolymorphism.cpp"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="BitmapFileHeader.h" tooltip="FractalCreatorWithWindow/src/BitmapFileHeader.h">
+<persistable path="/FractalCreatorWithWindow/src/BitmapFileHeader.h"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="PerfectForwarding.cpp" tooltip="PerfectForwarding/src/PerfectForwarding.cpp">
-<persistable path="/PerfectForwarding/src/PerfectForwarding.cpp"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="RGB.h" tooltip="FractalCreatorWithWindow/src/RGB.h">
+<persistable path="/FractalCreatorWithWindow/src/RGB.h"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="UniquePointer.cpp" tooltip="UniquePointer/src/UniquePointer.cpp">
-<persistable path="/UniquePointer/src/UniquePointer.cpp"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="RGB.cpp" tooltip="FractalCreatorWithWindow/src/RGB.cpp">
+<persistable path="/FractalCreatorWithWindow/src/RGB.cpp"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="ReinterpretCast.cpp" tooltip="ReinterpretCast/src/ReinterpretCast.cpp">
-<persistable path="/ReinterpretCast/src/ReinterpretCast.cpp"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Mandelbrot.h" tooltip="FractalCreatorWithWindow/src/Mandelbrot.h">
+<persistable path="/FractalCreatorWithWindow/src/Mandelbrot.h"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="NestedTemplateClasses.cpp" tooltip="NestedTemplateClasses/src/NestedTemplateClasses.cpp">
-<persistable path="/NestedTemplateClasses/src/NestedTemplateClasses.cpp"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Mandelbrot.cpp" tooltip="FractalCreatorWithWindow/src/Mandelbrot.cpp">
+<persistable path="/FractalCreatorWithWindow/src/Mandelbrot.cpp"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="MoveConstructors.cpp" tooltip="MoveConstructors/src/MoveConstructors.cpp">
-<persistable path="/MoveConstructors/src/MoveConstructors.cpp"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Screen.cpp" tooltip="FractalCreatorWithWindow/src/Screen.cpp">
+<persistable path="/FractalCreatorWithWindow/src/Screen.cpp"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Bind.cpp" tooltip="Bind/src/Bind.cpp">
-<persistable path="/Bind/src/Bind.cpp"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Screen.h" tooltip="FractalCreatorWithWindow/src/Screen.h">
+<persistable path="/FractalCreatorWithWindow/src/Screen.h"/>
 </file>
 </mruList>
 </workbench>

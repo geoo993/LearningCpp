@@ -1,0 +1,21 @@
+/*
+ * RGB.cpp
+ *
+ *  Created on: 5 Dec 2016
+ *      Author: GeorgeQuentin
+ */
+
+#include "RGB.h"
+
+namespace bitmaptutorial {
+
+RGB::RGB(double r, double g, double b): r(r), g(g), b(b) {
+	// TODO Auto-generated constructor stub
+
+}
+
+//RGB::~RGB() {
+//	// TODO Auto-generated destructor stub
+//}
+
+}

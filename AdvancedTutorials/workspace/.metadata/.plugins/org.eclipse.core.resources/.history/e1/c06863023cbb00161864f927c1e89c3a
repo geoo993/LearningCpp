@@ -1,0 +1,35 @@
+//============================================================================
+// Name        : MultipleInheritance.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+
+class MusicalInstrument {
+
+public:
+	void play(){ }
+	void reset(){ }
+	virtual ~MusicalInstrument(){};
+};
+
+class Machine{
+public:
+	void start(){ }
+	void reset(){ }
+
+	virtual ~Machine(){};
+
+};
+
+
+int main() {
+
+
+	return 0;
+}
