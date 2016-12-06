@@ -1,0 +1,86 @@
+//============================================================================
+// Name        : Window.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include <SDL.h>
+#include "Screen.h"
+#include <sstream>
+
+using namespace std;
+using namespace screennamespace;
+
+int main() {
+
+	int mouseX;
+	int mouseY;
+
+
+	// Initialise screen
+	Screen screen;
+	if (screen.init() == false) {
+		cout << "ERROR INITIALIZING SCREEN WITH SDL." << endl;
+	}
+	cout << "SDL Init succeeded." << endl;
+
+	float redTime = 0.0006;
+	float greenTime = 0.00007;
+	float blueTime = 0.00002;
+
+	SDL_PumpEvents();
+
+
+	while (true) {
+
+		char xmouse[4];
+		char ymouse[4];
+		stringstream ss1, ss2;
+		ss1 << mouseX;
+		ss2 << mouseY;
+		ss1 >> xmouse;
+		ss2 >> ymouse;
+		cout << "x: " << xmouse << endl;
+		cout << "y: " << ymouse << endl;
+
+		SDL_GetMouseState(&mouseX, &mouseY);
+//		if (SDL_GetMouseState(mouseX, mouseY) & SDL_BUTTON(SDL_BUTTON_LEFT)) {
+//			   SDL_Log("Mouse Button 1 (left) is pressed.");
+//		}
+
+
+		// Animate colors
+		int elapsed = SDL_GetTicks();
+		unsigned char red = (unsigned char )((1 + sin(elapsed * redTime)) * 128);
+		unsigned char green = (unsigned char )((1 + sin(elapsed * greenTime)) * 128);
+		unsigned char blue = (unsigned char )((1 + cos(elapsed * blueTime)) * 128);
+
+
+		// Fill Screen
+		for(int y=0; y < Screen::SCREEN_HEIGHT; y++){
+			for(int x=0; x < Screen::SCREEN_WIDTH; x++){
+
+				screen.setPixel(x, y, red, green, blue);
+			}
+		}
+
+		// Blur screen
+		screen.boxBlur();
+
+		// Draw the screen
+		screen.update();
+
+		// Check for messages/events
+		if(screen.proccessEvents() == false){
+			break;
+		}
+
+	}
+
+	screen.close();
+
+	return 0;
+}

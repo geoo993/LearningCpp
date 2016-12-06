@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="17" version="2.0">
+<workbench progressCount="5" version="2.0">
 <workbenchAdvisor/>
-<window height="735" width="1024" x="256" y="23">
+<window height="735" width="1024" x="452" y="29">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="160"/>
@@ -31,42 +31,17 @@
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
 <part id="1"/>
-<part id="2"/>
-<part id="3"/>
-<part id="4"/>
-<part id="5"/>
-<part id="6"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="Screen.cpp" partName="Screen.cpp" path="/Users/GeorgeQuentin/Dev/Cpp/LearningCppFromCaveOfProgramming/ParticlesTutorials/workspace/ParticleExplosion/src/Screen.cpp" title="Screen.cpp" tooltip="ParticleExplosion/src/Screen.cpp" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ParticleExplosion/src/Screen.cpp"/>
-<editorState selectionHorizontalPixel="0" selectionLength="1" selectionOffset="3417" selectionTopPixel="1767"/>
+<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="Window.cpp" partName="Window.cpp" path="/Users/GeorgeQuentin/Dev/Cpp/LearningCppFromCaveOfProgramming/ParticlesTutorials/workspace/Window/src/Window.cpp" title="Window.cpp" tooltip="Window/src/Window.cpp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Window/src/Window.cpp"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="384" selectionTopPixel="0"/>
 </editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="Screen.h" partName="Screen.h" path="/Users/GeorgeQuentin/Dev/Cpp/LearningCppFromCaveOfProgramming/ParticlesTutorials/workspace/ParticleExplosion/src/Screen.h" title="Screen.h" tooltip="ParticleExplosion/src/Screen.h" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ParticleExplosion/src/Screen.h"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="228" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="Particle.cpp" partName="Particle.cpp" path="/Users/GeorgeQuentin/Dev/Cpp/LearningCppFromCaveOfProgramming/ParticlesTutorials/workspace/ParticleExplosion/src/Particle.cpp" title="Particle.cpp" tooltip="ParticleExplosion/src/Particle.cpp" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ParticleExplosion/src/Particle.cpp"/>
-<editorState selectionHorizontalPixel="0" selectionLength="65" selectionOffset="454" selectionTopPixel="358"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="Particle.h" partName="Particle.h" path="/Users/GeorgeQuentin/Dev/Cpp/LearningCppFromCaveOfProgramming/ParticlesTutorials/workspace/ParticleExplosion/src/Particle.h" title="Particle.h" tooltip="ParticleExplosion/src/Particle.h" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ParticleExplosion/src/Particle.h"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="565" selectionTopPixel="295"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="Swarm.cpp" partName="Swarm.cpp" path="/Users/GeorgeQuentin/Dev/Cpp/LearningCppFromCaveOfProgramming/ParticlesTutorials/workspace/ParticleExplosion/src/Swarm.cpp" title="Swarm.cpp" tooltip="ParticleExplosion/src/Swarm.cpp" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ParticleExplosion/src/Swarm.cpp"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="457" selectionTopPixel="145"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="Swarm.h" partName="Swarm.h" path="/Users/GeorgeQuentin/Dev/Cpp/LearningCppFromCaveOfProgramming/ParticlesTutorials/workspace/ParticleExplosion/src/Swarm.h" title="Swarm.h" tooltip="ParticleExplosion/src/Swarm.h" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ParticleExplosion/src/Swarm.h"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="291" selectionTopPixel="115"/>
-</editor>
-<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="Main.cpp" partName="Main.cpp" path="/Users/GeorgeQuentin/Dev/Cpp/LearningCppFromCaveOfProgramming/ParticlesTutorials/workspace/ParticleExplosion/src/Main.cpp" title="Main.cpp" tooltip="ParticleExplosion/src/Main.cpp" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ParticleExplosion/src/Main.cpp"/>
-<editorState selectionHorizontalPixel="35" selectionLength="0" selectionOffset="1028" selectionTopPixel="754"/>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="Screen.h" partName="Screen.h" path="/Users/GeorgeQuentin/Dev/Cpp/LearningCppFromCaveOfProgramming/ParticlesTutorials/workspace/Window/src/Screen.h" title="Screen.h" tooltip="Window/src/Screen.h" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Window/src/Screen.h"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="340"/>
 </editor>
 </editors>
 <views>
@@ -77,7 +52,8 @@
 <view id="org.eclipse.cdt.make.ui.views.MakeView" partName="Make Target"/>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
-<expanded>&#x0A;<category IMemento.internal.id="Warnings (2 items)"/>
+<expanded>
+<category IMemento.internal.id="Warnings (1 item)"/>
 </expanded>
 <columnWidths org.eclipse.ui.ide.locationField="0" org.eclipse.ui.ide.markerType="0" org.eclipse.ui.ide.pathField="0" org.eclipse.ui.ide.resourceField="0" org.eclipse.ui.ide.severityAndDescriptionField="0"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
@@ -152,6 +128,7 @@
 <view id="org.eclipse.ui.views.TaskList"/>
 <view id="org.eclipse.ui.console.ConsoleView"/>
 <view id="org.eclipse.ui.views.PropertySheet"/>
+<view id="org.eclipse.ui.navigator.ProjectExplorer"/>
 <fastViewBars>
 <fastViewBar fastViewLocation="131072" id="topRight" orientation="512" selectedTabId="org.eclipse.ui.views.ContentOutline" style="0">
 <fastViews>
@@ -160,21 +137,18 @@
 <view id="org.eclipse.mylyn.tasks.ui.views.tasks" ratio="0.3"/>
 </fastViews>
 </fastViewBar>
-<fastViewBar fastViewLocation="16384" id="topLeft" orientation="512" selectedTabId="org.eclipse.ui.navigator.ProjectExplorer" style="0">
-<fastViews>
-<view id="org.eclipse.ui.navigator.ProjectExplorer" ratio="0.3"/>
-</fastViews>
-</fastViewBar>
 </fastViewBars>
 <layout>
 <mainWindow>
 <info folder="true" part="topLeft">
-<folder appearance="2" expanded="2">
-<page content="org.eclipse.ui.navigator.ProjectExplorer" label="LabelNotFound"/>
+<folder activePageID="org.eclipse.ui.navigator.ProjectExplorer" appearance="2" expanded="2">
+<page content="org.eclipse.ui.navigator.ProjectExplorer" label="Project Explorer"/>
 <page content="org.eclipse.cdt.ui.CView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
 </folder>
 </info>
 <info folder="true" part="org.eclipse.ui.internal.ViewStack@37670cc6" ratio="0.75" ratioLeft="762" ratioRight="254" relationship="2" relative="topLeft">
@@ -219,9 +193,7 @@
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/ParticleExplosion/src/Screen.cpp"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/ParticleExplosion/src/Screen.h"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/ParticleExplosion/src/Particle.cpp"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/ParticleExplosion/src/Particle.h"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/ParticleExplosion/src/Swarm.cpp"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/ParticleExplosion/src/Swarm.h"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/SDL_Basic/src/SDL_Basic.cpp"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/ParticleExplosion/src/Screen.cpp"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/ParticleExplosion/src/Swarm.cpp"/>
@@ -230,22 +202,10 @@
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/ParticleExplosion/src/Main.cpp"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/ParticleExplosion/src/Swarm.h"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/ParticleExplosion/src/Main.cpp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/ParticleExplosion/src/Particle.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Window/src/Window.cpp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Window/src/Screen.h"/>
 </editors>
-<item historyLabel="Particle.h" index="4">
-<position info="not_deleted" x="565" y="0"/>
-</item>
-<item historyLabel="Main.cpp" index="0">
-<position info="not_deleted" x="1028" y="0"/>
-</item>
-<item historyLabel="Swarm.h" index="6">
-<position info="not_deleted" x="291" y="0"/>
-</item>
-<item historyLabel="Swarm.cpp" index="5">
-<position info="not_deleted" x="457" y="0"/>
-</item>
-<item historyLabel="Particle.h" index="4">
-<position info="not_deleted" x="565" y="0"/>
-</item>
 <item historyLabel="Particle.cpp" index="3">
 <position info="not_deleted" x="1623" y="0"/>
 </item>
@@ -285,22 +245,22 @@
 <item historyLabel="Screen.cpp" index="1">
 <position info="not_deleted" x="389" y="0"/>
 </item>
-<item historyLabel="SDL_Basic.cpp" index="7">
+<item historyLabel="SDL_Basic.cpp" index="5">
 <position/>
 </item>
 <item historyLabel="Screen.cpp" index="1">
 <position info="not_deleted" x="389" y="0"/>
 </item>
-<item historyLabel="SDL_Basic.cpp" index="7">
+<item historyLabel="SDL_Basic.cpp" index="5">
 <position/>
 </item>
 <item historyLabel="Screen.cpp" index="1">
 <position info="not_deleted" x="389" y="0"/>
 </item>
-<item historyLabel="SDL_Basic.cpp" index="7">
+<item historyLabel="SDL_Basic.cpp" index="5">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="Swarm.cpp" index="5">
+<item historyLabel="Swarm.cpp" index="4">
 <position info="not_deleted" x="457" y="0"/>
 </item>
 <item historyLabel="Particle.cpp" index="3">
@@ -315,7 +275,7 @@
 <item historyLabel="Screen.cpp" index="1">
 <position info="not_deleted" x="3169" y="0"/>
 </item>
-<item historyLabel="SDL_Basic.cpp" index="7">
+<item historyLabel="SDL_Basic.cpp" index="5">
 <position info="not_deleted" x="4737" y="59"/>
 </item>
 <item historyLabel="Screen.cpp" index="1">
@@ -336,50 +296,65 @@
 <item historyLabel="Screen.h" index="2">
 <position info="not_deleted" x="465" y="0"/>
 </item>
-<item historyLabel="Screen.cpp" index="8">
+<item historyLabel="Screen.cpp" index="6">
 <position info="not_deleted" x="346" y="0"/>
 </item>
 <item historyLabel="Screen.h" index="2">
 <position info="not_deleted" x="268" y="0"/>
 </item>
-<item historyLabel="Swarm.cpp" index="9">
+<item historyLabel="Swarm.cpp" index="7">
 <position info="not_deleted" x="457" y="0"/>
 </item>
-<item historyLabel="Particle.h" index="10">
+<item historyLabel="Particle.h" index="8">
 <position info="not_deleted" x="565" y="0"/>
 </item>
-<item historyLabel="Particle.cpp" index="11">
+<item historyLabel="Particle.cpp" index="9">
 <position info="not_deleted" x="454" y="65"/>
 </item>
-<item historyLabel="Swarm.cpp" index="9">
+<item historyLabel="Swarm.cpp" index="7">
 <position info="not_deleted" x="457" y="0"/>
 </item>
-<item historyLabel="Particle.h" index="10">
+<item historyLabel="Particle.h" index="8">
 <position info="not_deleted" x="565" y="0"/>
 </item>
-<item historyLabel="Main.cpp" index="12">
+<item historyLabel="Main.cpp" index="10">
 <position info="not_deleted" x="1028" y="0"/>
 </item>
-<item historyLabel="Swarm.h" index="13">
+<item historyLabel="Swarm.h" index="11">
 <position info="not_deleted" x="291" y="0"/>
 </item>
-<item historyLabel="Swarm.cpp" index="9">
+<item historyLabel="Swarm.cpp" index="7">
 <position info="not_deleted" x="457" y="0"/>
 </item>
-<item historyLabel="Particle.h" index="10">
+<item historyLabel="Particle.h" index="8">
 <position info="not_deleted" x="565" y="0"/>
 </item>
-<item historyLabel="Particle.cpp" index="11">
+<item historyLabel="Particle.cpp" index="9">
 <position info="not_deleted" x="454" y="65"/>
 </item>
 <item historyLabel="Screen.h" index="2">
 <position info="not_deleted" x="228" y="0"/>
 </item>
-<item historyLabel="Screen.cpp" index="8">
+<item historyLabel="Screen.cpp" index="6">
 <position info="not_deleted" x="346" y="0"/>
 </item>
-<item active="true" historyLabel="Main.cpp" index="14">
+<item historyLabel="Main.cpp" index="12">
 <position info="not_deleted" x="1028" y="0"/>
+</item>
+<item historyLabel="Particle.h" index="13">
+<position info="not_deleted" x="565" y="0"/>
+</item>
+<item historyLabel="Main.cpp" index="12">
+<position info="not_deleted" x="1829" y="0"/>
+</item>
+<item historyLabel="Window.cpp" index="14">
+<position/>
+</item>
+<item historyLabel="Screen.h" index="15">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item active="true" historyLabel="Window.cpp" index="14">
+<position/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -400,10 +375,17 @@
 <trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
 <trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
+<trimItem IMemento.internal.id="bottom"/>
 </trimArea>
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Screen.h" tooltip="Window/src/Screen.h">
+<persistable path="/Window/src/Screen.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Window.cpp" tooltip="Window/src/Window.cpp">
+<persistable path="/Window/src/Window.cpp"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="SDL_Basic.cpp" tooltip="SDL_Basic/src/SDL_Basic.cpp">
 <persistable path="/SDL_Basic/src/SDL_Basic.cpp"/>
 </file>
