@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;MandelbrotSDL2/src/MandelbrotSDL2.cpp&apos; to &apos;main&apos;" description="Rename resource &apos;MandelbrotSDL2.cpp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/MandelbrotSDL2.cpp" name="main" stamp="1481065440043" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;MandelbrotSDL2/src/main&apos; to &apos;main.cpp&apos;" description="Rename resource &apos;main&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main" name="main.cpp" stamp="1481065450898" updateReferences="true"/>
+</session>
