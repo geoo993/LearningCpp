@@ -25,8 +25,8 @@ int main() {
 
 	//fractalGenerator.addZoom( Zoom(354, 455, 0.1) );
 	//fractalGenerator.addZoom( Zoom(312, 304, 0.1) );
-	fractalGenerator.runBitmap("test.bmp");
-	//fractalGenerator.runWindow();
+	//fractalGenerator.runBitmap("test.bmp");
+	fractalGenerator.runWindow();
 	cout << "Finished" << endl;
 
 

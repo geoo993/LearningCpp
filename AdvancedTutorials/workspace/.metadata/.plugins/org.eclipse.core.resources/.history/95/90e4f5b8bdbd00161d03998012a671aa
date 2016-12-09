@@ -50,6 +50,7 @@ private:
 	vector<int> m_rangeTotals;
 
 	bool m_bGotFirstRange{false};
+	bool m_clicked{false};
 
 private:
 

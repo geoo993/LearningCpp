@@ -58,24 +58,6 @@ void FractalGenerator::runWindow(){
 
 	while (true) {
 
-		if (SDL_GetMouseState(&m_mouseX, &m_mouseY) & SDL_BUTTON(SDL_BUTTON_LEFT) ) {
-
-			if (m_clicked == false){
-				cout << "x: " << m_mouseX << endl;
-				cout << "y: " << m_mouseY << endl;
-
-				addZoom( Zoom(m_mouseX, m_mouseY, 0.1) );
-				m_clicked = true;
-				cout << "click disabled " << endl;
-
-				calculateIterations();
-				calculateTotalIterations();
-				calculateRangeTotals();
-				drawFractal();
-
-			}
-		}
-
 		// Draw the screen
 		m_screen.update();
 
@@ -158,9 +140,6 @@ void FractalGenerator::calculateRangeTotals(){
 void FractalGenerator::drawFractal(){
 
 
-	m_clicked = false;
-	cout << "click enabled " << endl;
-
 	for (int y = 0; y < m_height; y++){
 
 		for (int x = 0; x < m_width; x++){
@@ -193,7 +172,7 @@ void FractalGenerator::drawFractal(){
 			}
 
 			m_bitmap.setPixel(x, y, red, green, blue);
-			m_screen.setPixel(x, y, red, green, blue);
+			//m_screen.setPixel(x, y, red, green, blue);
 
 		}
 	}
