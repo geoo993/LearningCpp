@@ -1,0 +1,67 @@
+//============================================================================
+// Name        : InputScreenSDL.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include "Screen.h"
+#include <complex>
+#include <vector>
+
+
+using namespace std;
+
+int main() {
+
+	int width = 800;
+	int height = 600;
+
+	complex<double> z;
+	complex<double> c;
+
+//	auto func = [] (Complex z, Complex c) -> Complex {
+//		return z * z + c;
+//	};
+
+	int iter_max = 1000;
+	bool smooth_color = false;
+	std::vector<int> colors(800);
+
+
+	// Initialise screen
+	Screen screen(width, height);
+	if (screen.init() == false) {
+		cout << "ERROR INITIALIZING SCREEN WITH SDL." << endl;
+	}
+	cout << "SDL Init succeeded." << endl;
+
+
+	while (true) {
+
+		for (int row = 0; row < height; row++) {
+			for (int col = 0; col < width; col++) {
+
+				screen.setPixel(col, row, 0, 255, 255);
+
+			}
+		}
+
+		// Draw the screen
+		screen.update();
+
+		// Check for messages/events
+		if(screen.proccessEvents() == false){
+			break;
+		}
+
+	}
+
+	screen.close();
+
+
+
+	return 0;
+}

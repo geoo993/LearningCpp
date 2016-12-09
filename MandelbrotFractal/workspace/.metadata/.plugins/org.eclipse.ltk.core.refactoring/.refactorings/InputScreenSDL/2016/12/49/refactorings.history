@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;InputScreenSDL/src/InputScreenSDL.cpp&apos; to &apos;main.cpp&apos;" description="Rename resource &apos;InputScreenSDL.cpp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/InputScreenSDL.cpp" name="main.cpp" stamp="1481237623825" updateReferences="true"/>
+</session>

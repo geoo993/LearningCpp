@@ -1,0 +1,94 @@
+/*
+ * ZoomList.cpp
+ *
+ *  Created on: 5 Dec 2016
+ *      Author: GeorgeQuentin
+ */
+
+#include "ZoomList.h"
+#include <iostream>
+
+namespace fractalnamespace {
+
+ZoomList::ZoomList(int width, int height): m_width(width), m_height(height) {
+
+}
+
+void ZoomList::addUp(const Zoom &zoom){
+	zooms.push_back(zoom);
+
+	//std::cout << "zooms: " << zooms.size() << std::endl;
+
+
+	m_xCenter += (zoom.x - m_width/2) * m_scale;
+	m_yCenter += (zoom.y - m_height/2) * m_scale;
+
+	m_scale *= zoom.scale;
+	//m_scale = m_scale * zoom.scale;
+
+	m_zoom_positions.push_back(std::make_pair(m_xCenter, m_yCenter));
+	m_zoom_scale.push_back(m_scale);
+
+	//print();
+}
+
+void ZoomList::addDown(const Zoom &zoom){
+	zooms.push_back(zoom);
+
+	m_xCenter += (zoom.x - m_width/2) * m_scale;
+	m_yCenter += (zoom.y - m_height/2) * m_scale;
+
+	m_scale = m_scale / zoom.scale;
+
+	m_zoom_positions.push_back(std::make_pair(m_xCenter, m_yCenter));
+	m_zoom_scale.push_back(m_scale);
+}
+
+void ZoomList::reset(int index){
+
+	m_xCenter = m_zoom_positions[index].first;
+	m_yCenter = m_zoom_positions[index].second;
+	m_scale = m_zoom_scale[index];
+
+}
+
+void ZoomList::print(){
+
+//	m_zoom_positions = {};
+//	m_zoom_scale = {};
+//	zooms = {};
+
+	std::cout << "m_width: " << m_width << std::endl;
+	std::cout << "m_height: " << m_height << std::endl;
+	std::cout << "m_xCenter: " << m_xCenter << std::endl;
+	std::cout << "m_yCenter: " << m_yCenter << std::endl;
+	std::cout << "m_scale: " << m_scale << std::endl;
+	std::cout << "zooms size : " << zooms.size() << std::endl;
+	for(std::vector<Zoom>::iterator it = zooms.begin(); it != zooms.end(); ++it) {
+
+		std::cout << "zoomsx : " << (*it).x << ", zoomsy : " << (*it).y << ", zooms scale : " << (*it).scale << std::endl;
+	}
+
+	std::cout << "positions: " << m_zoom_positions.size() << std::endl;
+	for(std::vector<std::pair<double,double>>::iterator it = m_zoom_positions.begin(); it != m_zoom_positions.end(); ++it) {
+
+		std::cout << "positions x : " << (*it).first << ", positions y : " << (*it).second << std::endl;
+	}
+
+	std::cout << "scale: " << m_zoom_scale.size() << std::endl;
+	for(std::vector<double>::iterator it = m_zoom_scale.begin(); it != m_zoom_scale.end(); ++it) {
+
+		std::cout << "scale : " << (*it) << std::endl;
+	}
+
+}
+
+std::pair<double, double> ZoomList::doZoom(int x, int y) {
+
+	double xFractal = (x - m_width/2) * m_scale + m_xCenter;
+	double yFractal = (y - m_height/2) * m_scale + m_yCenter;
+
+	return std::pair<double, double>(xFractal, yFractal);
+}
+
+}
