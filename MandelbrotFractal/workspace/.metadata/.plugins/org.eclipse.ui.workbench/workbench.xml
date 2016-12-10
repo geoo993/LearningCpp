@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workbench progressCount="22" version="2.0">
 <workbenchAdvisor/>
-<window height="783" width="1266" x="62" y="23">
+<window height="783" width="1399" x="21" y="23">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="160"/>
@@ -30,18 +30,13 @@
 <folder appearance="1" expanded="2">
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
-<part id="1"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="main.cpp" partName="main.cpp" path="/Users/GeorgeQuentin/Dev/Cpp/LearningCppFromCaveOfProgramming/MandelbrotFractal/workspace/MandelbrotFractalWithZoom/src/main.cpp" title="main.cpp" tooltip="MandelbrotFractalWithZoom/src/main.cpp" workbook="DefaultEditorWorkbook">
+<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="main.cpp" partName="main.cpp" path="/Users/GeorgeQuentin/Dev/Cpp/LearningCppFromCaveOfProgramming/MandelbrotFractal/workspace/MandelbrotFractalWithZoom/src/main.cpp" title="main.cpp" tooltip="MandelbrotFractalWithZoom/src/main.cpp" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MandelbrotFractalWithZoom/src/main.cpp"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="514" selectionTopPixel="0"/>
-</editor>
-<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="FractalGenerator.cpp" partName="FractalGenerator.cpp" path="/Users/GeorgeQuentin/Dev/Cpp/LearningCppFromCaveOfProgramming/MandelbrotFractal/workspace/MandelbrotFractalWithZoom/src/FractalGenerator.cpp" title="FractalGenerator.cpp" tooltip="MandelbrotFractalWithZoom/src/FractalGenerator.cpp" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/MandelbrotFractalWithZoom/src/FractalGenerator.cpp"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="703" selectionTopPixel="305"/>
 </editor>
 </editors>
 <views>
@@ -185,163 +180,173 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/MandelbrotFractalWithZoom/src/main.cpp"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/MandelbrotFractalWithZoom/src/FractalGenerator.cpp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/MandelbrotFractalWithZoom/src/Mandelbrot.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/MandelbrotFractalWithZoom/src/Mandelbrot.cpp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/MandelbrotFractalWithZoom/src/main.cpp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/MandelbrotFractalWithZoom/src/Bitmap.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/MandelbrotFractalWithZoom/src/BitmapFileHeader.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/MandelbrotFractalWithZoom/src/BitmapInfoHeader.h"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/MandelbrotFractalWithZoom/src/FractalGenerator.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/MandelbrotFractalWithZoom/src/Bitmap.cpp"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/MandelbrotFractalWithZoom/src/RGB.h"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/MandelbrotFractalWithZoom/src/RGB.cpp"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/InputScreenSDL/src/Screen.cpp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/MandelbrotFractalWithZoom/src/Screen.cpp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/MandelbrotFractalWithZoom/src/Screen.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/MandelbrotFractalWithZoom/src/Zoom.h"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/MandelbrotFractalWithZoom/src/ZoomList.cpp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/MandelbrotFractalWithZoom/src/ZoomList.h"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/MandelbrotFractalWithZoom/src/Mandelbrot.h"/>
 </editors>
-<item historyLabel="main.cpp" index="0">
-<position info="not_deleted" x="635" y="0"/>
-</item>
-<item historyLabel="FractalGenerator.cpp" index="1">
+<item historyLabel="Mandelbrot.cpp" index="2">
 <position/>
 </item>
-<item historyLabel="RGB.cpp" index="4">
-<position info="not_deleted" x="866" y="0"/>
-</item>
-<item historyLabel="RGB.h" index="3">
+<item historyLabel="FractalGenerator.cpp" index="0">
 <position/>
 </item>
-<item historyLabel="RGB.cpp" index="4">
-<position info="not_deleted" x="443" y="57"/>
-</item>
-<item historyLabel="RGB.h" index="3">
+<item historyLabel="Mandelbrot.cpp" index="2">
 <position/>
 </item>
-<item historyLabel="RGB.cpp" index="4">
-<position info="not_deleted" x="857" y="47"/>
+<item historyLabel="Mandelbrot.h" index="1">
+<position/>
 </item>
-<item historyLabel="RGB.h" index="3">
-<position info="not_deleted" x="108" y="0"/>
+<item historyLabel="Mandelbrot.cpp" index="2">
+<position/>
 </item>
-<item historyLabel="main.cpp" index="0">
+<item historyLabel="FractalGenerator.cpp" index="0">
+<position/>
+</item>
+<item historyLabel="main.cpp" index="3">
+<position info="not_deleted" x="515" y="0"/>
+</item>
+<item historyLabel="FractalGenerator.cpp" index="0">
+<position/>
+</item>
+<item historyLabel="main.cpp" index="3">
+<position info="not_deleted" x="515" y="0"/>
+</item>
+<item historyLabel="Bitmap.h" index="4">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="BitmapFileHeader.h" index="5">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="BitmapInfoHeader.h" index="6">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="FractalGenerator.h" index="7">
+<position info="not_deleted" x="163" y="0"/>
+</item>
+<item historyLabel="main.cpp" index="3">
+<position info="not_deleted" x="515" y="0"/>
+</item>
+<item historyLabel="FractalGenerator.h" index="7">
+<position info="not_deleted" x="163" y="0"/>
+</item>
+<item historyLabel="Mandelbrot.h" index="1">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Mandelbrot.cpp" index="2">
+<position info="not_deleted" x="109" y="0"/>
+</item>
+<item historyLabel="FractalGenerator.cpp" index="0">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Bitmap.cpp" index="8">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="FractalGenerator.cpp" index="0">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Mandelbrot.cpp" index="2">
+<position info="not_deleted" x="109" y="0"/>
+</item>
+<item historyLabel="Mandelbrot.h" index="1">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="RGB.h" index="9">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="RGB.cpp" index="10">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="RGB.h" index="9">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Mandelbrot.h" index="1">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Screen.cpp" index="11">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Screen.h" index="12">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Screen.cpp" index="11">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Mandelbrot.h" index="1">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Zoom.h" index="13">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="ZoomList.cpp" index="14">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="ZoomList.h" index="15">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Zoom.h" index="13">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Mandelbrot.h" index="1">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="FractalGenerator.h" index="7">
+<position info="not_deleted" x="163" y="0"/>
+</item>
+<item historyLabel="main.cpp" index="3">
+<position info="not_deleted" x="515" y="0"/>
+</item>
+<item historyLabel="Bitmap.h" index="4">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="main.cpp" index="3">
+<position info="not_deleted" x="664" y="0"/>
+</item>
+<item historyLabel="FractalGenerator.cpp" index="0">
+<position info="not_deleted" x="1247" y="0"/>
+</item>
+<item historyLabel="main.cpp" index="3">
 <position info="not_deleted" x="327" y="19"/>
 </item>
-<item historyLabel="RGB.cpp" index="4">
-<position info="not_deleted" x="857" y="47"/>
+<item historyLabel="FractalGenerator.cpp" index="0">
+<position info="not_deleted" x="1247" y="0"/>
 </item>
-<item historyLabel="RGB.h" index="3">
-<position info="not_deleted" x="108" y="0"/>
+<item historyLabel="FractalGenerator.cpp" index="0">
+<position info="not_deleted" x="1247" y="0"/>
 </item>
-<item historyLabel="RGB.cpp" index="4">
-<position info="not_deleted" x="857" y="47"/>
+<item historyLabel="main.cpp" index="3">
+<position info="not_deleted" x="483" y="0"/>
 </item>
-<item historyLabel="RGB.h" index="3">
-<position info="not_deleted" x="317" y="0"/>
+<item historyLabel="FractalGenerator.cpp" index="0">
+<position info="not_deleted" x="1112" y="0"/>
 </item>
-<item historyLabel="FractalGenerator.cpp" index="1">
-<position/>
+<item historyLabel="main.cpp" index="3">
+<position info="not_deleted" x="447" y="0"/>
 </item>
-<item historyLabel="FractalGenerator.cpp" index="1">
-<position info="not_deleted" x="3139" y="0"/>
+<item historyLabel="Mandelbrot.h" index="1">
+<position info="not_deleted" x="206" y="0"/>
 </item>
-<item historyLabel="RGB.cpp" index="4">
-<position info="not_deleted" x="857" y="47"/>
+<item historyLabel="main.cpp" index="3">
+<position info="not_deleted" x="447" y="0"/>
 </item>
-<item historyLabel="RGB.h" index="3">
-<position info="not_deleted" x="321" y="0"/>
+<item historyLabel="Mandelbrot.h" index="16">
+<position info="not_deleted" x="244" y="0"/>
 </item>
-<item historyLabel="FractalGenerator.h" index="2">
-<position info="not_deleted" x="1037" y="0"/>
-</item>
-<item historyLabel="FractalGenerator.cpp" index="1">
-<position/>
-</item>
-<item historyLabel="RGB.h" index="3">
-<position info="not_deleted" x="321" y="0"/>
-</item>
-<item historyLabel="RGB.cpp" index="4">
-<position/>
-</item>
-<item historyLabel="RGB.h" index="3">
-<position/>
-</item>
-<item historyLabel="FractalGenerator.cpp" index="1">
-<position info="not_deleted" x="3480" y="0"/>
-</item>
-<item historyLabel="RGB.cpp" index="4">
-<position/>
-</item>
-<item historyLabel="main.cpp" index="0">
+<item active="true" historyLabel="main.cpp" index="3">
 <position info="not_deleted" x="514" y="0"/>
-</item>
-<item historyLabel="FractalGenerator.h" index="2">
-<position info="not_deleted" x="1037" y="0"/>
-</item>
-<item historyLabel="FractalGenerator.cpp" index="1">
-<position info="not_deleted" x="3589" y="0"/>
-</item>
-<item historyLabel="RGB.cpp" index="4">
-<position info="not_deleted" x="857" y="0"/>
-</item>
-<item historyLabel="RGB.h" index="3">
-<position info="not_deleted" x="259" y="0"/>
-</item>
-<item historyLabel="RGB.cpp" index="4">
-<position info="not_deleted" x="857" y="0"/>
-</item>
-<item historyLabel="main.cpp" index="0">
-<position info="not_deleted" x="514" y="0"/>
-</item>
-<item historyLabel="FractalGenerator.cpp" index="1">
-<position info="not_deleted" x="3589" y="0"/>
-</item>
-<item historyLabel="Screen.cpp" index="5">
-<position info="not_deleted" x="5262" y="381"/>
-</item>
-<item historyLabel="FractalGenerator.cpp" index="1">
-<position info="not_deleted" x="1480" y="0"/>
-</item>
-<item historyLabel="RGB.h" index="3">
-<position info="not_deleted" x="259" y="0"/>
-</item>
-<item historyLabel="FractalGenerator.h" index="2">
-<position info="not_deleted" x="829" y="7"/>
-</item>
-<item historyLabel="FractalGenerator.cpp" index="1">
-<position info="not_deleted" x="1480" y="0"/>
-</item>
-<item historyLabel="FractalGenerator.h" index="2">
-<position info="not_deleted" x="829" y="7"/>
-</item>
-<item historyLabel="FractalGenerator.cpp" index="1">
-<position info="not_deleted" x="1846" y="0"/>
-</item>
-<item historyLabel="FractalGenerator.h" index="2">
-<position info="not_deleted" x="829" y="7"/>
-</item>
-<item historyLabel="FractalGenerator.cpp" index="1">
-<position info="not_deleted" x="1727" y="0"/>
-</item>
-<item historyLabel="FractalGenerator.h" index="2">
-<position info="not_deleted" x="814" y="13"/>
-</item>
-<item historyLabel="FractalGenerator.cpp" index="1">
-<position info="not_deleted" x="1727" y="0"/>
-</item>
-<item historyLabel="FractalGenerator.cpp" index="1">
-<position info="not_deleted" x="1754" y="0"/>
-</item>
-<item historyLabel="FractalGenerator.cpp" index="1">
-<position info="not_deleted" x="1074" y="0"/>
-</item>
-<item historyLabel="Mandelbrot.h" index="6">
-<position info="not_deleted" x="223" y="0"/>
-</item>
-<item historyLabel="FractalGenerator.cpp" index="1">
-<position info="not_deleted" x="1074" y="0"/>
-</item>
-<item historyLabel="FractalGenerator.h" index="2">
-<position info="not_deleted" x="814" y="13"/>
-</item>
-<item historyLabel="main.cpp" index="0">
-<position info="not_deleted" x="514" y="0"/>
-</item>
-<item active="true" historyLabel="FractalGenerator.cpp" index="1">
-<position info="not_deleted" x="0" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -360,14 +365,26 @@
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="FractalGenerator.cpp" tooltip="MandelbrotFractalWithZoom/src/FractalGenerator.cpp">
-<persistable path="/MandelbrotFractalWithZoom/src/FractalGenerator.cpp"/>
-</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Mandelbrot.h" tooltip="MandelbrotFractalWithZoom/src/Mandelbrot.h">
 <persistable path="/MandelbrotFractalWithZoom/src/Mandelbrot.h"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Screen.cpp" tooltip="InputScreenSDL/src/Screen.cpp">
-<persistable path="/InputScreenSDL/src/Screen.cpp"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="FractalGenerator.cpp" tooltip="MandelbrotFractalWithZoom/src/FractalGenerator.cpp">
+<persistable path="/MandelbrotFractalWithZoom/src/FractalGenerator.cpp"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="ZoomList.h" tooltip="MandelbrotFractalWithZoom/src/ZoomList.h">
+<persistable path="/MandelbrotFractalWithZoom/src/ZoomList.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="ZoomList.cpp" tooltip="MandelbrotFractalWithZoom/src/ZoomList.cpp">
+<persistable path="/MandelbrotFractalWithZoom/src/ZoomList.cpp"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Zoom.h" tooltip="MandelbrotFractalWithZoom/src/Zoom.h">
+<persistable path="/MandelbrotFractalWithZoom/src/Zoom.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Screen.h" tooltip="MandelbrotFractalWithZoom/src/Screen.h">
+<persistable path="/MandelbrotFractalWithZoom/src/Screen.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Screen.cpp" tooltip="MandelbrotFractalWithZoom/src/Screen.cpp">
+<persistable path="/MandelbrotFractalWithZoom/src/Screen.cpp"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="RGB.cpp" tooltip="MandelbrotFractalWithZoom/src/RGB.cpp">
 <persistable path="/MandelbrotFractalWithZoom/src/RGB.cpp"/>
@@ -375,35 +392,23 @@
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="RGB.h" tooltip="MandelbrotFractalWithZoom/src/RGB.h">
 <persistable path="/MandelbrotFractalWithZoom/src/RGB.h"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.systemExternalEditor" name="MandelbrotFractal.bmp" tooltip="MandelbrotFractalWithZoom/MandelbrotFractal.bmp">
-<persistable path="/MandelbrotFractalWithZoom/MandelbrotFractal.bmp"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Bitmap.cpp" tooltip="MandelbrotFractalWithZoom/src/Bitmap.cpp">
+<persistable path="/MandelbrotFractalWithZoom/src/Bitmap.cpp"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Mandelbrot.cpp" tooltip="MandelbrotFractalWithZoom/src/Mandelbrot.cpp">
 <persistable path="/MandelbrotFractalWithZoom/src/Mandelbrot.cpp"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Screen.cpp" tooltip="MandelbrotFractalWithZoom/src/Screen.cpp">
-<persistable path="/MandelbrotFractalWithZoom/src/Screen.cpp"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Screen.h" tooltip="MandelbrotFractalWithZoom/src/Screen.h">
-<persistable path="/MandelbrotFractalWithZoom/src/Screen.h"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Zoom.h" tooltip="MandelbrotFractalWithZoom/src/Zoom.h">
-<persistable path="/MandelbrotFractalWithZoom/src/Zoom.h"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="ZoomList.cpp" tooltip="MandelbrotFractalWithZoom/src/ZoomList.cpp">
-<persistable path="/MandelbrotFractalWithZoom/src/ZoomList.cpp"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="ZoomList.h" tooltip="MandelbrotFractalWithZoom/src/ZoomList.h">
-<persistable path="/MandelbrotFractalWithZoom/src/ZoomList.h"/>
-</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="FractalGenerator.h" tooltip="MandelbrotFractalWithZoom/src/FractalGenerator.h">
 <persistable path="/MandelbrotFractalWithZoom/src/FractalGenerator.h"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="main.cpp" tooltip="MandelbrotFractalWithZoom/src/main.cpp">
-<persistable path="/MandelbrotFractalWithZoom/src/main.cpp"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="BitmapInfoHeader.h" tooltip="MandelbrotFractalWithZoom/src/BitmapInfoHeader.h">
+<persistable path="/MandelbrotFractalWithZoom/src/BitmapInfoHeader.h"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.systemExternalEditor" name="test.bmp" tooltip="MandelbrotFractalWithZoom/test.bmp">
-<persistable path="/MandelbrotFractalWithZoom/test.bmp"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="BitmapFileHeader.h" tooltip="MandelbrotFractalWithZoom/src/BitmapFileHeader.h">
+<persistable path="/MandelbrotFractalWithZoom/src/BitmapFileHeader.h"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Bitmap.h" tooltip="MandelbrotFractalWithZoom/src/Bitmap.h">
+<persistable path="/MandelbrotFractalWithZoom/src/Bitmap.h"/>
 </file>
 </mruList>
 </workbench>

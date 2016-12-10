@@ -14,7 +14,7 @@ using namespace fractalnamespace;
 
 int main() {
 
-	int width = 1420;
+	int width = 1400;
 	int height = 920;
 	bool smooth_coloring = true;
 	string output = "window"; //bitmap or window
