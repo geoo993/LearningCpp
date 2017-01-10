@@ -14,8 +14,8 @@ using namespace std;
 class Animal {
 
 public:
-	//in this case, Animal is an abstract class, because when is it has any pure virtual methods, it is called an abstract class
-	//because Animal is an abstract class, we cannot instantiate it because abstract classes cannot be intsatiated
+	//in this case, Animal is an abstract class, because it has pure virtual methods, it is called an abstract class
+	//because Animal is an abstract class, we cannot instantiate it because abstract classes cannot be instantiated
 	virtual void print() = 0; //this is a pure virtual function, a class which contains a pure virtual function is called an abstract class
 	virtual int age(int age) = 0;
 };
@@ -29,7 +29,7 @@ public:
 	}
 };
 
-// now do has become a virtual class, because Chiwawa has become a sub class that uses a virtual function that derives from dog
+// now dog has become a virtual class, because Chiwawa has become a sub class that uses a virtual function that derives from dog
 class Chiwawa: public Dog {
 
 

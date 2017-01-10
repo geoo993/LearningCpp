@@ -77,6 +77,7 @@ int main() {
 
 	Test test4 = getTest();// we are doing a copy initialisation
 	cout << test4 << endl;// the ostream operator allows us to use the class object in the cout
+	test4.print();
 
 	vector<Test> vec;
 	vec.push_back(Test());

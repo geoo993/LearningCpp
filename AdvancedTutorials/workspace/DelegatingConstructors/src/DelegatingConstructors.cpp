@@ -46,7 +46,6 @@ class Child: public Parent{
 
 public :
 	Child() = default;// child is calling the default empty Parent constructor
-
 };
 
 
@@ -56,10 +55,8 @@ int main() {
 	Parent p;
 	Child c;//when a child class is constructed it must run the supper class, unless you are doing polymorphism
 
-
 	//in c++ 11 you can select what constructor you want to use
 	c.print();
-
 
 
 	return 0;

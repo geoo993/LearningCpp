@@ -16,7 +16,7 @@ using namespace std;
 //classes are a way of combining or packaging together data and sub routines
 
 //you use class to allow the compiler to access another class from another file
-//classes and header files are a way to organise your program
+//classes and header files are a way to organize your program
 //classes where created to bundle data, representing the state or variable of things together with subroutines and methods to represent what a things/object/player/enemy/character etc...
 
 

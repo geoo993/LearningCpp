@@ -30,7 +30,7 @@ int main() {
 	[=](){ cout << one << ", " << two << ", " << three << ", " << four << endl; }();
 
 	// you can also capture variable by reference (&) and values the [=]
-	//so the default capture here is that it captures all variables by values [=] and will capture four by reference
+	//so the default capture here is that it captures all variables by values [=] and but will capture four by reference
 	[=, &four](){ four = 36; cout << one << ", " << two << ", " << three << ", " << four << endl; }();
 
 	cout << four << endl;

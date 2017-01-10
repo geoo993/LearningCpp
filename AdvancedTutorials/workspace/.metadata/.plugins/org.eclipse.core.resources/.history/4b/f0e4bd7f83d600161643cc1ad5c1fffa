@@ -1,0 +1,262 @@
+//============================================================================
+// Name        : TestExamPaperThree.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include <vector>
+#include <initializer_list>
+using namespace std;
+
+/*
+//A a;
+//B b;
+//a = b;
+//yes the assigment legal, under the circumstance that A is the base class of b, meaning B inherits from A or B is a subtype of A. and that A has a member wise copy assigment operator.
+//in this curcumstance, be is then destroyed as a has now become b;
+
+class Vector3D {
+
+	double x,y,z;
+
+public :
+	Vector3D(): x(0.0), y(0.0), z(0.0){}
+	Vector3D(double &x, double &y, double &z): x(x), y(y), z(z){}
+
+	double get_x() const { return x; }
+	double get_y() const { return y; }
+	double get_z() const { return z; }
+
+	Vector3D operator+(const Vector3D & other) const {
+	   return Vector3D(x+other.x, y+other.y, z+other.z);
+	}
+
+	Vector3D &operator+=(const Vector3D & other) const {
+		x += other.x;
+		y += other.y;
+		z += other.z;
+		//*this += other;
+		return *this;
+	}
+
+//	Vector3D operator+(Vector3D a, const Vector3D & b) {
+//	                 return (a += b);
+//	}
+
+
+};
+
+class Path : public Vector3D{
+
+	vector<Vector3D> paths;
+public:
+	Path(): paths({}){}
+	Path(initializer_list<Vector3D> &p)
+	{
+		//for (int i = 0; i < p.size(); i++){
+		for (auto it = p.begin(); it != p.end(); ++it){
+			paths.push_back(*it);
+		}
+	}
+
+	void addinfront(const Vector3D &xyz){
+		paths.insert ( paths.begin() , xyz );
+	}
+
+	void addfromBack(const Vector3D &xyz)  {
+		paths.insert ( paths.end() , xyz );
+	}
+
+	void append(const vector<Vector3D> &p) {
+		paths.insert(paths.end(), p.begin(), p.end());
+	}
+
+};
+
+
+template <typename Iterator>
+
+int range(Iterator &first, const Iterator &second){
+	int count = 0;
+	while ( first !=  second){
+		++count;
+		++first;
+	}
+	return count;
+}
+
+template <typename Elem, typename Iterator>
+int distance(Elem x, Iterator first, const Iterator & last) {
+     int count = 0;
+      while (first != last) {
+         if (*first == x)
+           count++;
+           first++;
+       }
+           return count;
+ }
+
+
+
+
+//any class type,  or any class or primiyive type... i was going to say data type
+
+class b {
+
+public :
+
+	void f(double &d){
+
+	}
+};
+
+class a : b {
+
+public:
+	static class b * p_class;
+};
+
+
+class World{
+
+};
+
+class Action{
+
+};
+
+
+//class Character {
+//    World *world;
+//public:
+//    Character(World *w) : world(w) {}
+//    Action react() const{}
+//    void strategy(list <Action> &a){
+//
+//    }
+//
+//};
+
+
+class Window{
+
+	int w_id;
+	int x, y;
+
+public :
+
+	Window( int &x, int &y, int &w, int &h , const string &text)
+	{
+		w_id = create_window(w, h);
+		win_draw_rectangle(w_id, x, y, w, h);
+		//win_draw_text(w_id, x, y, text.c_str());
+	}
+
+	Window (const Window&other){
+
+	}
+	Window &operator=(const Window&other){
+		return *this;
+	}
+
+	int create_window(int width, int height){
+
+	}
+
+	void win_draw_rectangle(int window_id, int x, int y, int w, int h){
+
+	}
+
+	void win_draw_text(int window_id, int x, int y, char *str){
+
+	}
+
+
+
+	void destroy_window(int window_id){
+
+	}
+
+	~Window(){
+		destroy_window(w_id);
+	}
+};
+
+*/
+
+
+
+// Base class for employees in a payroll.
+// In derived classes, employees will be paid by hours
+// worked or amount of goods sold.
+class Employee {
+protected:
+        // employee’s name
+        const string name;
+        // pay earned so far this month (in pounds)
+        double pay;
+public:
+
+        Employee(const string &n) : name(n), pay(0) {}
+// employee’s name
+string get_name() const { return name; }
+// pay earned so far this month (in pounds)
+double get_pay() const { return pay; }
+// reset pay level (after monthly pay round)
+void reset_pay() { pay = 0; }
+// add pay for working h hours
+virtual void work_hours(double h) {}
+// add pay for selling amount (in pounds)
+virtual void sell(double amount) {}
+
+};
+
+
+
+//the before a memeber means the name will not be changes or mainpulated.
+//the const in the parameter followed by the reference means the string will be passed by reference and will not be change or manipulated. means the string tat is passed in is unchanagable
+//the const in right side of the function means the function cannot be changed or manipulated, any object and assigns into these will not be able to manipulate the function.
+//
+
+
+//the visiblitiy of the members in the protected section means that those members will be visible only to members in this Employee class and any derived class of Employee, this is a way of encapsulation
+//the visibility of the member functions in the public section means that these member can accessed or are visible by class objects from within and outside of the Employee's class
+
+//the virtual keyword means the memebre functions with virtual can re-implemented, duplicated or overriden by any derived classes of Employees
+
+class HourlyEmployee: public Employee {
+
+	double hours;
+public:
+
+	HourlyEmployee(double hours): hours(hours), {}
+	// add pay for working h hours
+	virtual void work_hours(double h) {
+		hours = h;
+	}
+};
+
+class CommissionEmployee: public Employee {
+
+	double amount;
+
+public:
+
+	HourlyEmployee(double amount): amount(amount), {}
+
+	// add pay for selling amount (in pounds)
+	virtual void sell(double amount) {
+		amount = amount;
+	}
+
+
+};
+
+int main() {
+
+
+	return 0;
+}

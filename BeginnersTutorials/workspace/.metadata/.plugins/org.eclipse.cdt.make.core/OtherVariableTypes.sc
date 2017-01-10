@@ -7,6 +7,7 @@
 <includePath path="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 <includePath path="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
 <includePath path="/usr/local/include"/>
+<includePath path="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
 <includePath path="/Library/Developer/CommandLineTools/usr/bin/../lib/clang/7.3.0/include"/>
 <includePath path="/Library/Developer/CommandLineTools/usr/include"/>
 <includePath path="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.3.0/include"/>
@@ -17,9 +18,12 @@
 <definedSymbol symbol="__llvm__=1"/>
 <definedSymbol symbol="__clang__=1"/>
 <definedSymbol symbol="__clang_major__=7"/>
+<definedSymbol symbol="__clang_major__=8"/>
 <definedSymbol symbol="__clang_minor__=3"/>
+<definedSymbol symbol="__clang_minor__=0"/>
 <definedSymbol symbol="__clang_patchlevel__=0"/>
 <definedSymbol symbol="__clang_version__=&quot;7.3.0 (clang-703.0.31)&quot;"/>
+<definedSymbol symbol="__clang_version__=&quot;8.0.0 (clang-800.0.42.1)&quot;"/>
 <definedSymbol symbol="__GNUC_MINOR__=2"/>
 <definedSymbol symbol="__GNUC_PATCHLEVEL__=1"/>
 <definedSymbol symbol="__GNUC__=4"/>
@@ -32,6 +36,7 @@
 <definedSymbol symbol="__ATOMIC_SEQ_CST=5"/>
 <definedSymbol symbol="__PRAGMA_REDEFINE_EXTNAME=1"/>
 <definedSymbol symbol="__VERSION__=&quot;4.2.1 Compatible Apple LLVM 7.3.0 (clang-703.0.31)&quot;"/>
+<definedSymbol symbol="__VERSION__=&quot;4.2.1 Compatible Apple LLVM 8.0.0 (clang-800.0.42.1)&quot;"/>
 <definedSymbol symbol="__cpp_rtti=199711"/>
 <definedSymbol symbol="__cpp_exceptions=199711"/>
 <definedSymbol symbol="__CONSTANT_CFSTRINGS__=1"/>
@@ -338,22 +343,26 @@
 <definedSymbol symbol="__APPLE__=1"/>
 <definedSymbol symbol="OBJC_NEW_PROPERTIES=1"/>
 <definedSymbol symbol="__apple_build_version__=7030031"/>
+<definedSymbol symbol="__apple_build_version__=8000042"/>
 <definedSymbol symbol="__weak=__attribute__((objc_gc(weak)))"/>
 <definedSymbol symbol="__strong="/>
 <definedSymbol symbol="__unsafe_unretained="/>
 <definedSymbol symbol="__DYNAMIC__=1"/>
 <definedSymbol symbol="__ENVIRONMENT_MAC_OS_X_VERSION_MIN_REQUIRED__=101100"/>
+<definedSymbol symbol="__ENVIRONMENT_MAC_OS_X_VERSION_MIN_REQUIRED__=101200"/>
 <definedSymbol symbol="__MACH__=1"/>
 <definedSymbol symbol="__STDC__=1"/>
 <definedSymbol symbol="__STDC_HOSTED__=1"/>
 <definedSymbol symbol="__cplusplus=199711L"/>
 <definedSymbol symbol="__STDC_UTF_16__=1"/>
 <definedSymbol symbol="__STDC_UTF_32__=1"/>
+<definedSymbol symbol="__SSE4_1__=1"/>
 </collector>
 </instance>
 <instance id="cdt.managedbuild.config.gnu.macosx.exe.debug.2046339849;cdt.managedbuild.config.gnu.macosx.exe.debug.2046339849.;cdt.managedbuild.tool.gnu.c.compiler.macosx.exe.debug.1621517889;cdt.managedbuild.tool.gnu.c.compiler.input.1593394292">
 <collector id="org.eclipse.cdt.make.core.PerProjectSICollector">
 <includePath path="/usr/local/include"/>
+<includePath path="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.0.0/include"/>
 <includePath path="/Library/Developer/CommandLineTools/usr/bin/../lib/clang/7.3.0/include"/>
 <includePath path="/Library/Developer/CommandLineTools/usr/include"/>
 <includePath path="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/7.3.0/include"/>
@@ -364,9 +373,12 @@
 <definedSymbol symbol="__llvm__=1"/>
 <definedSymbol symbol="__clang__=1"/>
 <definedSymbol symbol="__clang_major__=7"/>
+<definedSymbol symbol="__clang_major__=8"/>
 <definedSymbol symbol="__clang_minor__=3"/>
+<definedSymbol symbol="__clang_minor__=0"/>
 <definedSymbol symbol="__clang_patchlevel__=0"/>
 <definedSymbol symbol="__clang_version__=&quot;7.3.0 (clang-703.0.31)&quot;"/>
+<definedSymbol symbol="__clang_version__=&quot;8.0.0 (clang-800.0.42.1)&quot;"/>
 <definedSymbol symbol="__GNUC_MINOR__=2"/>
 <definedSymbol symbol="__GNUC_PATCHLEVEL__=1"/>
 <definedSymbol symbol="__GNUC__=4"/>
@@ -379,6 +391,7 @@
 <definedSymbol symbol="__ATOMIC_SEQ_CST=5"/>
 <definedSymbol symbol="__PRAGMA_REDEFINE_EXTNAME=1"/>
 <definedSymbol symbol="__VERSION__=&quot;4.2.1 Compatible Apple LLVM 7.3.0 (clang-703.0.31)&quot;"/>
+<definedSymbol symbol="__VERSION__=&quot;4.2.1 Compatible Apple LLVM 8.0.0 (clang-800.0.42.1)&quot;"/>
 <definedSymbol symbol="__CONSTANT_CFSTRINGS__=1"/>
 <definedSymbol symbol="__block=__attribute__((__blocks__(byref)))"/>
 <definedSymbol symbol="__BLOCKS__=1"/>
@@ -678,17 +691,20 @@
 <definedSymbol symbol="__APPLE__=1"/>
 <definedSymbol symbol="OBJC_NEW_PROPERTIES=1"/>
 <definedSymbol symbol="__apple_build_version__=7030031"/>
+<definedSymbol symbol="__apple_build_version__=8000042"/>
 <definedSymbol symbol="__weak=__attribute__((objc_gc(weak)))"/>
 <definedSymbol symbol="__strong="/>
 <definedSymbol symbol="__unsafe_unretained="/>
 <definedSymbol symbol="__DYNAMIC__=1"/>
 <definedSymbol symbol="__ENVIRONMENT_MAC_OS_X_VERSION_MIN_REQUIRED__=101100"/>
+<definedSymbol symbol="__ENVIRONMENT_MAC_OS_X_VERSION_MIN_REQUIRED__=101200"/>
 <definedSymbol symbol="__MACH__=1"/>
 <definedSymbol symbol="__STDC__=1"/>
 <definedSymbol symbol="__STDC_HOSTED__=1"/>
 <definedSymbol symbol="__STDC_VERSION__=201112L"/>
 <definedSymbol symbol="__STDC_UTF_16__=1"/>
 <definedSymbol symbol="__STDC_UTF_32__=1"/>
+<definedSymbol symbol="__SSE4_1__=1"/>
 </collector>
 </instance>
 <instance id="cdt.managedbuild.config.macosx.exe.release.805111968;cdt.managedbuild.config.macosx.exe.release.805111968.;cdt.managedbuild.tool.gnu.cpp.compiler.macosx.exe.release.456557260;cdt.managedbuild.tool.gnu.cpp.compiler.input.183368232">

@@ -1,0 +1,152 @@
+//============================================================================
+// Name        : TestExamplePaperRetry.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include <initializer_list>
+#include <list>
+using namespace std;
+
+/*
+class Time {
+
+public :
+	Time(){
+		cout << "Time constructor" << endl;
+	}
+};
+
+
+class Appointment : public Time {
+	string description;
+	Time startTime;
+	Time endTime;
+
+public :
+	Appointment(): description({}){
+		cout << "Appointment constructor" << endl;
+	}
+	Appointment(const string & description, const Time & startTime, const Time & endTime):
+		description(description), startTime(startTime), endTime(endTime){
+
+	}
+
+	friend ostream &operator<<(ostream &out, const Time &other) {
+
+		return out << other.get_description() << ": " <<
+				other.get_start_time() << "-" << other.get_end_time();
+	}
+
+	const string get_description() const { return description; }
+	const Time get_start_time() const { return startTime; }
+	const Time get_end_time() const { return endTime; }
+
+};
+
+class Diary : Appointment {
+
+	list <Appointment> appointments;
+
+public:
+	Diary(): appointments({}){
+		cout << "Dairy constructor" << endl;
+	}
+
+	Diary(initializer_list<Appointment> &new_appointment){
+
+		for (auto app : new_appointment){
+			appointments.push_back(app);
+		}
+
+	}
+
+	void add(const Appointment &app){
+		appointments.push_back(app);
+	}
+
+	int number_of_appointments () const
+	{
+		return appointments.size();
+	}
+
+	void print (const Time &other){
+		for (auto app : appointments){
+			cout << app << endl;
+		}
+	}
+
+};
+
+
+//Diary d1;  here we are initalising a Diary object with its defualt constructor, which also goes up the hierachy and generates an Appointment object and Time object three times.
+//Dairy d2 = d1; here d2 is intiatlised using the member wise copy operator, which copied the d1 object is then destroys it. the program genreted the copy constructor automatically even when we have not specified or defined it
+//Diary d3; is similar to d1 initalisation using the default constructor
+//d3 = d2 here d3 is assigned to d2, d2 is overridden using the memberwise assingment, which is take a copy d2 into d3. which then desroyes the object
+//the curly braces destroys all the object in reverse order calling their destructor as we are gone of scope
+
+
+*/
+
+
+
+// this is a pure virtual method, meaning it is an undefined method of an abstract class which can only be defined and overriden by any derived classes of this abstract class.
+//the class is an abstarct class meaning, so can never be defined but canbe used as a type and any of its sub classes
+
+
+double values (list <double> &a){
+	double result = 0.0;
+
+	for (list <double>::iterator it = a.begin(); it != a.end(); ++it){
+		result = result + *it;
+	}
+
+	return result;
+}
+
+
+template <typename Iterator>
+int distance (Iterator &first, const Iterator &last){
+
+	int count = 0;
+	while (first != last && last > first){
+		++first;
+		++count;
+	}
+	return count;
+}
+
+class Connection {
+
+	int id;
+
+public :
+
+	 Connection(string hostname): id(open_connection(hostname.c_str() )) {}
+	 int open_connection(const char *component) {
+
+	 }
+	 void send(int connection_id, const char *msg){
+
+	 }
+	 int close_connection(int connection_id){
+
+	 }
+
+	 ~Connection(){
+		 close_connection(id);
+	 }
+
+};
+
+
+
+
+int main() {
+	Diary d1;
+	Diary d2 = d1;
+	return 0;
+}

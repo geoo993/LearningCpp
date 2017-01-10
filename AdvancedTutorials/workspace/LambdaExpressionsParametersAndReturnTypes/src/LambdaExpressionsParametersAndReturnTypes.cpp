@@ -34,7 +34,7 @@ int main() {
 	auto x1 = [](int i){ return i; }; // OK: return type is int
 
 
-	auto glambda = [](int a, int&& b) { return a < b; };
+	auto glambda = [](int a, int&& b) { return a < b; }; // returns a bool
 	bool b = glambda(3, 3.14); // ok
 
 

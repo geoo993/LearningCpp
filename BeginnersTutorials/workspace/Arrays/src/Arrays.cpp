@@ -14,6 +14,7 @@ int main() {
 
 	cout << "ARRAYS " << endl;
 	cout << "=========== " << endl << endl;
+
 	//Arrays are list of values
 	double e[5] = {1000.4, 2.21, 34.9, 17.64, 50.5}; //e is an array of 5 doubles
 	for ( unsigned int i = 0; i < sizeof(e)/sizeof(double); i++ )

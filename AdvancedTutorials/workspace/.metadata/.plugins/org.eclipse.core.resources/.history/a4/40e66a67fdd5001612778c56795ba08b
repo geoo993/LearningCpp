@@ -1,0 +1,251 @@
+//============================================================================
+// Name        : TestExamPapers.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include <vector>
+#include <initializer_list>
+#include <list>
+using namespace std;
+
+/*
+class Time {
+
+public:
+	Time(){}
+
+	Time(const Time &other) {
+		*this = other;
+	}
+
+	const Time &operator=(const Time &other) {
+		*this = other;
+		return *this;
+	}
+
+	friend ostream &operator>>(ostream &out, const Time &test) {
+		return out;
+	}
+
+	friend ostream &operator<<(ostream &out, const Time &test) {
+		//out << "(" << c.getReal() << "," << c.getImaginary() << ")";
+		return out;
+	}
+
+	virtual bool comp(const Time &a, const Time &b){};
+	virtual bool operator==(const Time &other) const{};
+	virtual bool operator!=(const Time &other) const{};
+	virtual bool operator<(const Time &other) const{};
+	virtual bool operator>(const Time &other) const{};
+};
+
+class Appointment: public Time {
+
+	string description;
+	Time startTime;
+	Time endTime;
+public:
+
+	Appointment(){};
+	Appointment(string description, Time startTime, Time endTime) : description(description), startTime(startTime), endTime(endTime) {};
+	Appointment(const Appointment &other) {
+		*this = other;
+	}
+
+	const Appointment &operator=(const Appointment &other) {
+		description = other.description;
+		startTime = other.startTime;
+		endTime = other.endTime;
+		return *this;
+	}
+
+	bool comp(const Time &a, const Time &b) {
+		return (a == b);
+	}
+
+	bool operator==(const Time &other) const {
+		return  (*this == other) ;
+
+	}
+	bool operator!=(const Time &other) const {
+		//return  (real != other.real) && (imaginary != other.imaginary);
+		return !(*this==other);
+	}
+
+	bool operator<(const Time &other) const {
+		return (*this < other);
+	}
+
+	bool operator>(const Time &other) const {
+		return (*this > other);
+	}
+
+	void printAppointments(){
+		cout << "startTime: " << startTime << ", endTime: " << endTime << endl;
+	}
+
+};
+
+class Diary: public Appointment {
+
+	vector<Appointment> appointments{};
+
+public :
+	Diary(): appointments({}) {}
+
+	Diary(const Diary &other) {
+		*this = other;
+	}
+
+	const Diary &operator=(const Diary &other) {
+		appointments = other.appointments;
+		return *this;
+	}
+
+	Diary(initializer_list<Appointment> appointment){
+		for(auto app: appointment){
+			appointments.push_back(app);
+		}
+	}
+	void AddAppointment(Appointment &appointment) {
+		appointments.push_back(appointment);
+	}
+
+	unsigned int NumberOfAppointments() const {
+		return appointments.size();
+	}
+
+	void print(){
+		for (vector<Appointment>::iterator it = appointments.begin(); it != appointments.end(); it++ ){
+				cout << *it << endl;
+		}
+	}
+
+};
+
+int main() {
+
+	//because time is first object created it will then need to go back up the class heirachy to initialise its base classes Time and Appointment.
+	//Appointment is derived class of the Time class and, Diary is the derived class of Apppointment. So Diary d1; will its default constructor of which will then attempt to call and initialise it base class Appointment default constructor.
+	//the time class gets declared, its default construtor is created,
+
+	return 0;
+}
+
+
+
+//this is an pure virtual method, it means that it's implementation can be created by any derided classes of this class. it means that this class is an abstract class. it is a class that cannot be instantiated. it is a class which must be overridden by any (non-abstract) derived class
+
+double addingDoubles (list<double> & myList){
+	double result = 0.0;
+
+	for( auto value: myList){
+		result = result + value;
+	}
+	return result;
+}
+
+template < typename T, typename D>
+D twoIts(T &it1, T &it2, list<D> & myList){
+	D part1;
+	D part2;
+
+	for ( it1 = myList.begin(); it1 != myList.end(); it1++ ){
+		part1 = part1 + *it1;
+
+		for ( it2 = myList.begin(); it2 != myList.end(); it2++ ){
+			cout << *it2 << endl;
+			part2 = part1 + part2 + *it2;
+
+		}
+	}
+	return (part1 - part2);
+}
+
+int main() {
+
+	list <double> myList = { 0.5, 0.3, 2.1, 5.2};
+	double res = addingDoubles(myList);
+
+//	for (vector<double>::iterator it1 = myList.begin(); it1 != myList.end(); it1++ ){
+//			cout << *it1 << endl;
+//		for (vector<double>::iterator it2 = myList.begin(); it2 != myList.end(); it2++ ){
+//				cout << *it2 << endl;
+//
+//				var dx:Number = x1-x2;
+//				var dy:Number = y1-y2;
+//				return Math.sqrt(dx * dx + dy * dy);
+//
+//		}
+//	}
+
+
+	//copy constryctor allows you to copy the class and the value of its members, it is a member wise copy meany the values or objects of one class is transfered to the other. // the assinment opperator allows you to assign a calss object to another same class object, it allows for a memberwise assingment
+	//object slicing problems, copy and assignment are not always good as this refers to copying objects which dynamically creates temporary objects. a move copy constructor or move assignment operator may be ideal so you can just seal the values from one contructor to onerther
+
+	return 0;
+}
+
+*/
+
+
+
+
+class GameObject {
+
+  protected:
+      string obj_name;
+      double x_pos;
+      double y_pos;
+
+  public:
+      GameObject(string n, double x, double y) :
+          obj_name(n), x_pos(x), y_pos(y) {}
+      string name() const { return obj_name; }
+      double x() const { return x_pos; }
+      double y() const { return y_pos; }
+      virtual void moveto(double x, double y) {
+          x_pos = x; y_pos = y;
+      }
+};
+
+//The class contains unnecessary copying of string objects. How would you fix this, and what copying is unavoidable?
+//the string object is a protected member variable, so all classes that derive from this Gameobject class will have access to it, meaning will copy it. so we can make it private
+
+class DecayingObject : public GameObject {
+
+public :
+	DecayingObject(){}
+
+}
+
+
+
+
+int main() {
+
+	//const means this the string name object is a get only, meaning it can be access but never be changed.
+
+	//virtual moveto method means that the the method is virtual, and it supports dynamic binding, meaning that that function can be overridden
+
+	void f1(GameObject v);
+	void f2(GameObject &v);
+	void f3(DecayingObject &v);
+	void f4(GameObject *p);
+
+	GameObject g("Ball", 0, 0);
+	DecayingObject h("Helicopter", 5, 6);
+	 f1(h); //// this is legal if DecayingObject has a constructor that take in and initialises a Game object
+	 f2(h);///yes this is legal becuase derive classes can refererence their parent classes
+	 f3(g);// yes this is legal because DecayingObject derives from gameobject therefore it will initialise the constructor of the Gmaeobject
+	 f4(&h);//this not legal because this is apointer to a game object, becuase DecayingObject does not allocate meory of a gameobject.
+
+	 //say whether or not each of the following is legal, and why. For those that are legal, explain what they do.
+
+	return 0;
+
+}

@@ -44,7 +44,7 @@ public:
 
 int main() {
 
-	//unique_ptr is the smart pointer, which is is a template type
+	//unique_ptr is the smart pointer, which is a template type
 	//unique_ptr knows that it is a pointer, it just needs the type that it is going to point at
 	//to make use of this smart pointer unique_ptr, you have to include memory header
 	unique_ptr<int> pInt(new int);// you have to do the memory allocation by passing the value of the pointer

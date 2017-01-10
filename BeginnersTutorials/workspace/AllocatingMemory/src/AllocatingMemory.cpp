@@ -29,7 +29,7 @@ public:
 
 int main() {
 
-	//you can use new on any type at all, like int, long, double, float, classes, functions. So don't forget to use delete to deallocate memory when you created new
+	//you can use new on any type at all, like int, long, double, float, classes, functions to allocate and initialize objects. So don't forget to use delete to deallocate memory when you created new
 	Film *pFilm = new Film();
 	delete pFilm;// you deallocate memory when method/class created has new
 

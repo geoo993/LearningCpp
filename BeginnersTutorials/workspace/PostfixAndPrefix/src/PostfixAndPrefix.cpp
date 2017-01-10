@@ -37,7 +37,7 @@ int main() {
 
 
 	//the different between postfix and prefix is that if you have an expression like the one bellow
-	//with postfix the value is going to be used and then incremented, but with prefix the value is incremented and then used.
+	//with postfix the value is going to be used and then incremented, but with prefix the value is incremented first and then used.
 
 	// postfix, the value is first used before incrementation
 	cout << value++ << endl;

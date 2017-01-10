@@ -16,7 +16,7 @@
 //other user/programmers that use your shared libraries can then use it in their program
 //when you compile a c++ program, first a PREPROCESSOR runs, which is anything that begins with a hash(#) i.e #include #ifDef #define
 //after PREPROCESSOR you then have, COMPILATION which produces object files i.e your source files like cpp or h files, which usually have (.o) suffix. So when you compile your program on c++ you produce a bunch of (.o) which represent the object files created for that program
-//then the final part of COMPILATION is LINK, which means you combine all of your (.o) files together with any LIBRARIES that you have in your program and creates an EXECUTABLE  which could have (exe) on windows or (no suffix) on linux or mac
+//then the final part of COMPILATION is LINK, which means you combine all of your (.o) files together with any LIBRARIES that you have in your program and creates an EXECUTABLE which could have (exe) on windows or (no suffix) on linux or mac
 //when you link those object files to containing your code, you can also link them with external libraries that you've used to develop your program
 //these libraries in c++ program are dynamic libraries, which contain the code you want to link with external programs
 
@@ -34,7 +34,7 @@
 
 
 //so libraries can be very useful, especially in case of STATIC LIBRARIES which you can create and use in different projects or c++ programs
-//creating a libray of code is usually a great thing to do as oppose to copying code over to other programs or projects
+//creating a library of code is usually a great thing to do as oppose to copying code over to other programs or projects
 
 //in the case of DYNAMIC LIBRARIES, they are shared between programs and loaded at run time and you usually put the DYNAMIC LIBRARY'S files in the working directory of your program
 //in the case of STATIC LIBRARIES, these are libraries that you actually build into your code, such as extension etc..., so at the end, if you are creating your program, you would only distribute that one file (DYNAMIC LIBRARY) which has these shared coded or static libraries that you created which can be used and shared with other users/programmers

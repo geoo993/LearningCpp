@@ -1,0 +1,77 @@
+//============================================================================
+// Name        : TestExamplePaperRetry.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include <initializer_list>
+#include <list>
+using namespace std;
+
+class Time {
+
+public :
+	Time(){}
+};
+
+
+class Appointment : public Time {
+	string description;
+	Time startTime;
+	Time endTime;
+
+public :
+	Appointment(): description({}){}
+	Appointment(const string & description): description(description){
+
+	}
+
+	friend ostream &operator<<(ostream &out, const Time &other) {
+
+		return out;
+	}
+
+
+	Time get_start_time() const { return startTime; }
+	Time get_end_time() const { return endTime; }
+
+};
+
+class Diary : Appointment {
+
+	list <Appointment> appointments;
+
+public:
+	Diary(): appointments({}){}
+	Diary(initializer_list<Appointment> &new_appointment){
+
+		for (auto app : new_appointment){
+			appointments.push_back(app);
+		}
+
+	}
+
+	void add(const Appointment &app){
+		appointments.push_back(app);
+	}
+
+	int number_of_appointments () const
+	{
+		return appointments.size();
+	}
+
+	void print (const Time &other){
+		cout << "start Time: " << other.get_start_time() << "end Time: " << other.get_end_time() <<  endl;
+	}
+
+};
+
+
+
+int main() {
+
+	return 0;
+}

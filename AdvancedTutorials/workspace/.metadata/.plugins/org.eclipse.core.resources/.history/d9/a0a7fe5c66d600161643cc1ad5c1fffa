@@ -1,0 +1,188 @@
+//============================================================================
+// Name        : TestExamPaperTwo.cpp
+// Author      : 
+// Version     :
+// Copyright   : Your copyright notice
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+#include <list>
+#include <initializer_list>
+using namespace std;
+
+/*
+double average(list<double> &mylist){
+
+	double average = 0.0;
+
+	for (list <double>::iterator it = mylist.begin(); it != mylist.end(); it++){
+		average = *it + average;
+
+	}
+	return average/mylist.size();
+}
+
+class Item {
+
+	string desc;
+	int value;
+
+public :
+	Item(): desc({}), value(0){}
+	Item(string &desc, int value): desc(desc), value(value){}
+
+	const string & getDesc() const{ return desc; }
+	int getValue() const{ return value; }
+
+
+};
+
+class Chess : public Item {
+
+	list <Item> items;
+
+public:
+
+	Chess(): items({}){}
+	Chess(initializer_list<Item> &newItems){
+		for (auto item: newItems){
+			items.push_back(item);
+		}
+	}
+
+	void add(const Item &item){
+		items.push_back(item);
+	}
+
+	int itemsValue() {
+		int val = 0;
+		//for (int i = 0; i < items.size(); i++)//{
+		for (list <Item>::iterator it = items.begin(); it != items.end(); it++){
+			val = it->getValue();
+		}
+		return val;
+	}
+
+	bool findItem(const string &itemDesc) {
+		bool hasDesc = false;
+		for (list<Item>::iterator it = items.begin(); it != items.end(); it++){
+			if (it->getDesc() == itemDesc){
+				hasDesc = true;
+			}
+		}
+
+		return hasDesc;
+	}
+
+
+};
+
+//the string s, calls the default constructor of the string class.
+	//s then call the assinment member function of the string class that initialises the string.
+
+	//an Item get declared and initialised with the custom constructor that takes in its parameters, a description and value
+	//a chest object is initialised with its default constructor that takes no Item and initialise the an empty item list;
+	//the chest object t1 then uses the member function add that take an item and add it to the items list
+	// a new chest object is created and initialised using the assinment operator constructor, it is doing a member wise assignment copy of the previous chest object, which is then destroyed
+	//the closing brace destroys the three objects, invoking the destructors, chest twice and string in reverse order.
+
+
+
+
+//double equation1 = 2.4/6+2*9;// cpp will figure out the meaning of this by focusing on the * or / first. certain operator have a higher precedence than others where in this case * and / have a higher precedence or priority that + or -, meaning they will be done/solved first.
+	//double equation2 = (2.4/6)+(2*9);// same as euqation1, this is to show that * and / have a higher precedence than + or -
+
+	//this is the same as (x+y) * (5), these are binary operators, the muliplication (*) has higher presedence that (+) plus meaning the it would be looked at first but because we just multiplying with 5 the first operation will be the addition (x + y)
+	//x and y is added together using the + operator creating a temporary object which is the result of x+y which is then multiplied by 5 using the x overloaded operator
+
+	//this is a pure virtual method, its class cannot be declared or initiliased but the method description can be implemented and overriden by any dervived classes of of this class.
+	//the class cannot be intantiated but can be used as a type
+
+
+
+template <typename I, typename Iterator>
+I range (const Iterator &first, Iterator &last){
+	I value;
+	for (Iterator it = first; first != last; ++it){
+		value = value + *it;
+	}
+	return value;
+}
+
+
+class Library {
+
+	int id;
+private:
+	Library(const Library &other) {}
+	Library &operator=(const Library &other) {
+              return *this;
+          }
+public:
+
+	Library(const string &name){
+		this->id = db_open (name.c_str());
+	}
+
+	int db_open(char *name){
+		 db_query( id,name);
+	}
+
+	 char *db_query(int db_id, char *q){
+
+	 }
+	 string query(const string &q){
+		 return string(db_query(db_query(id, q.c_str())));
+	 }
+	 void db_close(int db_id){
+
+	 }
+	~ Library(){
+		db_close (id);
+	 }
+
+};
+
+*/
+
+
+
+// the character(const string &n, int h),  const string &n means that the given string in the parameters must be a constant string that cannot be amnipulated
+// const string & get_name() const// here there are two cosnt, the first const means that the any string that is assigned to this methods must be constant and the second string means that this constant method cannot be manipulated or changed
+//the same applies to the in get_health const, it means that anything that uses this method cannot cannot change or manipulate it
+//the virtual void eat means the eat function can be overriden by any base class of this class
+class Character{
+
+public:
+	 Character(const string &n, int h) {
+
+	 }
+	 const string & get_name() const {
+
+	 }
+	 int get_health() const{
+
+	 }
+	 virtual void eat(){
+
+	 }
+
+
+
+};
+
+class Warrior: public Character{
+
+public :
+	Warrior(){
+
+	}
+
+
+};
+
+int main() {
+
+	return 0;
+}

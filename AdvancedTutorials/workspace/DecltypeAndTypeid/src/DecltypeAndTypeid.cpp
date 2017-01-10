@@ -23,7 +23,12 @@ int main() {
 
 	// this is going to give us a type information
 	// type id gives us type information of variables
+	cout << typeid(value1).name()  << endl;
+	cout << typeid(value2).name()  << endl;
+	cout << typeid(value3).name()  << endl;
+	cout << typeid(value4).name()  << endl;
 	cout << typeid(value5).name()  << endl;
+	cout << typeid(value6).name()  << endl;
 
 
 	//decltype is another kind of like sizeof or typeid
