@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="17" version="2.0">
+<workbench progressCount="18" version="2.0">
 <workbenchAdvisor/>
-<window height="872" width="1280" x="25" y="23">
+<window height="872" minimized="true" width="1280" x="25" y="23">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="160"/>
@@ -33,6 +33,9 @@
 <part id="1"/>
 <part id="2"/>
 <part id="3"/>
+<part id="4"/>
+<part id="5"/>
+<part id="6"/>
 </presentation>
 </folder>
 </info>
@@ -49,20 +52,36 @@
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Polymorphism/src/Polymorphism.cpp"/>
 <editorState selectionHorizontalPixel="0" selectionLength="68" selectionOffset="1688" selectionTopPixel="0"/>
 </editor>
-<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="Arithmetic.cpp" partName="Arithmetic.cpp" path="/Users/GeorgeQuentin/Dev/Cpp/LearningCppFromCaveOfProgramming/BeginnersTutorials/workspace/Arithmetic/src/Arithmetic.cpp" title="Arithmetic.cpp" tooltip="Arithmetic/src/Arithmetic.cpp" workbook="DefaultEditorWorkbook">
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="Arithmetic.cpp" partName="Arithmetic.cpp" path="/Users/GeorgeQuentin/Dev/Cpp/LearningCppFromCaveOfProgramming/BeginnersTutorials/workspace/Arithmetic/src/Arithmetic.cpp" title="Arithmetic.cpp" tooltip="Arithmetic/src/Arithmetic.cpp" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Arithmetic/src/Arithmetic.cpp"/>
-<editorState selectionHorizontalPixel="0" selectionLength="398" selectionOffset="1998" selectionTopPixel="431"/>
+<editorState selectionHorizontalPixel="0" selectionLength="398" selectionOffset="1998" selectionTopPixel="435"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="ConstructorInheritance.cpp" partName="ConstructorInheritance.cpp" path="/Users/GeorgeQuentin/Dev/Cpp/LearningCppFromCaveOfProgramming/BeginnersTutorials/workspace/ConstructorInheritance/src/ConstructorInheritance.cpp" title="ConstructorInheritance.cpp" tooltip="ConstructorInheritance/src/ConstructorInheritance.cpp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ConstructorInheritance/src/ConstructorInheritance.cpp"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="74"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="ConstructorInitialisationList.cpp" partName="ConstructorInitialisationList.cpp" path="/Users/GeorgeQuentin/Dev/Cpp/LearningCppFromCaveOfProgramming/BeginnersTutorials/workspace/ConstructorInitialisationList/src/ConstructorInitialisationList.cpp" title="ConstructorInitialisationList.cpp" tooltip="ConstructorInitialisationList/src/ConstructorInitialisationList.cpp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ConstructorInitialisationList/src/ConstructorInitialisationList.cpp"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="Trainers.cpp" partName="Trainers.cpp" path="/Users/GeorgeQuentin/Dev/Cpp/LearningCppFromCaveOfProgramming/BeginnersTutorials/workspace/ConstructorInitialisationList/src/Trainers.cpp" title="Trainers.cpp" tooltip="ConstructorInitialisationList/src/Trainers.cpp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ConstructorInitialisationList/src/Trainers.cpp"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
 <view id="org.eclipse.cdt.ui.CView" partName="C/C++ Projects">
-<viewState horizontalPosition="0" verticalPosition="0">
+<viewState horizontalPosition="0" verticalPosition="18">
 <expanded>
 <element path="/Users/GeorgeQuentin/Dev/Cpp/LearningCppFromCaveOfProgramming/BeginnersTutorials/workspace/Arithmetic"/>
 <element path="/Users/GeorgeQuentin/Dev/Cpp/LearningCppFromCaveOfProgramming/BeginnersTutorials/workspace/Arithmetic/src"/>
+<element path="/Users/GeorgeQuentin/Dev/Cpp/LearningCppFromCaveOfProgramming/BeginnersTutorials/workspace/ConstructorInheritance"/>
+<element path="/Users/GeorgeQuentin/Dev/Cpp/LearningCppFromCaveOfProgramming/BeginnersTutorials/workspace/ConstructorInheritance/src"/>
+<element path="/Users/GeorgeQuentin/Dev/Cpp/LearningCppFromCaveOfProgramming/BeginnersTutorials/workspace/ConstructorInitialisationList"/>
+<element path="/Users/GeorgeQuentin/Dev/Cpp/LearningCppFromCaveOfProgramming/BeginnersTutorials/workspace/ConstructorInitialisationList/src"/>
 </expanded>
 <selection>
-<element path="/Users/GeorgeQuentin/Dev/Cpp/LearningCppFromCaveOfProgramming/BeginnersTutorials/workspace/Arithmetic/src/Arithmetic.cpp"/>
+<element path="/Users/GeorgeQuentin/Dev/Cpp/LearningCppFromCaveOfProgramming/BeginnersTutorials/workspace/ConstructorInitialisationList/src/Trainers.cpp"/>
 </selection>
 <customFilters userDefinedPatternsEnabled="false">
 <xmlDefinedFilters>
@@ -228,9 +247,6 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/DataMembers/src/DataMembers.cpp"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/ConstKeyword/src/Animal.h"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/AllocatingMemory/src/AllocatingMemory.cpp"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/ForLoops/src/ForLoops.cpp"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Input/src/Input.cpp"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/OtherVariableTypes/src/OtherVariableTypes.cpp"/>
@@ -255,155 +271,158 @@
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Inheritance/src/Inheritance.cpp"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Polymorphism/src/Polymorphism.cpp"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/Arithmetic/src/Arithmetic.cpp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/ConstructorInheritance/src/ConstructorInheritance.cpp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/ConstructorInitialisationList/src/ConstructorInitialisationList.cpp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/ConstructorInitialisationList/src/Trainers.cpp"/>
 </editors>
-<item historyLabel="DataMembers.cpp" index="0">
+<item historyLabel="Input.cpp" index="1">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="Animal.h" index="1">
+<item historyLabel="OtherVariableTypes.cpp" index="2">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="DataMembers.cpp" index="0">
+<item historyLabel="Input.cpp" index="1">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="AllocatingMemory.cpp" index="2">
+<item historyLabel="OtherVariableTypes.cpp" index="2">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="ForLoops.cpp" index="3">
+<item historyLabel="ForLoops.cpp" index="0">
 <position/>
 </item>
-<item historyLabel="Input.cpp" index="4">
+<item historyLabel="OtherVariableTypes.cpp" index="2">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="OtherVariableTypes.cpp" index="5">
+<item historyLabel="DataMembers.cpp" index="3">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="Input.cpp" index="4">
+<item historyLabel="OtherVariableTypes.cpp" index="2">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="OtherVariableTypes.cpp" index="5">
+<item historyLabel="ForLoops.cpp" index="0">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="ForLoops.cpp" index="3">
-<position/>
-</item>
-<item historyLabel="OtherVariableTypes.cpp" index="5">
+<item historyLabel="Strings.cpp" index="4">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="DataMembers.cpp" index="6">
+<item historyLabel="TwosComplement.cpp" index="5">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="OtherVariableTypes.cpp" index="5">
+<item historyLabel="Arithmetic.cpp" index="6">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="ForLoops.cpp" index="3">
+<item historyLabel="TwosComplement.cpp" index="5">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="Strings.cpp" index="7">
+<item historyLabel="Strings.cpp" index="4">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="TwosComplement.cpp" index="8">
+<item historyLabel="ForLoops.cpp" index="0">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="Arithmetic.cpp" index="9">
+<item historyLabel="OtherVariableTypes.cpp" index="2">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="TwosComplement.cpp" index="8">
+<item historyLabel="ReversingString.cpp" index="7">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="Strings.cpp" index="7">
+<item historyLabel="Variables.cpp" index="8">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="ForLoops.cpp" index="3">
+<item historyLabel="ReversingString.cpp" index="7">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="OtherVariableTypes.cpp" index="5">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="ReversingString.cpp" index="10">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="Variables.cpp" index="11">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="ReversingString.cpp" index="10">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="Arrays.cpp" index="12">
+<item historyLabel="Arrays.cpp" index="9">
 <position info="not_deleted" x="869" y="44"/>
 </item>
-<item historyLabel="Variables.cpp" index="11">
+<item historyLabel="Variables.cpp" index="8">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="ReversingString.cpp" index="10">
+<item historyLabel="ReversingString.cpp" index="7">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="OtherVariableTypes.cpp" index="5">
+<item historyLabel="OtherVariableTypes.cpp" index="2">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="ReversingString.cpp" index="10">
+<item historyLabel="ReversingString.cpp" index="7">
 <position info="not_deleted" x="424" y="0"/>
 </item>
-<item historyLabel="OtherVariableTypes.cpp" index="13">
+<item historyLabel="OtherVariableTypes.cpp" index="10">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="Arrays.cpp" index="14">
+<item historyLabel="Arrays.cpp" index="11">
 <position info="not_deleted" x="869" y="44"/>
 </item>
-<item historyLabel="OtherVariableTypes.cpp" index="13">
+<item historyLabel="OtherVariableTypes.cpp" index="10">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="PointerArithmetic.cpp" index="15">
+<item historyLabel="PointerArithmetic.cpp" index="12">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="Pointers.cpp" index="16">
+<item historyLabel="Pointers.cpp" index="13">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="PointerArithmetic.cpp" index="15">
+<item historyLabel="PointerArithmetic.cpp" index="12">
 <position info="not_deleted" x="1529" y="62"/>
 </item>
-<item historyLabel="Pointers.cpp" index="16">
+<item historyLabel="Pointers.cpp" index="13">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="PointersAndArray.cpp" index="17">
+<item historyLabel="PointersAndArray.cpp" index="14">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="Pointers.cpp" index="16">
+<item historyLabel="Pointers.cpp" index="13">
 <position info="not_deleted" x="1651" y="196"/>
 </item>
-<item historyLabel="AllocatingMemory.cpp" index="18">
+<item historyLabel="AllocatingMemory.cpp" index="15">
 <position info="not_deleted" x="1127" y="342"/>
 </item>
-<item historyLabel="PointersAndArray.cpp" index="17">
+<item historyLabel="PointersAndArray.cpp" index="14">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="TwosComplement.cpp" index="19">
+<item historyLabel="TwosComplement.cpp" index="16">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="Polymorphism.cpp" index="20">
+<item historyLabel="Polymorphism.cpp" index="17">
 <position info="not_deleted" x="921" y="23"/>
 </item>
-<item historyLabel="TwosComplement.cpp" index="19">
+<item historyLabel="TwosComplement.cpp" index="16">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="Polymorphism.cpp" index="21">
+<item historyLabel="Polymorphism.cpp" index="18">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="Inheritance.cpp" index="22">
+<item historyLabel="Inheritance.cpp" index="19">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="TwosComplement.cpp" index="19">
+<item historyLabel="TwosComplement.cpp" index="16">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="PointersAndArray.cpp" index="23">
+<item historyLabel="PointersAndArray.cpp" index="20">
 <position info="not_deleted" x="1" y="1"/>
 </item>
-<item historyLabel="Inheritance.cpp" index="24">
+<item historyLabel="Inheritance.cpp" index="21">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="Polymorphism.cpp" index="25">
+<item historyLabel="Polymorphism.cpp" index="22">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item active="true" historyLabel="Arithmetic.cpp" index="26">
+<item historyLabel="Arithmetic.cpp" index="23">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="ConstructorInheritance.cpp" index="24">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="ConstructorInitialisationList.cpp" index="25">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Trainers.cpp" index="26">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="ConstructorInitialisationList.cpp" index="25">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item active="true" historyLabel="Trainers.cpp" index="26">
 <position info="not_deleted" x="0" y="0"/>
 </item>
 </navigationHistory>
@@ -426,6 +445,15 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Trainers.cpp" tooltip="ConstructorInitialisationList/src/Trainers.cpp">
+<persistable path="/ConstructorInitialisationList/src/Trainers.cpp"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="ConstructorInitialisationList.cpp" tooltip="ConstructorInitialisationList/src/ConstructorInitialisationList.cpp">
+<persistable path="/ConstructorInitialisationList/src/ConstructorInitialisationList.cpp"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="ConstructorInheritance.cpp" tooltip="ConstructorInheritance/src/ConstructorInheritance.cpp">
+<persistable path="/ConstructorInheritance/src/ConstructorInheritance.cpp"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Arithmetic.cpp" tooltip="Arithmetic/src/Arithmetic.cpp">
 <persistable path="/Arithmetic/src/Arithmetic.cpp"/>
 </file>
@@ -461,15 +489,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Strings.cpp" tooltip="Strings/src/Strings.cpp">
 <persistable path="/Strings/src/Strings.cpp"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="ForLoops.cpp" tooltip="ForLoops/src/ForLoops.cpp">
-<persistable path="/ForLoops/src/ForLoops.cpp"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="DataMembers.cpp" tooltip="DataMembers/src/DataMembers.cpp">
-<persistable path="/DataMembers/src/DataMembers.cpp"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="OtherVariableTypes.cpp" tooltip="OtherVariableTypes/src/OtherVariableTypes.cpp">
-<persistable path="/OtherVariableTypes/src/OtherVariableTypes.cpp"/>
 </file>
 </mruList>
 </workbench>

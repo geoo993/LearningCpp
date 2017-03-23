@@ -23,8 +23,6 @@
 		<item value="23" key="y"/>
 		<item value="433" key="x"/>
 	</section>
-	<section name="PDOMSearchPage">
-	</section>
 	<section name="org.eclipse.cdt.internal.ui.typehierarchy.OpenTypeInHierarchyActionSettings">
 		<item value="true" key="show_structs"/>
 		<item value="true" key="show_lowlevel"/>
@@ -40,6 +38,8 @@
 		<item value="true" key="show_unions"/>
 		<item value="23" key="y"/>
 		<item value="496" key="x"/>
+	</section>
+	<section name="PDOMSearchPage">
 	</section>
 	<section name="org.eclipse.cdt.ui.text.hover.CMacroExpansionExploration">
 	</section>
