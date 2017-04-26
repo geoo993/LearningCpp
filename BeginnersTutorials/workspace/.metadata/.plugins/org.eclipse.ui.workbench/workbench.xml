@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workbench progressCount="18" version="2.0">
 <workbenchAdvisor/>
-<window height="872" minimized="true" width="1280" x="25" y="23">
+<window height="872" maximized="true" width="1280" x="25" y="23">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="160"/>
@@ -71,7 +71,7 @@
 </editors>
 <views>
 <view id="org.eclipse.cdt.ui.CView" partName="C/C++ Projects">
-<viewState horizontalPosition="0" verticalPosition="18">
+<viewState horizontalPosition="0" verticalPosition="64">
 <expanded>
 <element path="/Users/GeorgeQuentin/Dev/Cpp/LearningCppFromCaveOfProgramming/BeginnersTutorials/workspace/Arithmetic"/>
 <element path="/Users/GeorgeQuentin/Dev/Cpp/LearningCppFromCaveOfProgramming/BeginnersTutorials/workspace/Arithmetic/src"/>

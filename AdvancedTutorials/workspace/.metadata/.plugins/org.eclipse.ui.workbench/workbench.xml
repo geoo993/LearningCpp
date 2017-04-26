@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="18" version="2.0">
+<workbench progressCount="23" version="2.0">
 <workbenchAdvisor/>
-<window height="872" width="1148" x="104" y="23">
+<window height="773" width="1148" x="104" y="23">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="160"/>
@@ -32,22 +32,17 @@
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
 <part id="1"/>
-<part id="2"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="ConstructorsAndMemory.cpp" partName="ConstructorsAndMemory.cpp" path="/Users/GeorgeQuentin/Dev/Cpp/LearningCppFromCaveOfProgramming/AdvancedTutorials/workspace/ConstructorsAndMemory/src/ConstructorsAndMemory.cpp" title="ConstructorsAndMemory.cpp" tooltip="ConstructorsAndMemory/src/ConstructorsAndMemory.cpp" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ConstructorsAndMemory/src/ConstructorsAndMemory.cpp"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="1336"/>
-</editor>
 <editor id="org.eclipse.cdt.ui.editor.CEditor" name="InitialiszationC++11.cpp" partName="InitialiszationC++11.cpp" path="/Users/GeorgeQuentin/Dev/Cpp/LearningCppFromCaveOfProgramming/AdvancedTutorials/workspace/InitialiszationC++11/src/InitialiszationC++11.cpp" title="InitialiszationC++11.cpp" tooltip="InitialiszationC++11/src/InitialiszationC++11.cpp" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/InitialiszationC++11/src/InitialiszationC++11.cpp"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="103"/>
+<editorState selectionHorizontalPixel="0" selectionLength="236" selectionOffset="398" selectionTopPixel="89"/>
 </editor>
-<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="InitialiszationC++98.cpp" partName="InitialiszationC++98.cpp" path="/Users/GeorgeQuentin/Dev/Cpp/LearningCppFromCaveOfProgramming/AdvancedTutorials/workspace/InitialiszationC++98/src/InitialiszationC++98.cpp" title="InitialiszationC++98.cpp" tooltip="InitialiszationC++98/src/InitialiszationC++98.cpp" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/InitialiszationC++98/src/InitialiszationC++98.cpp"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="226"/>
+<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="SimpleDijkstrasAlgorithm.cpp" partName="SimpleDijkstrasAlgorithm.cpp" path="/Users/GeorgeQuentin/Dev/Cpp/LearningCppFromCaveOfProgramming/AdvancedTutorials/workspace/SimpleDijkstrasAlgorithm/src/SimpleDijkstrasAlgorithm.cpp" title="SimpleDijkstrasAlgorithm.cpp" tooltip="SimpleDijkstrasAlgorithm/src/SimpleDijkstrasAlgorithm.cpp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SimpleDijkstrasAlgorithm/src/SimpleDijkstrasAlgorithm.cpp"/>
+<editorState selectionHorizontalPixel="0" selectionLength="744" selectionOffset="5801" selectionTopPixel="3070"/>
 </editor>
 </editors>
 <views>
@@ -58,9 +53,10 @@
 <view id="org.eclipse.cdt.make.ui.views.MakeView" partName="Make Target"/>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
-<expanded>&#x0A;<category IMemento.internal.id="Warnings (17 items)"/>
+<expanded>
+<category IMemento.internal.id="Warnings (19 items)"/>
 </expanded>
-<columnWidths org.eclipse.ui.ide.locationField="84" org.eclipse.ui.ide.markerType="114" org.eclipse.ui.ide.pathField="144" org.eclipse.ui.ide.resourceField="114" org.eclipse.ui.ide.severityAndDescriptionField="300"/>
+<columnWidths org.eclipse.ui.ide.locationField="0" org.eclipse.ui.ide.markerType="0" org.eclipse.ui.ide.pathField="0" org.eclipse.ui.ide.resourceField="0" org.eclipse.ui.ide.severityAndDescriptionField="0"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
@@ -222,6 +218,15 @@
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/ConstructorsAndMemory/src/ConstructorsAndMemory.cpp"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/InitialiszationC++11/src/InitialiszationC++11.cpp"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/InitialiszationC++98/src/InitialiszationC++98.cpp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/SimpleDijkstrasAlgorithm/src/SimpleDijkstrasAlgorithm.cpp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/ParsingTextinFiles/src/ParsingTextinFiles.cpp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/ConstructorsAndMemory/src/ConstructorsAndMemory.cpp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/InitialiszationC++11/src/InitialiszationC++11.cpp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/ReadingTextFiles/src/ReadingTextFiles.cpp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" path="/SimpleDijkstrasAlgorithm/simple.txt"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/ReadingTextFiles/src/ReadingTextFiles.cpp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/WritingTextFiles/src/WritingTextFiles.cpp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/ReadingAndWritingStructBinaryFiles/src/ReadingAndWritingStructBinaryFiles.cpp"/>
 </editors>
 <item historyLabel="ConstructorsAndMemory.cpp" index="0">
 <position info="not_deleted" x="0" y="0"/>
@@ -229,8 +234,113 @@
 <item historyLabel="InitialiszationC++11.cpp" index="1">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item active="true" historyLabel="InitialiszationC++98.cpp" index="2">
+<item historyLabel="InitialiszationC++98.cpp" index="2">
 <position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="SimpleDijkstrasAlgorithm.cpp" index="3">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="InitialiszationC++98.cpp" index="2">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="SimpleDijkstrasAlgorithm.cpp" index="3">
+<position/>
+</item>
+<item historyLabel="ParsingTextinFiles.cpp" index="4">
+<position/>
+</item>
+<item historyLabel="SimpleDijkstrasAlgorithm.cpp" index="3">
+<position/>
+</item>
+<item historyLabel="ConstructorsAndMemory.cpp" index="5">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="SimpleDijkstrasAlgorithm.cpp" index="3">
+<position/>
+</item>
+<item historyLabel="InitialiszationC++11.cpp" index="6">
+<position info="not_deleted" x="521" y="0"/>
+</item>
+<item historyLabel="SimpleDijkstrasAlgorithm.cpp" index="3">
+<position info="not_deleted" x="455" y="5"/>
+</item>
+<item historyLabel="ReadingTextFiles.cpp" index="7">
+<position info="not_deleted" x="464" y="83"/>
+</item>
+<item historyLabel="SimpleDijkstrasAlgorithm.cpp" index="3">
+<position/>
+</item>
+<item historyLabel="ReadingTextFiles.cpp" index="7">
+<position info="not_deleted" x="608" y="477"/>
+</item>
+<item historyLabel="SimpleDijkstrasAlgorithm.cpp" index="3">
+<position info="not_deleted" x="547" y="0"/>
+</item>
+<item historyLabel="simple.txt" index="8">
+<position/>
+</item>
+<item historyLabel="SimpleDijkstrasAlgorithm.cpp" index="3">
+<position/>
+</item>
+<item historyLabel="simple.txt" index="8">
+<position info="not_deleted" x="56" y="0"/>
+</item>
+<item historyLabel="SimpleDijkstrasAlgorithm.cpp" index="3">
+<position/>
+</item>
+<item historyLabel="ReadingTextFiles.cpp" index="9">
+<position/>
+</item>
+<item historyLabel="SimpleDijkstrasAlgorithm.cpp" index="3">
+<position/>
+</item>
+<item historyLabel="InitialiszationC++11.cpp" index="6">
+<position info="not_deleted" x="398" y="236"/>
+</item>
+<item historyLabel="SimpleDijkstrasAlgorithm.cpp" index="3">
+<position/>
+</item>
+<item historyLabel="SimpleDijkstrasAlgorithm.cpp" index="3">
+<position/>
+</item>
+<item historyLabel="ReadingTextFiles.cpp" index="9">
+<position/>
+</item>
+<item historyLabel="SimpleDijkstrasAlgorithm.cpp" index="3">
+<position info="not_deleted" x="6582" y="0"/>
+</item>
+<item historyLabel="SimpleDijkstrasAlgorithm.cpp" index="3">
+<position info="not_deleted" x="718" y="0"/>
+</item>
+<item historyLabel="InitialiszationC++11.cpp" index="6">
+<position info="not_deleted" x="398" y="236"/>
+</item>
+<item historyLabel="ReadingTextFiles.cpp" index="9">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="InitialiszationC++11.cpp" index="6">
+<position info="not_deleted" x="398" y="236"/>
+</item>
+<item historyLabel="WritingTextFiles.cpp" index="10">
+<position info="not_deleted" x="469" y="966"/>
+</item>
+<item historyLabel="ReadingAndWritingStructBinaryFiles.cpp" index="11">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="WritingTextFiles.cpp" index="10">
+<position info="not_deleted" x="469" y="966"/>
+</item>
+<item historyLabel="ParsingTextinFiles.cpp" index="4">
+<position info="not_deleted" x="494" y="0"/>
+</item>
+<item historyLabel="WritingTextFiles.cpp" index="10">
+<position info="not_deleted" x="469" y="966"/>
+</item>
+<item historyLabel="InitialiszationC++11.cpp" index="6">
+<position info="not_deleted" x="398" y="236"/>
+</item>
+<item active="true" historyLabel="SimpleDijkstrasAlgorithm.cpp" index="3">
+<position info="not_deleted" x="718" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -252,6 +362,24 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="ParsingTextinFiles.cpp" tooltip="ParsingTextinFiles/src/ParsingTextinFiles.cpp">
+<persistable path="/ParsingTextinFiles/src/ParsingTextinFiles.cpp"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="ReadingAndWritingStructBinaryFiles.cpp" tooltip="ReadingAndWritingStructBinaryFiles/src/ReadingAndWritingStructBinaryFiles.cpp">
+<persistable path="/ReadingAndWritingStructBinaryFiles/src/ReadingAndWritingStructBinaryFiles.cpp"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="WritingTextFiles.cpp" tooltip="WritingTextFiles/src/WritingTextFiles.cpp">
+<persistable path="/WritingTextFiles/src/WritingTextFiles.cpp"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="ReadingTextFiles.cpp" tooltip="ReadingTextFiles/src/ReadingTextFiles.cpp">
+<persistable path="/ReadingTextFiles/src/ReadingTextFiles.cpp"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="simple.txt" tooltip="SimpleDijkstrasAlgorithm/simple.txt">
+<persistable path="/SimpleDijkstrasAlgorithm/simple.txt"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="SimpleDijkstrasAlgorithm.cpp" tooltip="SimpleDijkstrasAlgorithm/src/SimpleDijkstrasAlgorithm.cpp">
+<persistable path="/SimpleDijkstrasAlgorithm/src/SimpleDijkstrasAlgorithm.cpp"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="InitialiszationC++98.cpp" tooltip="InitialiszationC++98/src/InitialiszationC++98.cpp">
 <persistable path="/InitialiszationC++98/src/InitialiszationC++98.cpp"/>
 </file>
@@ -278,24 +406,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Complex.h" tooltip="OverloadingPlusOperator/src/Complex.h">
 <persistable path="/OverloadingPlusOperator/src/Complex.h"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="TestExamPapers.cpp" tooltip="TestExamPapers/src/TestExamPapers.cpp">
-<persistable path="/TestExamPapers/src/TestExamPapers.cpp"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="MultipleInheritance.cpp" tooltip="MultipleInheritance/src/MultipleInheritance.cpp">
-<persistable path="/MultipleInheritance/src/MultipleInheritance.cpp"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Lists.cpp" tooltip="Lists/src/Lists.cpp">
-<persistable path="/Lists/src/Lists.cpp"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Vectors.cpp" tooltip="Vectors/src/Vectors.cpp">
-<persistable path="/Vectors/src/Vectors.cpp"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="InitializerList.cpp" tooltip="InitializerList/src/InitializerList.cpp">
-<persistable path="/InitializerList/src/InitializerList.cpp"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="Complex.h" tooltip="OverloadingComparisonOperator/src/Complex.h">
-<persistable path="/OverloadingComparisonOperator/src/Complex.h"/>
 </file>
 </mruList>
 </workbench>
