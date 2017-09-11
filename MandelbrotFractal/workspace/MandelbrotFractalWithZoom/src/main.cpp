@@ -16,7 +16,7 @@ int main() {
 
 	int width = 1420;
 	int height = 920;
-	bool smooth_coloring = true;
+	bool smooth_coloring = false;
 	string output = "window"; //bitmap or window
 	FractalGenerator fractalGenerator(width, height, smooth_coloring, output);
 

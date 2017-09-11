@@ -131,6 +131,12 @@ FractalGenerator::FractalGenerator(int width, int height, bool smooth_color, str
 	output_type(output_type)
 	{
 
+	int n = m_width * m_height;
+	m_fractal_copy.reserve(n);
+	for (int i = 0; i < n; ++i) {
+	    m_fractal_copy.push_back(0);
+	}
+
 	m_zoomList.addUp( Zoom(m_width/2, m_height/2, SCALE/m_width) );
 
 }
@@ -145,6 +151,7 @@ void FractalGenerator::calculateIterations(){
 			int iterations = Mandelbrot::getIterations(coords.first, coords.second);
 
 			m_fractal[y * m_width + x] = iterations;
+			m_fractal_copy[y * m_width + x] = iterations;
 
 			if (iterations != Mandelbrot::MAX_ITERATIONS){
 				m_histogram[iterations]++;
@@ -166,6 +173,8 @@ void FractalGenerator::calculateTotalIterations(){
 
 
 void FractalGenerator::drawFractal(){
+
+	std::cout << " length of m_fractal: " << m_fractal_copy.size() << std::endl;
 
 	RGB rgb(0, 255, 255);
 

@@ -35,6 +35,8 @@ private:
 	Screen m_screen;
 	ZoomList m_zoomList;
 
+	vector <int> m_fractal_copy;
+
 	vector<RGB> m_colors;
 	int m_total{0};
 	vector<pair<int,int>> m_zooms;
